@@ -1,0 +1,211 @@
+import type { AgentDef, AgentId, Approval } from './types';
+import { isoAdd } from '../lib/dates';
+
+export const AGENTS: AgentDef[] = [
+  {
+    id: 'inbox',
+    name: 'Inbox Agent',
+    job: 'Reads projects@ and site inboxes, classifies each email (tender invite, RFI, variation instruction, drawing issue, payment notice), files it to the right job and drafts a reply.',
+    touches: [
+      { key: 'read', label: 'Read projects@ and site inboxes', on: true },
+      { key: 'file', label: 'File emails to jobs', on: true },
+      { key: 'draft', label: 'Draft replies (never sends)', on: true },
+      { key: 'send', label: 'Send without approval', on: false },
+    ],
+    actionsToday: 64,
+    hoursSavedWeek: 11.5,
+    logTemplates: [
+      'Classified email from {mc} as RFI response, filed to {job}',
+      'Tender invitation from {mc} filed to Tenders as new enquiry',
+      'Drawing issue received for {job}: 4 drawings at rev C2, register updated',
+      'Payment notice from {mc} matched to application on {job}',
+      'Drafted acknowledgement reply to {mc} on {job}, waiting for approval',
+    ],
+  },
+  {
+    id: 'takeoff',
+    name: 'Takeoff Agent',
+    job: 'Reads tender drawings and specifications, measures roof areas and outlets, drafts a bill of quantities and a suggested price range for the estimator.',
+    touches: [
+      { key: 'read', label: 'Read tender packs', on: true },
+      { key: 'boq', label: 'Draft BOQ and price range', on: true },
+      { key: 'submit', label: 'Submit tenders', on: false },
+    ],
+    actionsToday: 3,
+    hoursSavedWeek: 9,
+    logTemplates: [
+      'Measured 14 roof areas on tender pack for {tender}',
+      'Drafted BOQ for {tender}: 46 line items, sent to Aaron for review',
+      'Flagged spec clash: gravity specified but roof area suits siphonic on {tender}',
+    ],
+  },
+  {
+    id: 'progress',
+    name: 'Site Progress Agent',
+    job: 'Reads foremen’s photo updates and messages, updates % complete and writes the site diary so nobody has to ring round for status.',
+    touches: [
+      { key: 'read', label: 'Read foreman app and WhatsApp group updates', on: true },
+      { key: 'diary', label: 'Write site diary entries', on: true },
+      { key: 'pct', label: 'Update % complete', on: true },
+      { key: 'mc', label: 'Message main contractors', on: false },
+    ],
+    actionsToday: 41,
+    hoursSavedWeek: 14,
+    logTemplates: [
+      'Read 3 photos from foreman on {job}, diary entry written',
+      'Updated {job} installed metres from foreman message (+{m} m)',
+      'No update from {job} since yesterday 16:00, nudged foreman',
+      'Matched photo to Zone B collector run on {job}',
+    ],
+  },
+  {
+    id: 'valuation',
+    name: 'Valuation Agent',
+    job: 'Drafts each month’s application for payment from installed metres and agreed variations, checks it against the main contractor’s cut-off date.',
+    touches: [
+      { key: 'read', label: 'Read installed metres and variations', on: true },
+      { key: 'draft', label: 'Draft applications for payment', on: true },
+      { key: 'submit', label: 'Submit to main contractor', on: false },
+    ],
+    actionsToday: 7,
+    hoursSavedWeek: 8,
+    logTemplates: [
+      'Drafted application for payment on {job}, ready for Valerie',
+      'Cut-off for {job} is in 2 days, application not yet submitted',
+      'Certified amount received on {job}, reconciled to application',
+    ],
+  },
+  {
+    id: 'compliance',
+    name: 'Compliance Agent',
+    job: 'Watches ticket expiries, missing RAMS and permits, and collects ISO 9001, 14001 and 45001 evidence as work happens.',
+    touches: [
+      { key: 'tickets', label: 'Read ticket wallet', on: true },
+      { key: 'rams', label: 'Check RAMS and permits', on: true },
+      { key: 'book', label: 'Book renewal courses', on: false },
+    ],
+    actionsToday: 18,
+    hoursSavedWeek: 5,
+    logTemplates: [
+      'IPAF for 2 technicians on {job} expires next week, flagged',
+      'RAMS revision for {job} filed as ISO 45001 evidence',
+      'Toolbox talk sign-on sheet from {job} filed',
+      'Checked 58 technicians’ tickets: 4 expire in the next 30 days',
+    ],
+  },
+  {
+    id: 'scheduler',
+    name: 'Scheduler Agent',
+    job: 'Proposes next week’s crew plan from programme, materials and tickets, and spots sites with work ready but no crew.',
+    touches: [
+      { key: 'read', label: 'Read programmes and dispatch calendar', on: true },
+      { key: 'propose', label: 'Propose crew moves', on: true },
+      { key: 'move', label: 'Move crews without approval', on: false },
+    ],
+    actionsToday: 9,
+    hoursSavedWeek: 6,
+    logTemplates: [
+      '{job} has work ready Wednesday and no crew booked',
+      'Proposed moving a crew to {job} on Wednesday',
+      'Crew booked on {job} Thursday but spools dispatch Friday, flagged',
+    ],
+  },
+  {
+    id: 'maintenance',
+    name: 'Maintenance Agent',
+    job: 'Books planned inspections, writes inspection reports from technicians’ photos, and raises quotes from defects found.',
+    touches: [
+      { key: 'book', label: 'Book planned visits', on: true },
+      { key: 'report', label: 'Write inspection reports', on: true },
+      { key: 'quote', label: 'Draft quotes from defects', on: true },
+      { key: 'send', label: 'Send quotes to clients', on: false },
+    ],
+    actionsToday: 12,
+    hoursSavedWeek: 7,
+    logTemplates: [
+      'Inspection report drafted for {site}, 2 defects found',
+      'Quote drafted from defect at {site}: outlet dome replacement',
+      'Booked annual inspection at {site} for next Tuesday',
+    ],
+  },
+  {
+    id: 'handover',
+    name: 'Handover Pack Agent',
+    job: 'Compiles O&M manuals and certification packs from job records in one click, and lists what is still missing.',
+    touches: [
+      { key: 'read', label: 'Read job records and certificates', on: true },
+      { key: 'compile', label: 'Compile handover packs', on: true },
+      { key: 'issue', label: 'Issue packs to client', on: false },
+    ],
+    actionsToday: 4,
+    hoursSavedWeek: 4.5,
+    logTemplates: [
+      'Compiled draft O&M for {job}: 2 items missing',
+      'Chased commissioning record for {job}',
+      'BCAR ancillary certificate filed for {job}',
+    ],
+  },
+];
+
+export const agentById = (id: AgentId) => AGENTS.find((a) => a.id === id)!;
+
+export const INITIAL_APPROVALS: Approval[] = [
+  {
+    id: 'AP-1',
+    agent: 'inbox',
+    kind: 'email',
+    title: 'Reply to Slaney Build on RFI-0412 (Carrigtwohill)',
+    detail: 'Chaser: RFI-0412 outlet setting-out has been open 9 days. Draft asks for a response by Thursday so Zone 2 install can start on programme.',
+    jobId: 'CE-2326',
+    route: '/projects/CE-2326',
+    created: '2026-10-06T07:12:00',
+    status: 'Pending',
+  },
+  {
+    id: 'AP-2',
+    agent: 'scheduler',
+    kind: 'schedule',
+    title: 'Move IE Crew 8 to Clonee data centre Wed to Fri',
+    detail: 'Clonee has work ready from Wednesday (programme rev F) and no crew booked. IE Crew 8 finishes at its current site Tuesday and holds valid tickets and a Kilcarra induction.',
+    jobId: 'CE-2333',
+    route: '/crews',
+    created: '2026-10-06T06:45:00',
+    status: 'Pending',
+  },
+  {
+    id: 'AP-3',
+    agent: 'maintenance',
+    kind: 'quote',
+    title: 'Quote: replace 3 siphonic outlet baffles, National Children’s Hospital',
+    detail: 'Defect found at Q3 inspection. Draft quote €1,850 incl. MEWP. Within contract rates.',
+    value: 1850,
+    currency: 'EUR',
+    route: '/maintenance',
+    created: '2026-10-05T17:20:00',
+    status: 'Pending',
+  },
+  {
+    id: 'AP-4',
+    agent: 'compliance',
+    kind: 'compliance',
+    title: 'Book IPAF renewal for 2 technicians (Ringaskiddy)',
+    detail: 'Both IPAF 3a/3b cards expire next week. Pharma permit-to-work needs valid IPAF. Suggested course: Cork, Thu 15 Oct.',
+    jobId: 'CE-2321',
+    route: '/crews',
+    created: '2026-10-06T06:30:00',
+    status: 'Pending',
+  },
+  {
+    id: 'AP-5',
+    agent: 'progress',
+    kind: 'diary',
+    title: 'Site diary for NLHPP from foreman WhatsApp',
+    detail: 'Zone B high level complete. Zone C waiting on 8 re-tested spools from prefab. Update % complete 51% → 52%.',
+    jobId: 'CE-2304',
+    route: '/projects/CE-2304',
+    created: '2026-10-05T16:42:00',
+    status: 'Pending',
+  },
+];
+
+export const LOG_SEED_TIME = isoAdd(0);
