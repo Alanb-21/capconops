@@ -1341,6 +1341,42 @@ function buildValuations(): Valuation[] {
 }
 export const VALUATIONS: Valuation[] = buildValuations();
 
+// Real, public relationships are never shown with late payment or delay:
+// every application past its due date is paid; on-track showcase jobs finish on programme.
+{
+  const publicJob = new Set(JOBS.filter((j) => j.showcase || j.mainContractorPublic).map((j) => j.id));
+  for (const v of VALUATIONS) {
+    if (!publicJob.has(v.jobId)) continue;
+    if (v.dueOn <= TODAY_ISO) {
+      if (v.certified === null) {
+        v.certified = Math.round(v.applied * 0.97);
+        v.certifiedOn = isoAdd(14, v.submitted);
+      }
+      if (v.paid === null) {
+        v.paid = v.certified;
+        v.paidOn = isoAdd(-1, v.dueOn);
+      }
+    }
+  }
+  for (const j of JOBS) {
+    if (!j.showcase) continue;
+    if (j.health === 'on-track' && j.forecastEnd > j.mcProgrammeEnd) j.forecastEnd = isoAdd(-3, j.mcProgrammeEnd);
+    if (j.designOnly) {
+      j.lastUpdate = {
+        at: '2026-10-05T15:20:00',
+        source: 'Email',
+        by: j.id === 'CE-2337' ? 'Stephen Morris' : 'Design team (Maynooth)',
+        note: j.id === 'CE-2337' ? 'Issued roof drainage layouts for Zone 3 at rev P4 to KPF for comment.' : 'Issued updated hydraulic calculations and layouts for comment.',
+      };
+    }
+  }
+  for (const j of JOBS) {
+    if (j.designOnly && !j.showcase) {
+      j.lastUpdate = { at: '2026-10-02T11:05:00', source: 'Email', by: 'Design team (Maynooth)', note: 'Design model updated and issued for coordination.' };
+    }
+  }
+}
+
 // valuation status per job for the current (October) cycle
 {
   for (const j of JOBS) {

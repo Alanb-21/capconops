@@ -258,7 +258,7 @@ function ValuationRun({ job, onClose }: { job: Job; onClose: () => void }) {
               ))}
             </div>
             <div className="mt-2 text-[11.5px] text-ink-3">
-              Reconciles: {num(job.siphonicInstalled + job.gravityInstalled)} m installed × contract rate + agreed variations = gross to date. Payment due {fmtDate(draft.dueOn, { weekday: true })}.
+              Reconciles: {num(job.siphonicInstalled + job.gravityInstalled)} m installed × contract rate + agreed variations{draft.prelims > 0 ? ' + prelims' : ''} = gross to date. Payment due {fmtDate(draft.dueOn, { weekday: true })}.
             </div>
 
             {done ? (
