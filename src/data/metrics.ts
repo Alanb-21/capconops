@@ -2,7 +2,7 @@
 // these so numbers reconcile across pages.
 import type { Allocation, AttentionItem, DayKey, Job, Sector, Technician, Tender, TicketType, Valuation } from './types';
 import { DAYS, SECTORS } from './types';
-import { CREWS, HS_ITEMS, MAINT_CONTRACTS, MAINT_VISITS, MONTHS_12, RFIS, TECHNICIANS, VARIATIONS, techById } from './seed';
+import { CREWS, TENDERS, HS_ITEMS, MAINT_CONTRACTS, MAINT_VISITS, MONTHS_12, RFIS, TECHNICIANS, VARIATIONS, techById } from './seed';
 import { toEur } from '../lib/format';
 import { TODAY_ISO, daysBetween, daysUntil, isoAdd } from '../lib/dates';
 
@@ -231,6 +231,7 @@ export function handoverOutstanding(jobs: Job[]) {
 // ---------------------------------------------------------------- attention
 export function attentionItems(jobs: Job[], alloc: Allocation): AttentionItem[] {
   const items: AttentionItem[] = [];
+  const closingWeek = openTenders(TENDERS).filter((t) => t.stage !== 'Submitted' && t.closeDate >= TODAY_ISO && t.closeDate <= '2026-10-11');
   const noCrew = sitesWithNoCrew(jobs, alloc, TOMORROW_DAY);
   const clonee = jobs.find((j) => j.id === 'CE-2333')!;
   if (noCrew.some((j) => j.id === 'CE-2333')) {
@@ -319,8 +320,8 @@ export function attentionItems(jobs: Job[], alloc: Allocation): AttentionItem[] 
     id: 'att-aaron',
     severity: 'medium',
     agent: 'takeoff',
-    title: 'Estimating over capacity: 4 tenders close this week',
-    detail: "Aaron has 3 of them. Takeoff Agent can draft the BOQs today so he reviews instead of measures.",
+    title: `Estimating over capacity: ${closingWeek.length} tenders close this week`,
+    detail: `Aaron is pricing ${closingWeek.filter((t) => t.estimator === "Aaron O'Neill").length} of them. Takeoff Agent can draft the BOQs today so he reviews instead of measures.`,
     route: '/tenders',
     roles: ['donnacha', 'aaron', 'eugene'],
   });

@@ -253,9 +253,9 @@ function TodayScreen({ p, go, openSheet }: { p: Pal; go: (t: TabKey) => void; op
         <Row p={p} last onClick={sign}>
           <IconTile bg={ramsSigned ? p.ok : p.warn}>{ramsSigned ? <ShieldCheck size={17} /> : <PenLine size={16} />}</IconTile>
           <div className="min-w-0 flex-1">
-            <div className="text-[16px]">RAMS R4 · Building 2 high level</div>
+            <div className="text-[16px]">Sign on to RAMS R4</div>
             <div className="text-[13px]" style={{ color: p.text2 }}>
-              {ramsSigned ? 'Signed 08:30 · MEWP permit live' : 'Working at height, MEWP, hot works'}
+              {ramsSigned ? 'Signed 08:30 · MEWP permit live' : 'Building 2 · work at height'}
             </div>
           </div>
           {ramsSigned ? (

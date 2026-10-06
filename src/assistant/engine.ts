@@ -95,6 +95,7 @@ const has = (q: string, phrase: string) => q.includes(` ${phrase.trim()} `);
 /** Real, public contractors: never shown with debts, disputes or delays. */
 const isRealContractor = (j: Job) => j.mainContractorPublic && j.mainContractor !== 'Undisclosed' && j.mainContractor !== 'Design only';
 const contractorLabel = (j: Job) => (j.mainContractor === 'Design only' ? (j.consultant ?? 'Design only') : j.mainContractor);
+const forContractor = (j: Job) => (j.mainContractor === 'Undisclosed' ? '' : ` for ${contractorLabel(j)}`);
 
 function crewLabel(id: string) {
   return CREWS.find((c) => c.id === id)?.name ?? id;
@@ -154,6 +155,10 @@ const JOB_ALIASES: Record<string, string> = {
 };
 
 export function findJob(qn: string, jobs: Job[]): Job | undefined {
+  return findJobScored(qn, jobs)?.j;
+}
+
+function findJobScored(qn: string, jobs: Job[]): { j: Job; s: number } | undefined {
   let best: { j: Job; s: number } | undefined;
   const consider = (j: Job | undefined, s: number) => {
     if (!j) return;
@@ -176,7 +181,7 @@ export function findJob(qn: string, jobs: Job[]): Job | undefined {
       if (t.length >= 4 && has(qn, t)) consider(j, 20 + t.length + (j.stage === 'Install' ? 2 : 0));
     }
   }
-  return best?.j;
+  return best;
 }
 
 const CONTRACTOR_SUFFIX = /\b(construction|contracting|contracts|building|build group|build|group|projects|main contractors|main contracting|uk|ltd)\b/g;
@@ -254,8 +259,14 @@ function route(question: string): Answer {
   const qn = norm(question);
   const s = state();
   const jobs = s.jobs;
-  const job = findJob(qn, jobs);
+  const hit = findJobScored(qn, jobs);
   const contractor = findContractor(qn, jobs);
+  // a town name alone ("weather in Galway") is a weak match: only use it when the
+  // question is clearly about a job
+  const jobWords = / (where are we|status|progress|update|how is|hows|how are|whats happening|blocking|blocked|holding|stuck|risk|job|site|project|email|draft|crew on|on site|percent|complete|done|milestone|rfis?) /.test(qn);
+  const offTopic = / (weather|rain forecast|joke|football|match|score|news|traffic|lunch) /.test(qn);
+  const job = hit && !offTopic && (hit.s >= 50 || jobWords) ? hit.j : undefined;
+  if (offTopic && !/ (metres?|tenders?|ipaf|margin|crews?) /.test(qn)) return fallback(question);
 
   if (/^ (hi|hello|hey|hiya|morning|good (morning|afternoon|evening)|dia dhuit|howya|thanks|thank you|cheers) /.test(qn) && qn.trim().split(' ').length <= 5) {
     return /thank|cheers/.test(qn) ? thanks() : greeting();
@@ -356,7 +367,7 @@ function jobStatus(j: Job): Answer {
         { label: 'Siphonic designed', value: `${num(j.siphonicDesigned)} m` },
       ],
     });
-    blocks.push({ kind: 'text', text: `Next milestone: ${milestoneText(j)}.\nLast update ${ago(lu.at, nowDate())} from ${lu.by} (${lu.source}): “${lu.note}”` });
+    blocks.push({ kind: 'text', text: `Next milestone: ${milestoneText(j)}.` });
     blocks.push({ kind: 'links', links: [{ label: `Open ${j.shortName}`, to: `/projects/${j.id}` }, { label: 'Design register', to: '/design' }] });
     return { confident: true, sources: ['Jobs', 'Design'], blocks };
   }
@@ -364,7 +375,7 @@ function jobStatus(j: Job): Answer {
   const healthWord = j.health === 'on-track' ? 'on track' : j.health === 'at-risk' ? 'at risk' : 'blocked';
   blocks.push({
     kind: 'text',
-    text: `**${j.name}** for ${contractorLabel(j)} is **${pct(p)} complete** and ${healthWord}${j.health !== 'on-track' && j.healthReason ? `: ${j.healthReason.charAt(0).toLowerCase() + j.healthReason.slice(1)}` : ''}. Stage: ${j.stage}.`,
+    text: `**${j.name}**${forContractor(j)} is **${pct(p)} complete** and ${healthWord}${j.health !== 'on-track' && j.healthReason ? `: ${j.healthReason.charAt(0).toLowerCase() + j.healthReason.slice(1)}` : ''}. Stage: ${j.stage}.`,
   });
   blocks.push({
     kind: 'stats',
@@ -483,7 +494,7 @@ function appsOver(qn: string): Answer {
   const s = state();
   const m = qn.match(/ (\d{1,3}) ?days? /);
   const days = m ? Number(m[1]) : 60;
-  const list = appsOverDays(s.jobs, s.valuations, days).filter((x) => !isRealContractor(x.job));
+  const list = appsOverDays(s.jobs, s.valuations, days).filter((x) => !x.job.mainContractorPublic);
   if (!list.length) {
     return {
       confident: true,
@@ -723,12 +734,12 @@ function margin(qn: string): Answer {
     };
   }
   let js = s.jobs.filter((j) => j.sector === sector && !j.designOnly && jobPct(j) > 0);
-  let scopeText = 'live';
+  let scopeText = 'across live jobs';
   if (ytd) {
     const y = js.filter((j) => j.ytd);
     if (y.length) {
       js = y;
-      scopeText = 'started this year';
+      scopeText = 'on jobs started this year';
     }
   }
   const e = js.reduce((a, j) => a + toEur(earned(j), j.currency), 0);
@@ -748,7 +759,7 @@ function margin(qn: string): Answer {
     blocks: [
       {
         kind: 'text',
-        text: `Margin on ${word} jobs ${scopeText} is **${pct(m, 1)}** on ${eurC(e)} earned to date (${js.length} job${js.length === 1 ? '' : 's'}). That’s ${m >= groupM ? 'ahead of' : 'behind'} the group at ${pct(groupM, 1)}.`,
+        text: `Margin on ${word} work ${scopeText} is **${pct(m, 1)}** on ${eurC(e)} earned to date (${js.length} job${js.length === 1 ? '' : 's'}). That’s ${m >= groupM ? 'ahead of' : 'behind'} the group at ${pct(groupM, 1)}.`,
       },
       {
         kind: 'table',

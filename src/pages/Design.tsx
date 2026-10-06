@@ -175,7 +175,7 @@ export default function Design() {
           label="Design hours used"
           value={kpis.hoursPct * 100}
           format={(v) => `${Math.round(v)}%`}
-          sub={`of budget · ${kpis.over} jobs over`}
+          sub="Across all jobs, against budget"
           deltaTone={kpis.over ? 'warn' : 'ok'}
           delta={kpis.over ? `${kpis.over} over` : undefined}
           icon={<Timer size={15} />}

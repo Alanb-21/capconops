@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Award, BadgeCheck, CheckCircle2, CircleDashed, ClipboardList, CloudRain, Download, Factory, HardHat, Leaf, Recycle, ShieldCheck, TriangleAlert } from 'lucide-react';
-import { Bar, BarChart, CartesianGrid, ComposedChart, Line, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { Button, Card, CardHeader, Kpi, Note, PageHeader, Pill, Segmented, Stat, Table, Td, Th, Tr, clsx, type Tone } from '../components/ui';
 import { CHART, ChartTooltip, axisProps } from '../components/charts';
 import { useStore } from '../store/useStore';
@@ -23,8 +23,11 @@ const CARBON_FACTOR: Record<Material, number> = {
 const RAINFALL_M = 0.8; // ~800 mm annual rainfall
 const RUNOFF = 0.9;
 const HARVEST_SECTORS: Sector[] = ['Warehouse', 'Data Centre', 'Education', 'Commercial'];
-/** Offcut waste: ~9% when cut on site vs ~2% cut and fused in the Maynooth prefab shop. */
+/** Offcut waste: ~9% when cut on site vs ~2% cut and fused in the prefab shop. */
 const PREFAB_WASTE_SAVING = 0.07;
+const PREFAB_SHARE = 0.6;
+const HDPE_KG_PER_M = 1.9; // average across 56 to 315 mm
+const compactM3 = (v: number) => (v >= 10_000 ? `${num(v / 1000)}k m³` : `${num(v)} m³`);
 
 const isHarvesting = (j: Job) => !j.designOnly && (j.region === 'IE' || j.region === 'UK') && HARVEST_SECTORS.includes(j.sector) && parseInt(j.id.slice(3), 10) % 3 === 0;
 const harvestM3 = (j: Job) => j.roofArea * RAINFALL_M * RUNOFF;
@@ -37,12 +40,15 @@ function sustainability(jobs: Job[], spools: Spool[]) {
     .sort((a, b) => b.kg - a.kg);
   const totalKg = carbon.reduce((a, c) => a + c.kg, 0);
   const totalM = carbon.reduce((a, c) => a + c.m, 0);
-  const prefabM = spools.reduce((a, s) => a + s.length, 0);
-  const prefabKg = spools.reduce((a, s) => a + s.weightKg, 0);
+  // ~60% of HDPE installed is cut and fused off site; the live spool schedule shows what is in the shop now
+  const hdpeInstalled = jobs.filter((j) => j.material === 'HDPE' && !j.designOnly).reduce((a, j) => a + installed(j), 0);
+  const prefabM = hdpeInstalled * PREFAB_SHARE;
+  const prefabKg = prefabM * HDPE_KG_PER_M;
   const wasteSavedKg = prefabKg * PREFAB_WASTE_SAVING;
+  const inShopM = spools.filter((s) => s.stage !== 'On site').reduce((a, s) => a + s.length, 0);
   const harvest = jobs.filter(isHarvesting).map((j) => ({ job: j, m3: harvestM3(j) })).sort((a, b) => b.m3 - a.m3);
   const harvestTotal = harvest.reduce((a, h) => a + h.m3, 0);
-  return { carbon, totalKg, totalM, intensity: totalM > 0 ? totalKg / totalM : 0, prefabM, prefabKg, wasteSavedKg, harvest, harvestTotal };
+  return { carbon, totalKg, totalM, intensity: totalM > 0 ? totalKg / totalM : 0, prefabM, prefabKg, wasteSavedKg, inShopM, harvest, harvestTotal };
 }
 
 const CERTS: { name: string; scope: string; label: string; tone: Tone }[] = [
@@ -126,7 +132,7 @@ export default function Hsqe() {
         <Kpi label="RAMS approved" value={ramsApproved} sub={`of ${RAMS.length} live sites`} icon={<ClipboardList size={15} />} delay={0.08} />
         <Kpi label="Live permits" value={permits} sub="Hot works, roof access, MEWP" icon={<ShieldCheck size={15} />} delay={0.12} />
         <Kpi label="Embodied carbon installed" value={sus.totalKg / 1000} format={(v) => `${num(v)} t`} sub={`${num(sus.intensity, 1)} kgCO2e per metre`} icon={<Factory size={15} />} delay={0.16} />
-        <Kpi label="Rainwater harvest designed" value={sus.harvestTotal} format={(v) => `${num(v)} m³`} sub={`per year across ${sus.harvest.length} jobs`} icon={<CloudRain size={15} />} delay={0.2} />
+        <Kpi label="Rainwater harvest designed" value={sus.harvestTotal} format={compactM3} sub={`per year across ${sus.harvest.length} jobs`} icon={<CloudRain size={15} />} delay={0.2} />
       </div>
 
       <div className="mt-5 grid grid-cols-1 gap-5 xl:grid-cols-12">
@@ -170,20 +176,19 @@ function SafetyTrend({ toolbox14, audits30, permits }: { toolbox14: number; audi
     const weeks = Array.from({ length: 12 }, (_, i) => {
       const start = isoAdd(-7 * (11 - i), WEEK_START);
       const d = new Date(start + 'T00:00:00');
-      return { start, week: `${d.getDate()} ${['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][d.getMonth()]}`, nearMiss: 0, incident: 0, toolbox: 0 };
+      return { start, week: `${d.getDate()} ${['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][d.getMonth()]}`, nearMiss: 0, incident: 0 };
     });
     for (const h of HS_ITEMS) {
       const w = Math.floor(daysBetween(weeks[0].start, h.date) / 7);
       if (w < 0 || w > 11) continue;
       if (h.type === 'Near miss') weeks[w].nearMiss++;
       if (h.type === 'Incident') weeks[w].incident++;
-      if (h.type === 'Toolbox talk') weeks[w].toolbox++;
     }
     return weeks;
   }, []);
   return (
     <Card className="h-full">
-      <CardHeader title="ISO 45001: incidents and near misses" subtitle="Weekly, last 12 weeks. More near-miss reporting is a healthy sign." icon={<HardHat size={15} />} />
+      <CardHeader title="ISO 45001: incidents and near misses" subtitle="Weekly, last 12 weeks. Near-miss reporting jumped once it moved into the technician app: a healthy sign." icon={<HardHat size={15} />} />
       <div className="mb-3 grid grid-cols-3 gap-4">
         <Stat label="Toolbox talks, 14 days" value={toolbox14} />
         <Stat label="Audits, 30 days" value={audits30} />
@@ -191,15 +196,14 @@ function SafetyTrend({ toolbox14, audits30, permits }: { toolbox14: number; audi
       </div>
       <div className="h-[240px]">
         <ResponsiveContainer>
-          <ComposedChart data={data} margin={{ top: 8, right: 8, left: -18, bottom: 0 }}>
+          <BarChart data={data} margin={{ top: 8, right: 8, left: -18, bottom: 0 }}>
             <CartesianGrid vertical={false} stroke={CHART.grid} />
             <XAxis dataKey="week" {...axisProps} interval={1} />
             <YAxis {...axisProps} allowDecimals={false} />
             <Tooltip cursor={{ fill: 'var(--c-surface-sunk)' }} content={<ChartTooltip labelFormat={(l) => `Week of ${l}`} />} />
-            <Bar dataKey="nearMiss" name="Near misses" stackId="s" fill={CHART.warn} radius={[0, 0, 0, 0]} barSize={18} />
-            <Bar dataKey="incident" name="Incidents" stackId="s" fill={CHART.bad} radius={[6, 6, 0, 0]} barSize={18} />
-            <Line dataKey="toolbox" name="Toolbox talks" type="monotone" stroke={CHART.brand} strokeWidth={2} dot={{ r: 2.5 }} />
-          </ComposedChart>
+            <Bar dataKey="nearMiss" name="Near misses" stackId="s" fill={CHART.warn} barSize={22} />
+            <Bar dataKey="incident" name="Incidents (first aid)" stackId="s" fill={CHART.bad} radius={[6, 6, 0, 0]} barSize={22} />
+          </BarChart>
         </ResponsiveContainer>
       </div>
     </Card>
@@ -260,7 +264,7 @@ function RamsTable({ jobById }: { jobById: Map<string, Job> }) {
   return (
     <Card className="h-full">
       <CardHeader title="RAMS and permits by site" subtitle="Method statements, revision and live permits on every active site" icon={<ClipboardList size={15} />} />
-      <Table className="max-h-[360px] overflow-y-auto">
+      <Table className="max-h-[520px] overflow-y-auto">
         <thead>
           <tr>
             <Th>Site</Th>
@@ -334,7 +338,7 @@ function NcrList({ jobById }: { jobById: Map<string, Job> }) {
 type Sus = ReturnType<typeof sustainability>;
 
 function CarbonCard({ sus }: { sus: Sus }) {
-  const data = sus.carbon.slice(0, 10).map((c) => ({ name: c.job.shortName.length > 22 ? c.job.shortName.slice(0, 21) + '…' : c.job.shortName, t: Math.round(c.kg / 100) / 10, m: c.m, material: c.job.material }));
+  const data = sus.carbon.slice(0, 10).map((c) => ({ name: c.job.name.length > 26 ? c.job.name.slice(0, 25).trimEnd() + '…' : c.job.name, t: Math.round(c.kg / 100) / 10, m: c.m, material: c.job.material }));
   return (
     <Card className="h-full">
       <CardHeader title="ISO 14001: embodied carbon per job" subtitle="Installed metres × material factor, tonnes CO2e. Top 10 jobs." icon={<Leaf size={15} />} />
@@ -343,12 +347,12 @@ function CarbonCard({ sus }: { sus: Sus }) {
         <Stat label="Metres installed" value={`${num(sus.totalM)} m`} />
         <Stat label="Average intensity" value={`${num(sus.intensity, 1)} kg/m`} />
       </div>
-      <div className="h-[300px]">
+      <div className="h-[380px]">
         <ResponsiveContainer>
           <BarChart data={data} layout="vertical" margin={{ top: 0, right: 16, left: 4, bottom: 0 }}>
             <CartesianGrid horizontal={false} stroke={CHART.grid} />
             <XAxis type="number" {...axisProps} tickFormatter={(v) => `${v} t`} />
-            <YAxis type="category" dataKey="name" {...axisProps} width={150} />
+            <YAxis type="category" dataKey="name" {...axisProps} width={178} interval={0} tick={<OneLineTick />} />
             <Tooltip cursor={{ fill: 'var(--c-surface-sunk)' }} content={<ChartTooltip format={(v) => `${v.toLocaleString('en-IE')} tCO2e`} />} />
             <Bar dataKey="t" name="Embodied carbon" fill={CHART.brand2} radius={[0, 8, 8, 0]} barSize={14} />
           </BarChart>
@@ -361,16 +365,24 @@ function CarbonCard({ sus }: { sus: Sus }) {
   );
 }
 
+function OneLineTick({ x = 0, y = 0, payload }: { x?: number; y?: number; payload?: { value: string } }) {
+  return (
+    <text x={x - 6} y={y} dy={4} textAnchor="end" fontSize={11} fill="var(--c-ink-3)">
+      {payload?.value}
+    </text>
+  );
+}
+
 function WasteCard({ sus }: { sus: Sus }) {
   return (
     <Card>
-      <CardHeader title="Waste saved through prefabrication" subtitle="Spools cut and fused in the Maynooth shop instead of on the roof" icon={<Recycle size={15} />} />
+      <CardHeader title="Waste saved through prefabrication" subtitle="HDPE spools cut and fused in the prefab shop instead of on the roof" icon={<Recycle size={15} />} />
       <div className="grid grid-cols-3 gap-4">
-        <Stat label="Prefabricated" value={`${num(sus.prefabM)} m`} sub="in the current spool schedule" />
+        <Stat label="Prefabricated to date" value={`${num(sus.prefabM)} m`} sub={`${num(sus.inShopM)} m in the shop now`} />
         <Stat label="Offcut avoided" value={`${num(sus.wasteSavedKg / 1000, 1)} t`} sub="9% site vs 2% shop" />
         <Stat label="Carbon avoided" value={`${num((sus.wasteSavedKg * 2.0) / 1000, 1)} tCO2e`} sub="at ~2 kgCO2e/kg HDPE" />
       </div>
-      <Note className="mt-3">Shop offcuts are segregated and returned to the HDPE supplier for regrind.</Note>
+      <Note className="mt-3">Assumes ~60% of HDPE installed is prefabricated, at ~1.9 kg/m. Shop offcuts are segregated for regrind.</Note>
     </Card>
   );
 }
@@ -477,7 +489,7 @@ ${row('Non-conformances closed', String(p.closedNcrs))}
 ${row('Embodied carbon, installed to date', `${num(p.sus.totalKg / 1000)} tCO2e`)}
 ${row('Metres installed', `${num(p.sus.totalM)} m`)}
 ${row('Average intensity', `${num(p.sus.intensity, 1)} kgCO2e/m`)}
-${row('Pipe prefabricated off site', `${num(p.sus.prefabM)} m`)}
+${row('HDPE pipe prefabricated off site, to date (est.)', `${num(p.sus.prefabM)} m`)}
 ${row('Offcut waste avoided through prefabrication', `${num(p.sus.wasteSavedKg / 1000, 1)} t`)}
 ${row('Rainwater harvesting capacity designed', `${num(p.sus.harvestTotal)} m³ per year`)}
 </table>

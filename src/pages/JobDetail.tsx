@@ -152,7 +152,7 @@ function JobView({ job, tab, setTab }: { job: Job; tab: Tab; setTab: (t: Tab) =>
           <StandsStrip job={job} />
           <div className="grid gap-4 xl:grid-cols-[1.25fr_1fr]">
             <Card>
-              <CardHeader title="Programme" subtitle="Our forecast against the main contractor programme" icon={<CalendarClock size={15} />} action={<TabLink onClick={() => setTab('programme')}>Full programme</TabLink>} />
+              <CardHeader title="Programme" subtitle={job.designOnly ? 'Our forecast against the client programme' : 'Our forecast against the main contractor programme'} icon={<CalendarClock size={15} />} action={<TabLink onClick={() => setTab('programme')}>Full programme</TabLink>} />
               <ProgrammeTimeline job={job} compact />
             </Card>
             <Card>
@@ -167,7 +167,7 @@ function JobView({ job, tab, setTab }: { job: Job; tab: Tab; setTab: (t: Tab) =>
           <div className="grid gap-4 xl:grid-cols-[1.25fr_1fr]">
             <Card>
               <CardHeader
-                title="Site diary"
+                title={job.designOnly ? 'Latest design activity' : 'Site diary'}
                 subtitle={job.designOnly ? 'Design-only commission' : 'Latest entries from the foreman app, technician app and agents'}
                 icon={<MessageSquareText size={15} />}
                 action={entries.length > 3 ? <TabLink onClick={() => setTab('diary')}>All {entries.length} entries</TabLink> : undefined}
@@ -201,7 +201,7 @@ function JobView({ job, tab, setTab }: { job: Job; tab: Tab; setTab: (t: Tab) =>
       {tab === 'programme' && (
         <div className="space-y-4">
           <Card>
-            <CardHeader title="Programme" subtitle="Our forecast against the main contractor programme" icon={<CalendarClock size={15} />} />
+            <CardHeader title="Programme" subtitle={job.designOnly ? 'Our forecast against the client programme' : 'Our forecast against the main contractor programme'} icon={<CalendarClock size={15} />} />
             <ProgrammeTimeline job={job} />
           </Card>
           <div className="grid gap-4 xl:grid-cols-2">

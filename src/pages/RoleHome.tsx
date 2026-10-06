@@ -465,12 +465,12 @@ function StephenHome() {
         </LinkButton>
       }
       kpis={[
-        <Kpi key="a" label="Design-only jobs" value={designOnly.length} to="/design" icon={<Globe size={15} />} sub="Singapore, Malaysia and Europe" />,
-        <Kpi key="b" label="Drawings for comment" value={forComment.length} to="/design" icon={<FileText size={15} />} sub="Issued, awaiting comment" />,
+        <Kpi key="a" label="Design-only jobs" value={designOnly.length} to="/design" icon={<Globe size={15} />} sub="SG · MY · EU" />,
+        <Kpi key="b" label="For comment" value={forComment.length} to="/design" icon={<FileText size={15} />} sub="Drawings issued" />,
         <Kpi key="c" label="Open RFIs" value={rfis.length} to="/design" icon={<MessageSquareWarning size={15} />} sub="RFI-0412 open 9 days" />,
-        <Kpi key="d" label="Design hours used" value={budget > 0 ? (used / budget) * 100 : 0} format={(v) => `${Math.round(v)}%`} to="/design" icon={<Hourglass size={15} />} sub={`${num(used)} of ${num(budget)} h budgeted`} />,
+        <Kpi key="d" label="Design hours used" value={budget > 0 ? (used / budget) * 100 : 0} format={(v) => `${Math.round(v)}%`} to="/design" icon={<Hourglass size={15} />} sub={`${num(used)} / ${num(budget)} h`} />,
         <Kpi key="e" label="Open clashes" value={clashNow} to="/design" icon={<Layers size={15} />} delta={clashStart > 0 ? `${pct((clashNow - clashStart) / clashStart)}` : undefined} deltaTone="ok" sub="Down over 8 weeks" />,
-        <Kpi key="f" label="Hydraulic calcs in progress" value={calcs} to="/design" icon={<Gauge size={15} />} sub="Siphonic calcs before check" />,
+        <Kpi key="f" label="Calcs in progress" value={calcs} to="/design" icon={<Gauge size={15} />} sub="Awaiting check" />,
       ]}
       main={
         <>
@@ -883,7 +883,7 @@ function JuliaHome() {
         <Kpi key="a" label="Near misses, 30 days" value={nm} to="/hsqe" icon={<ShieldAlert size={15} />} sub="Logged from site" />,
         <Kpi key="b" label="RAMS approved" value={RAMS.length ? (ramsOk / RAMS.length) * 100 : 0} format={(v) => `${Math.round(v)}%`} to="/hsqe" icon={<ClipboardCheck size={15} />} sub={`${ramsAction.length} need action`} />,
         <Kpi key="c" label="Open NCRs" value={ncrOpen.length} to="/hsqe" icon={<FileWarning size={15} />} sub={`${NCRS.length} raised this year`} />,
-        <Kpi key="d" label="Carbon saved via prefab" value={carbonT} format={(v) => `${v.toFixed(1)} t`} to="/hsqe" icon={<Recycle size={15} />} sub="CO₂e, offcuts and deliveries avoided" />,
+        <Kpi key="d" label="Carbon saved via prefab" value={carbonT} format={(v) => `${v.toFixed(1)} t`} to="/hsqe" icon={<Recycle size={15} />} sub="CO₂e, estimate" />,
         <Kpi key="e" label="ISO & EcoVadis evidence" value={evNeed > 0 ? (evHave / evNeed) * 100 : 0} format={(v) => `${Math.round(v)}%`} to="/hsqe" icon={<Leaf size={15} />} sub={`${num(evHave)} of ${num(evNeed)} items collected`} />,
       ]}
       main={

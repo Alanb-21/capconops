@@ -32,7 +32,7 @@ export function money(
   const a = Math.abs(v);
   const sym = SYMBOL[cur];
   if (compact) {
-    if (a >= 1_000_000) return `${sign}${sym}${(a / 1_000_000).toFixed(a >= 10_000_000 ? 1 : 2)}m`;
+    if (a >= 999_500) return `${sign}${sym}${(a / 1_000_000).toFixed(a >= 9_950_000 ? 1 : 2)}m`;
     if (a >= 10_000) return `${sign}${sym}${Math.round(a / 1000)}k`;
     if (a >= 1000) return `${sign}${sym}${(a / 1000).toFixed(1)}k`;
   }

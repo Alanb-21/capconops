@@ -58,7 +58,7 @@ export function ClashTrendChart({ job }: { job: Job }) {
   return (
     <div className="h-[220px]">
       <ResponsiveContainer width="100%" height="100%">
-        <LineChart data={data} margin={{ top: 8, right: 8, left: -16, bottom: 0 }}>
+        <LineChart data={data} margin={{ top: 8, right: 8, left: -6, bottom: 0 }}>
           <CartesianGrid vertical={false} stroke={CHART.grid} />
           <XAxis dataKey="week" {...axisProps} />
           <YAxis {...axisProps} width={40} />
