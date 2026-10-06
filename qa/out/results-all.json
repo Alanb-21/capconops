@@ -1,0 +1,10 @@
+[
+ {
+  "kind": "ux",
+  "severity": "low",
+  "route": "/crews",
+  "vp": "1440x900-light-demo",
+  "detail": "After manually booking IE Crew 8 on Clonee Wed, the Scheduler Agent card still offers \"Approve move\" for the same booking (stale suggestion).",
+  "shot": "qa/screenshots/1440x900-light-demo-03b-crews-picked.png"
+ }
+]

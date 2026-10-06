@@ -1,3 +1,11 @@
+# Final run (lead): PASS
+
+`npm run qa`: full route sweep (1440/1920 light+dark, 1280 light+dark), demo path, 10 Assistant questions and presenter features. **0 high, 0 medium, 1 low** in 1,320 s.
+
+- Low (by design): after a manual Wednesday-only booking of IE Crew 8 on Clonee, the Scheduler card still offers "Approve move". Approving it books the remaining Thursday and Friday, so the suggestion is still valid.
+
+---
+
 # Capcon OS QA report
 
 ## Re-run 2 (after fixes): **FAIL**

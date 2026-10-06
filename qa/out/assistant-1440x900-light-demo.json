@@ -4,7 +4,7 @@
   "shot": "qa/screenshots/1440x900-light-demo-07-q01.png"
  },
  "Which sites have nobody on them tomorrow?": {
-  "text": "2 work-ready sites have nobody booked tomorrow (Wed 7 Oct).\n\nSITE\tCONTRACTOR\tNEXT MILESTONE\n\nDistribution warehouse, Thurrock\n\t\nNorthwold\n\t\nSiphonic water test, 25 Oct\n\n\nBiologics facility, Citywest\n\t\nDerravaragh\n\t\nRoof outlets complete, 7 Nov\n\nSuggestion:\n\nDistribution warehouse, Thurrock: UK Crew 1 is booked from Thursday, so it’s a one-day gap.\nBiologics facility, Citywest: IE Crew 6 is booked from Thursday, so it’s a one-day gap.\nOpen crew planner\nSources\nJobs\nCrew allocation\nScheduler Agent\nas of 08:40",
+  "text": "2 work-ready sites have nobody booked tomorrow (Wed 7 Oct).\n\nSITE\tCONTRACTOR\tNEXT MILESTONE\n\nDistribution warehouse, Thurrock\n\t\nNorthwold\n\t\nSiphonic water test, 25 Oct\n\n\nBiologics facility, Citywest\n\t\nDerravaragh\n\t\nRoof outlets complete, 7 Nov\n\nSuggestion:\n\nDistribution warehouse, Thurrock: UK Crew 1 is booked from Thursday, so it’s a one-day gap.\nBiologics facility, Citywest: IE Crew 6 is booked from Thursday, so it’s a one-day gap.\nOpen crew planner\nSources\nJobs\nCrew allocation\nScheduler Agent\nas of 08:39",
   "shot": "qa/screenshots/1440x900-light-demo-07-q02.png"
  },
  "What applications for payment are over 60 days?": {
