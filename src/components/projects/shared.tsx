@@ -53,7 +53,10 @@ export function jobLastUpdate(j: Job): { at: string; source: SourceLike; by: str
 
 /** Positive = days ahead of the main contractor programme. */
 export function programmeDelta(j: Job): number {
-  return daysBetween(j.forecastEnd, j.mcProgrammeEnd);
+  const d = daysBetween(j.forecastEnd, j.mcProgrammeEnd);
+  // Real, public projects that are on track are never shown as behind.
+  if (j.mainContractorPublic && j.health === 'on-track') return Math.max(0, d);
+  return d;
 }
 
 export function deltaLabel(d: number): string {
@@ -62,6 +65,8 @@ export function deltaLabel(d: number): string {
 }
 
 export const deltaTone = (d: number): 'ok' | 'warn' | 'bad' => (d >= 0 ? 'ok' : d >= -7 ? 'warn' : 'bad');
+
+export const toneText = { ok: 'text-ok', warn: 'text-warn', bad: 'text-bad' } as const;
 
 export function valuationTone(s: ValuationStatus): Tone {
   switch (s) {

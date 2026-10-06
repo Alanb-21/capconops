@@ -110,6 +110,8 @@ export interface AppState {
   togglePerm: (key: string) => void;
   addValuation: (v: Valuation) => void;
   moveTender: (id: string, stage: TenderStage) => void;
+  /** add a tender, or replace one with the same id (Takeoff Agent) */
+  upsertTender: (t: Tender) => void;
   moveSpool: (id: string, stage: SpoolStage) => void;
   advanceDefect: (id: string) => void;
   toast: (t: Omit<Toast, 'id'>) => void;
@@ -235,6 +237,7 @@ export const useStore = create<AppState>((set, get) => ({
 
   addValuation: (v) => set((s) => ({ valuations: [...s.valuations.filter((x) => x.id !== v.id), v] })),
   moveTender: (id, stage) => set((s) => ({ tenders: s.tenders.map((t) => (t.id === id ? { ...t, stage } : t)) })),
+  upsertTender: (t) => set((s) => ({ tenders: s.tenders.some((x) => x.id === t.id) ? s.tenders.map((x) => (x.id === t.id ? t : x)) : [t, ...s.tenders] })),
   moveSpool: (id, stage) => set((s) => ({ spools: s.spools.map((t) => (t.id === id ? { ...t, stage } : t)) })),
   advanceDefect: (id) =>
     set((s) => ({
