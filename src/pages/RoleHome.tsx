@@ -62,9 +62,11 @@ import {
   winRate,
   winRateBySector,
   wipEur,
+  estimatorLoad,
+  tendersClosingThisWeek,
 } from '../data/metrics';
 import { CREWS, DESIGN, DRAWINGS, HS_ITEMS, MAINT_CONTRACTS, NCRS, RAMS, STOCK, TECHNICIANS } from '../data/seed';
-import type { Job, RoleId, Tender } from '../data/types';
+import type { Job, RoleId } from '../data/types';
 import { SPOOL_STAGES } from '../data/types';
 import { daysUntil, fmtDate, fmtMonth } from '../lib/dates';
 import { eur, metres, num, pct, toEur } from '../lib/format';
@@ -542,14 +544,6 @@ function StephenHome() {
 
 // ---------------------------------------------------------------- Aaron (Estimating)
 const CAPACITY_H = 37.5;
-/** share of a tender's estimated hours still to do at each stage */
-const REMAINING: Record<string, number> = {
-  'Enquiry received': 1,
-  'Drawings reviewed': 0.8,
-  'Design / value engineering': 0.5,
-  Priced: 0.15,
-  Submitted: 0,
-};
 const TAKEOFF_SAVING = 0.5; // measuring share of estimating time
 
 function AaronHome() {
@@ -559,11 +553,10 @@ function AaronHome() {
   const me = "Aaron O'Neill";
   const open = openTenders(tenders);
   const mine = open.filter((t) => t.estimator === me);
-  const thisWeek = (t: Tender) => daysUntil(t.closeDate) >= 0 && daysUntil(t.closeDate) <= 5;
-  const closing = open.filter(thisWeek);
+  const closing = tendersClosingThisWeek(tenders);
   const myClosing = closing.filter((t) => t.estimator === me);
   const window = mine.filter((t) => daysUntil(t.closeDate) >= 0 && daysUntil(t.closeDate) <= 7);
-  const load = window.reduce((a, t) => a + t.hoursEstimate * (REMAINING[t.stage] ?? 0), 0);
+  const load = estimatorLoad(tenders, me).perWeek;
   const withAgent = load * (1 - TAKEOFF_SAVING);
   const loadNow = takeoffSent ? withAgent : load;
   const myDecided = tenders.filter((t) => t.estimator === me);
@@ -591,7 +584,7 @@ function AaronHome() {
         <Kpi key="b" label="Closing this week" value={closing.length} to="/tenders" icon={<CalendarDays size={15} />} sub={`${myClosing.length} of them yours`} deltaTone="warn" />,
         <Kpi
           key="c"
-          label="Workload, 7 days"
+          label="Workload per week"
           value={loadNow}
           format={(v) => `${Math.round(v)} h`}
           to="/tenders"

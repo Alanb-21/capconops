@@ -97,10 +97,10 @@ export default function Finance() {
       </div>
 
       <div className="mt-5 grid grid-cols-1 gap-5 xl:grid-cols-12">
-        <div className="xl:col-span-7">
+        <div className="xl:col-span-8">
           <MarginByJob jobs={jobs} />
         </div>
-        <div className="xl:col-span-5">
+        <div className="xl:col-span-4">
           <MarginBySector jobs={jobs} />
         </div>
       </div>
@@ -480,35 +480,21 @@ function MarginByJob({ jobs }: { jobs: Job[] }) {
     .slice(0, 8);
   const List = ({ title, list, tone }: { title: string; list: typeof rows; tone: Tone }) => (
     <div className="min-w-0">
-      <div className="mb-2 text-[12px] font-medium uppercase tracking-[0.05em] text-ink-3">{title}</div>
-      <Table>
-        <thead>
-          <tr>
-            <Th>Job</Th>
-            <Th align="right">Earned</Th>
-            <Th align="right">Cost</Th>
-            <Th align="right">Margin</Th>
-          </tr>
-        </thead>
-        <tbody>
-          {list.map((r) => (
-            <Tr key={r.job.id} onClick={() => navigate(`/projects/${r.job.id}`)}>
-              <Td className="max-w-[170px]">
-                <div className="truncate text-ink">{r.job.name}</div>
-              </Td>
-              <Td align="right">
-                <Money amount={r.earned} currency={r.job.currency} compact />
-              </Td>
-              <Td align="right">
-                <Money amount={r.cost} currency={r.job.currency} compact />
-              </Td>
-              <Td align="right">
-                <Pill tone={tone}>{pct(r.margin, 1)}</Pill>
-              </Td>
-            </Tr>
-          ))}
-        </tbody>
-      </Table>
+      <div className="mb-1 flex items-center justify-between border-b hairline px-2 pb-2 text-[11.5px] font-medium uppercase tracking-[0.04em] text-ink-3">
+        <span>{title}</span>
+        <span>Earned / cost · margin</span>
+      </div>
+      {list.map((r) => (
+        <button key={r.job.id} onClick={() => navigate(`/projects/${r.job.id}`)} className="flex w-full items-center gap-3 border-b hairline px-2 py-2.5 text-left text-[13px] transition hover:bg-sunk">
+          <span className="min-w-0 flex-1 truncate text-ink">{r.job.name}</span>
+          <span className="shrink-0 whitespace-nowrap text-ink-2 tnum">
+            <Money amount={r.earned} currency={r.job.currency} compact className="text-ink" /> <span className="text-ink-3">/</span> <Money amount={r.cost} currency={r.job.currency} compact />
+          </span>
+          <Pill tone={tone} className="w-[54px] shrink-0 justify-center">
+            {pct(r.margin, 1)}
+          </Pill>
+        </button>
+      ))}
     </div>
   );
   return (
@@ -533,7 +519,7 @@ function MarginBySector({ jobs }: { jobs: Job[] }) {
           <BarChart data={data} layout="vertical" margin={{ top: 0, right: 16, left: 8, bottom: 0 }}>
             <CartesianGrid horizontal={false} stroke={CHART.grid} />
             <XAxis type="number" {...axisProps} tickFormatter={(v) => `${v}%`} domain={[0, 'dataMax + 4']} />
-            <YAxis type="category" dataKey="sector" {...axisProps} width={96} />
+            <YAxis type="category" dataKey="sector" {...axisProps} width={92} interval={0} />
             <Tooltip
               cursor={{ fill: 'var(--c-surface-sunk)' }}
               content={({ active, payload }) => {

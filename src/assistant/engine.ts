@@ -403,7 +403,7 @@ function jobStatus(j: Job): Answer {
       ? `- **Crew today**: ${crewsToday.map((c) => `${crewLabel(c)}${crewForeman(c) ? ` (${crewForeman(c)})` : ''}`).join(', ')}`
       : '- **Crew today**: nobody booked',
   );
-  lines.push(`- **Last update**: ${ago(lu.at, nowDate())} via ${lu.source}, from ${lu.by}: “${lu.note}”`);
+  lines.push(`- **Last update**: ${ago(lu.at, nowDate())} via ${lu.source}${lu.by && lu.by !== lu.source ? `, from ${lu.by}` : ''}: “${lu.note}”`);
   lines.push(`- **Next milestone**: ${milestoneText(j)}`);
   if (rfis.length || vars.length) {
     const parts: string[] = [];
@@ -478,6 +478,10 @@ function noCrew(day: DayKey): Answer {
     sugg.push(
       `- **${crewLabel(pref)}**${crewForeman(pref) ? ` (${crewForeman(pref)})` : ''} is free ${DAY_NAME[day]}${restFree.length ? ` and ${restFree.join(', ')}` : ''}: could cover **${jobShort(j)}**${j.id === 'CE-2333' ? '. The Scheduler Agent has this queued for your approval' : ''}.`,
     );
+  }
+  for (const j of list) {
+    const later = DAYS_AFTER(day).find((d) => crewsOn(s.allocation, j.id, d).length > 0);
+    if (later) sugg.push(`- **${jobShort(j)}**: ${crewLabel(crewsOn(s.allocation, j.id, later)[0]).replace(/ · .*/, '')} is booked from ${later === 'Thu' ? 'Thursday' : later === 'Fri' ? 'Friday' : later}, so it’s a one-day gap.`);
   }
   if (sugg.length) blocks.push({ kind: 'text', text: `Suggestion:\n${sugg.join('\n')}` });
   else blocks.push({ kind: 'text', text: 'No crews are free in the same region that day. Worth checking whether a Thursday start works.' });

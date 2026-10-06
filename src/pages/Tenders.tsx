@@ -22,7 +22,7 @@ import { TakeoffAgentModal } from '../components/tenders/TakeoffAgent';
 import { TAKEOFF_TENDER_ID } from '../components/tenders/takeoffData';
 import { useStore } from '../store/useStore';
 import { TENDER_STAGES, type Tender, type TenderStage } from '../data/types';
-import { openTenders, pipelineValueEur, winRate, winRateByContractor, winRateBySector } from '../data/metrics';
+import { estimatorLoad, openTenders, pipelineValueEur, tendersClosingThisWeek, winRate, winRateByContractor, winRateBySector } from '../data/metrics';
 import { eur, num, pct, toEur } from '../lib/format';
 import { daysUntil, fmtDate } from '../lib/dates';
 
@@ -37,14 +37,6 @@ const ESTIMATORS: { name: string; note: string }[] = [
   { name: 'Donnacha Tobin', note: 'Key accounts' },
 ];
 const WEEK_HOURS = 37.5;
-/** share of estimating effort already spent by stage */
-const STAGE_DONE: Partial<Record<TenderStage, number>> = {
-  'Enquiry received': 0,
-  'Drawings reviewed': 0.25,
-  'Design / value engineering': 0.5,
-  Priced: 0.85,
-};
-const HORIZON_DAYS = 14;
 
 function nextStage(s: TenderStage): TenderStage | null {
   if (s === 'Won' || s === 'Lost') return null;
@@ -66,7 +58,7 @@ export default function Tenders() {
 
   const open = useMemo(() => openTenders(tenders), [tenders]);
   const kpis = useMemo(() => {
-    const closingWeek = open.filter((t) => PRE_SUBMIT.includes(t.stage) && daysUntil(t.closeDate) >= 0 && daysUntil(t.closeDate) <= 3);
+    const closingWeek = tendersClosingThisWeek(tenders);
     const ta = tenders.filter((t) => t.turnaroundDays !== undefined);
     const avgTa = ta.length ? ta.reduce((a, t) => a + (t.turnaroundDays ?? 0), 0) / ta.length : 0;
     const veWon = tenders.filter((t) => t.stage === 'Won').reduce((a, t) => a + toEur(t.veSaving, t.currency), 0);
@@ -78,17 +70,11 @@ export default function Tenders() {
   // ---------------------------------------------------------------- workload
   const workload = useMemo(() => {
     return ESTIMATORS.map((e) => {
+      const { tenders: count, perWeek } = estimatorLoad(tenders, e.name);
       const mine = open.filter((t) => t.estimator === e.name && PRE_SUBMIT.includes(t.stage));
-      // remaining hours on each tender, spread evenly to its close date; count what falls in the next two weeks
-      const hours = mine.reduce((a, t) => {
-        const remaining = t.hoursEstimate * (1 - (STAGE_DONE[t.stage] ?? 0));
-        const d = Math.max(1, daysUntil(t.closeDate));
-        return a + (remaining * Math.min(HORIZON_DAYS, d)) / d;
-      }, 0);
-      const perWeek = hours / (HORIZON_DAYS / 7);
-      return { ...e, capacity: WEEK_HOURS, tenders: mine.length, perWeek, load: perWeek / WEEK_HOURS, closingSoon: mine.filter((t) => daysUntil(t.closeDate) <= 7).length };
+      return { ...e, capacity: WEEK_HOURS, tenders: count, perWeek, load: perWeek / WEEK_HOURS, closingSoon: mine.filter((t) => daysUntil(t.closeDate) <= 7).length };
     });
-  }, [open]);
+  }, [open, tenders]);
   const aaron = workload[0];
 
   // ---------------------------------------------------------------- charts

@@ -231,7 +231,7 @@ export function handoverOutstanding(jobs: Job[]) {
 // ---------------------------------------------------------------- attention
 export function attentionItems(jobs: Job[], alloc: Allocation): AttentionItem[] {
   const items: AttentionItem[] = [];
-  const closingWeek = openTenders(TENDERS).filter((t) => t.stage !== 'Submitted' && t.closeDate >= TODAY_ISO && t.closeDate <= '2026-10-11');
+  const closingWeek = tendersClosingThisWeek(TENDERS);
   const noCrew = sitesWithNoCrew(jobs, alloc, TOMORROW_DAY);
   const clonee = jobs.find((j) => j.id === 'CE-2333')!;
   if (noCrew.some((j) => j.id === 'CE-2333')) {
@@ -335,4 +335,34 @@ export function attentionItems(jobs: Job[], alloc: Allocation): AttentionItem[] 
     roles: ['robert', 'eugene', 'donnacha'],
   });
   return items;
+}
+
+// ---------------------------------------------------------------- estimating load
+/** share of a tender's estimating hours already spent, by stage */
+const STAGE_DONE: Record<string, number> = {
+  'Enquiry received': 0,
+  'Drawings reviewed': 0.25,
+  'Design / value engineering': 0.5,
+  Priced: 0.85,
+};
+export const ESTIMATOR_WEEK_HOURS = 37.5;
+
+/** Open tenders still being priced that close between today and Sunday 11 Oct. */
+export function tendersClosingThisWeek(ts: Tender[]) {
+  return openTenders(ts).filter((t) => t.stage !== 'Submitted' && t.closeDate >= TODAY_ISO && t.closeDate <= '2026-10-11');
+}
+
+/**
+ * Estimating hours per week needed by one estimator: remaining hours on each
+ * tender spread evenly to its close date, counting what falls in the next 14 days.
+ */
+export function estimatorLoad(ts: Tender[], name: string) {
+  const mine = openTenders(ts).filter((t) => t.estimator === name && t.stage !== 'Submitted');
+  const hours = mine.reduce((a, t) => {
+    const remaining = t.hoursEstimate * (1 - (STAGE_DONE[t.stage] ?? 0));
+    const d = Math.max(1, daysUntil(t.closeDate));
+    return a + (remaining * Math.min(14, d)) / d;
+  }, 0);
+  const perWeek = hours / 2;
+  return { tenders: mine.length, perWeek, load: perWeek / ESTIMATOR_WEEK_HOURS };
 }

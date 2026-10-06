@@ -533,7 +533,7 @@ function MiniTable({ block, go }: { block: Extract<Block, { kind: 'table' }>; go
                   {ci === 0 ? (
                     <span className="flex min-w-0 items-start gap-1.5">
                       {r.tone && <span className={clsx('mt-[5px] h-1.5 w-1.5 shrink-0 rounded-full', toneDot[r.tone])} />}
-                      <span className="line-clamp-2 min-w-0 leading-snug">{c}</span>
+                      <span className={clsx('min-w-0 leading-snug', c.includes(' ') ? 'line-clamp-2' : 'whitespace-nowrap')}>{c}</span>
                     </span>
                   ) : (
                     <span className={clsx('block leading-snug', block.columns[ci]?.wrap ? 'line-clamp-2' : 'whitespace-nowrap')}>{c}</span>

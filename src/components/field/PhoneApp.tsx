@@ -542,7 +542,18 @@ function TicketsScreen({ p }: { p: Pal }) {
   const barry = TECHNICIANS.find((t) => t.name === AUTHOR);
   const [open, setOpen] = useState<number | null>(null);
   const tickets = useMemo(() => [...(barry?.tickets ?? [])].sort((a, b) => a.expires.localeCompare(b.expires)), [barry]);
-  const colour = (d: number) => (d < 0 ? ['#b91c1c', '#ef4444'] : d <= 30 ? ['#b45309', '#f59e0b'] : d <= 90 ? ['#0e7490', '#22d3ee'] : ['#0a2540', '#0d4f8b']);
+  const TYPE_COLOURS: Record<string, [string, string]> = {
+    'Safe Pass': ['#0a2540', '#0d4f8b'],
+    CSCS: ['#0a2540', '#0d4f8b'],
+    'IPAF 3a/3b': ['#0e7490', '#0596c7'],
+    PASMA: ['#334155', '#64748b'],
+    'Manual handling': ['#1e3a8a', '#3b82f6'],
+    'Working at height': ['#075985', '#38bdf8'],
+    'First aid': ['#065f46', '#10b981'],
+    'Site induction': ['#3f3f46', '#71717a'],
+  };
+  const colour = (type: string, d: number): [string, string] => (d < 0 ? ['#991b1b', '#ef4444'] : d <= 30 ? ['#b45309', '#f59e0b'] : TYPE_COLOURS[type] ?? ['#0a2540', '#0d4f8b']);
+  const status = (d: number) => (d < 0 ? 'Expired' : d <= 30 ? `${d} days left` : 'Valid');
   return (
     <div>
       <LargeTitle p={p} eyebrow="Barry McEvoy · Lead Technician" title="Tickets" />
@@ -553,19 +564,22 @@ function TicketsScreen({ p }: { p: Pal }) {
       <div className="mx-4 mb-6">
         {tickets.map((t, i) => {
           const d = daysUntil(t.expires);
-          const [c1, c2] = colour(d);
+          const [c1, c2] = colour(t.type, d);
           const expanded = open === i;
           return (
             <motion.button
               layout
               key={t.type + t.ref}
               onClick={() => setOpen(expanded ? null : i)}
-              className={clsx('relative block w-full overflow-hidden rounded-[16px] px-4 pt-3 text-left text-white shadow-[0_-6px_18px_-8px_rgba(0,0,0,0.45)]', i > 0 && '-mt-[38px]')}
+              className={clsx('relative block w-full overflow-hidden rounded-[16px] px-4 pt-2.5 text-left text-white shadow-[0_-6px_18px_-8px_rgba(0,0,0,0.45)]', i > 0 && '-mt-[22px]')}
               style={{ background: `linear-gradient(135deg, ${c1}, ${c2})`, height: expanded ? 150 : 96, zIndex: i }}
             >
               <div className="flex items-start justify-between">
                 <div>
-                  <div className="text-[11px] font-semibold uppercase tracking-[0.08em] opacity-80">{t.type === 'Site induction' ? 'Site induction' : 'Certification'}</div>
+                  <div className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] opacity-85">
+                    <span className="h-1.5 w-1.5 rounded-full" style={{ background: d < 0 ? '#fecaca' : d <= 30 ? '#fde68a' : '#86efac' }} />
+                    {status(d)}
+                  </div>
                   <div className="text-[18px] font-semibold leading-tight">{t.type}</div>
                 </div>
                 <div className="text-right">
@@ -600,7 +614,7 @@ function IssuesScreen({ p, openSheet }: { p: Pal; openSheet: () => void }) {
   const mine = diary.filter((d) => d.jobId === JOB_ID && d.id.startsWith('D-issue'));
   const past = [
     { id: 'i1', text: 'Spool B2-047 bracket centres did not match drawing. Prefab re-issued, resolved.', at: '2026-09-24T10:12:00', status: 'Resolved' },
-    { id: 'i2', text: 'MEWP access blocked by JPC scaffold at grid F2. Moved by JPC same day.', at: '2026-09-17T08:55:00', status: 'Resolved' },
+    { id: 'i2', text: 'MEWP route at grid F2 needed re-planning around scaffold. Agreed at the morning briefing.', at: '2026-09-17T08:55:00', status: 'Resolved' },
   ];
   return (
     <div>
