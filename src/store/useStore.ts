@@ -47,7 +47,7 @@ function initialLog(): AgentLogEntry[] {
     ['maintenance', '07:31', 'Booked annual inspection at National Children’s Hospital Block C for Tue 13 Oct'],
     ['inbox', '07:15', 'Tender invitation from Halden Build filed to Tenders as new enquiry'],
     ['takeoff', '07:02', 'Measured 14 roof areas on tender pack for Biologics expansion, Leixlip'],
-    ['handover', '06:55', 'Compiled draft O&M for RDS Anglesea Stand: 2 items missing', 'CE-2242'],
+    ['handover', '06:55', 'Compiled draft O&M for RDS Anglesea Stand, missing items listed for chasing', 'CE-2242'],
     ['compliance', '06:40', 'Checked 60 technicians’ tickets: 6 expire in the next 30 days'],
     ['progress', '06:31', 'No update from Carrigtwohill since Friday, nudged foreman', 'CE-2326'],
     ['inbox', '06:12', 'Drawing issue received for NLHPP: 4 drawings at rev C3, register updated', 'CE-2304'],

@@ -31,7 +31,8 @@ export function peopleOn(alloc: Allocation, jobId: string, day: DayKey): number 
 
 /** Install-stage sites with work ready and nobody booked on the given day. */
 export function sitesWithNoCrew(jobs: Job[], alloc: Allocation, day: DayKey): Job[] {
-  return jobs.filter((j) => j.stage === 'Install' && j.workReady && j.health !== 'blocked' && crewsOn(alloc, j.id, day).length === 0);
+  // Showcase (real, public) jobs are planned around their own programmes and never listed as gaps.
+  return jobs.filter((j) => j.stage === 'Install' && j.workReady && !j.showcase && j.health !== 'blocked' && crewsOn(alloc, j.id, day).length === 0);
 }
 
 export function crewUtilisation(alloc: Allocation): number {
