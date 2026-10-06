@@ -88,7 +88,7 @@ Assistant (Ctrl/Cmd+K).
   `npm run check:data` asserts these.
 - Scale: 113 live jobs (67 IE, 39 UK, 7 overseas design), 45 open tenders (109 including history),
   60 technicians in 14 crews plus a maintenance team, 140 maintenance contracts covering about
-  380 buildings, and about 280 prefab spools.
+  430 buildings, and about 280 prefab spools.
 
 ## Integrations are illustrative
 

@@ -3,6 +3,7 @@
 import { animate, AnimatePresence, motion, useInView } from 'framer-motion';
 import { X } from 'lucide-react';
 import { useEffect, useRef, useState, type ReactNode } from 'react';
+import { createPortal } from 'react-dom';
 import { Link } from 'react-router-dom';
 import clsx from 'clsx';
 import type { Currency, Health } from '../../data/types';
@@ -413,7 +414,8 @@ export function Tr({ children, onClick, className, highlight }: { children: Reac
 
 // ---------------------------------------------------------------- Drawer / Modal
 export function Drawer({ open, onClose, title, subtitle, children, width = 520 }: { open: boolean; onClose: () => void; title: ReactNode; subtitle?: ReactNode; children: ReactNode; width?: number }) {
-  return (
+  // Portal to <body>: backdrop-filter on glass ancestors would otherwise trap position:fixed.
+  return createPortal(
     <AnimatePresence>
       {open && (
         <>
@@ -440,11 +442,11 @@ export function Drawer({ open, onClose, title, subtitle, children, width = 520 }
         </>
       )}
     </AnimatePresence>
-  );
+  , document.body);
 }
 
 export function Modal({ open, onClose, title, subtitle, children, width = 640 }: { open: boolean; onClose: () => void; title: ReactNode; subtitle?: ReactNode; children: ReactNode; width?: number }) {
-  return (
+  return createPortal(
     <AnimatePresence>
       {open && (
         <motion.div className="fixed inset-0 z-50 grid place-items-center bg-black/25 p-4 backdrop-blur-[3px]" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={onClose}>
@@ -471,7 +473,7 @@ export function Modal({ open, onClose, title, subtitle, children, width = 640 }:
         </motion.div>
       )}
     </AnimatePresence>
-  );
+  , document.body);
 }
 
 // ---------------------------------------------------------------- misc

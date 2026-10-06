@@ -1203,6 +1203,7 @@ function buildRfisVariations() {
     const nV = j.id === 'CE-2291' ? 5 : rng.int(0, 4);
     for (let i = 0; i < nV; i++) {
       const status = rng.pick(['Agreed', 'Agreed', 'Submitted', 'Pending pricing', 'Agreed', 'Rejected'] as Variation['status'][]);
+      if (v === 244) v++; // VO-244 is reserved for the Grange Castle scenario
       vars.push({
         id: `VO-${v++}`,
         jobId: j.id,
@@ -1672,7 +1673,7 @@ function buildMaintenance() {
     const region: 'IE' | 'UK' = rng.chance(0.62) ? 'IE' : 'UK';
     const place = rng.pick(region === 'IE' ? IE_PLACES : UK_PLACES);
     const f = rng.pick(facility);
-    const nb = rng.chance(0.55) ? rng.int(1, 2) : rng.int(3, 5);
+    const nb = rng.chance(0.4) ? rng.int(1, 3) : rng.int(3, 5);
     const site = `${place.name} ${f}`;
     if (contracts.some((c) => c.site === site)) continue;
     mkContract({ client: `${place.name} ${f} ${rng.pick(ownerNames)}`, site, sector: sectorFor[f], region, nb, fromInstall: rng.chance(0.3) ? `CE-${rng.int(1700, 2190)}` : undefined });
