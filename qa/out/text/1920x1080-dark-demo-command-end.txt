@@ -121,6 +121,11 @@ National Children’s Hospital maintenance renews in 74 days
 Maintenance Agent
 Agents working now
 Open agent log
+Maintenance Agent
+08:44
+
+Quote drafted from defect at Dublin Airport Logistics Park: outlet dome replacement
+
 Scheduler Agent
 08:43
 
@@ -135,11 +140,6 @@ Valuation Agent
 08:41
 
 Cut-off for Cold store is in 2 days, application not yet submitted
-
-Site Progress Agent
-08:40
-
-Updated Data centre campus Phase 2 installed metres from foreman message (+32 m)
 
 Metres installed per week
 

@@ -267,7 +267,7 @@ function EugeneHome() {
                 </div>
               </div>
               <p className="mt-2 text-[12px] text-ink-3">
-                {CREWS.length} crews in the field, plus office teams in Maynooth, the UK, Singapore and Malaysia.
+                {CREWS.filter((c) => c.id !== 'MT-01').length} install crews and a maintenance team in the field, plus office teams in Maynooth, the UK, Singapore and Malaysia.
               </p>
             </Card>
           </div>

@@ -9,7 +9,7 @@ Agents running
 8
 One job each
 Actions today
-167
+169
 Reading, filing, drafting
 Waiting for you
 5
@@ -109,6 +109,18 @@ Compliance
 Scheduler
 Maintenance
 Handover Pack
+08:41
+Valuation Agent
+
+Cut-off for Cold store is in 2 days, application not yet submitted
+
+CE-2113 · Cold store
+08:40
+Site Progress Agent
+
+Updated Data centre campus Phase 2 installed metres from foreman message (+32 m)
+
+CE-2315 · Data centre campus Phase 2
 08:39
 Takeoff Agent
 
@@ -273,7 +285,7 @@ Running
 Reads foremen’s photo updates and messages, updates % complete and writes the site diary so nobody has to ring round for status.
 
 Today
-42
+43
 Hours saved / wk
 14
 CAN TOUCH
@@ -287,7 +299,7 @@ Running
 Drafts each month’s application for payment from installed metres and agreed variations, checks it against the main contractor’s cut-off date.
 
 Today
-8
+9
 Hours saved / wk
 8
 CAN TOUCH

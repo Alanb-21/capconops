@@ -46,6 +46,16 @@ export async function nav(page, route, wait = 2000) {
     window.location.hash = r;
   }, route);
   await page.waitForTimeout(wait);
+  // wait for the route fade-in to finish (page wrapper opacity 1); a page still invisible after 8 s is a defect
+  const ok = await page
+    .waitForFunction(() => {
+      const m = document.getElementById('main-scroll');
+      const k = m?.firstElementChild;
+      return !!k && +getComputedStyle(k).opacity > 0.99;
+    }, null, { timeout: 8000 })
+    .then(() => true)
+    .catch(() => false);
+  if (!ok) page._qaInvisible = route;
   await page.evaluate(() => document.getElementById('main-scroll')?.scrollTo({ top: 0 }));
   await page.waitForTimeout(150);
 }

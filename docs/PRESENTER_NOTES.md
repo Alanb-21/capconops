@@ -42,7 +42,7 @@ Press **Demo** in the top bar to start the walkthrough. It moves between pages f
 **Needs your attention** (40s, by 1:50)
 
 - Say: “Nobody typed this list. The agents read site updates, emails and programmes overnight and flagged what needs you today.”
-- Do: Read the top item: Clonee is six days behind with no crew tomorrow.
+- Do: Read the top item: Clonee is behind programme with no crew booked tomorrow.
 - How it works: Scheduler, Valuation, Compliance and Inbox agents each raise their own items. Items clear when the problem is fixed.
 - If asked “Can it get this wrong?”: It only flags. You decide. And every flag links to the evidence.
 

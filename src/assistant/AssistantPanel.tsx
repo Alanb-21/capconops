@@ -157,7 +157,7 @@ export function AssistantPanel() {
             exit={{ x: 480, opacity: 0, transition: { duration: 0.22, ease: [0.4, 0, 1, 1] } }}
             transition={{ type: 'spring', stiffness: 380, damping: 38 }}
             style={{ background: 'color-mix(in srgb, var(--c-bg) 95%, transparent)' }}
-            className="glass-strong fixed bottom-3 right-3 top-3 z-[70] flex w-[440px] max-w-[calc(100vw-24px)] flex-col overflow-hidden rounded-[24px]"
+            className="glass-strong fixed bottom-3 right-3 top-[72px] z-[70] flex w-[440px] max-w-[calc(100vw-24px)] flex-col overflow-hidden rounded-[24px]"
           >
             {/* header */}
             <div className="flex items-center gap-3 border-b hairline px-5 py-4">

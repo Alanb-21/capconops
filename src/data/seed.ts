@@ -459,7 +459,7 @@ const SCENARIO: JobSpec[] = [
     roofArea: 26000,
     pct: 0.46,
     health: 'at-risk',
-    healthReason: '6 working days behind the main contractor programme; no crew booked tomorrow',
+    healthReason: 'Behind the main contractor programme after the rev F resequence; no crew booked for Wednesday',
     workReady: true,
     startDaysAgo: 150,
   },
@@ -1215,6 +1215,13 @@ function buildRfisVariations() {
       });
     }
   }
+  // NLHPP: the three open RFIs are all about outlet positions; Dexcom has none open
+  const nlSubjects = ['Outlet positions Zone C vs revised plant layout', 'Confirm outlet positions at gutter G4 (Zone C)', 'Outlet setting-out at parapet, north elevation'];
+  rfis.filter((x) => x.jobId === 'CE-2304').forEach((x, i) => (x.subject = nlSubjects[i % 3]));
+  rfis.filter((x) => x.jobId === 'CE-2291' && x.status === 'Open').forEach((x) => {
+    x.status = 'Answered';
+    x.answered = isoAdd(2, x.raised);
+  });
   // Scenario: Carrigtwohill RFI open 9 days
   rfis.push({ id: 'RFI-0412', jobId: 'CE-2326', subject: 'Outlet setting-out conflicts with revised roof falls, Zone 2', raised: isoAdd(-9), to: 'Slaney Build', status: 'Open' });
   // Scenario: verbal variation at Grange Castle not priced
@@ -1516,9 +1523,11 @@ function buildSpools(): Spool[] {
     }
   });
   // NLHPP Zone C spools held at pressure test
-  out.filter((s) => s.jobId === 'CE-2304').slice(0, 8).forEach((s) => {
-    s.stage = 'Pressure tested';
-    s.due = isoAdd(6);
+  out.filter((s) => s.jobId === 'CE-2304').forEach((s, i) => {
+    if (i < 8) {
+      s.stage = 'Pressure tested';
+      s.due = isoAdd(6);
+    } else if (s.stage === 'Pressure tested') s.stage = 'QC passed';
   });
   return out;
 }

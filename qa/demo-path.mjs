@@ -62,13 +62,37 @@ export async function runDemo(browser, vp, theme, EXP, add) {
   let s = await shot(page, `${tag}-01-command`);
   await check('demo:/command', s);
   const stepRoutes = [];
+  let stepIdx = 0; // index of the current walkthrough step
+  const ensureGuide = async () => {
+    if (await page.locator('[data-testid=tour-pill]').isVisible().catch(() => false)) {
+      await page.click('[data-testid=tour-pill]');
+      await page.waitForTimeout(500);
+    }
+  };
+  const goStep = async (i) => {
+    await ensureGuide();
+    await page.locator(`[aria-label^="Go to step ${i + 1}:"], [aria-label="Go to step ${i + 1}"]`).first().click().catch(() => {});
+    stepIdx = i;
+    await page.waitForTimeout(1500);
+  };
+  // Press Next until the walkthrough lands on `expect` (the tour may have several steps per page).
   const next = async (expect, name) => {
-    await page.click('[data-testid=demo-next]');
-    await page.waitForTimeout(2200);
-    const h = (page.url().split('#')[1] ?? '').split('?')[0];
-    stepRoutes.push(h);
+    let h = '';
+    for (let k = 0; k < 6; k++) {
+      await ensureGuide();
+      await page.click('[data-testid=demo-next]');
+      stepIdx++;
+      await page.waitForTimeout(2200);
+      h = (page.url().split('#')[1] ?? '').split('?')[0];
+      stepRoutes.push(h);
+      if (h === expect) break;
+      const shx = await shot(page, `${tag}-${name}-pre${k}`);
+      await check(`demo:${h} (step ${stepIdx + 1})`, shx);
+    }
     const sh = await shot(page, `${tag}-${name}`);
-    if (h !== expect) fail(`demo step ${name}`, `Demo Next went to ${h}, expected ${expect}`, sh);
+    if (h !== expect) fail(`demo step ${name}`, `Demo Next never reached ${expect} (last ${h})`, sh);
+    const vis = await page.evaluate(() => +getComputedStyle(document.getElementById('main-scroll')?.firstElementChild ?? document.body).opacity);
+    if (vis < 0.99) add({ kind: 'empty-main', route: expect, vp: tag, detail: `Demo step landed on ${expect} but the page is invisible (opacity ${vis})`, shot: sh });
     await check(`demo:${expect}`, sh);
     return sh;
   };
@@ -117,8 +141,7 @@ export async function runDemo(browser, vp, theme, EXP, add) {
   if (/no crew booked tomorrow/i.test(clTxt) || /Tomorrow\nNo crew booked/i.test(clTxt)) rec('/projects/CE-2333', 'After IE Crew 8 was booked on Clonee Wed–Fri, the job page still says "no crew booked tomorrow"', s);
   const behind = [...clTxt.matchAll(/(\d+) (?:working )?days behind/g)].map((m) => m[1]);
   if (new Set(behind).size > 1) rec('/projects/CE-2333', `Clonee shows conflicting programme slippage on one screen: ${behind.map((b) => b + ' days behind').join(' vs ')}`, s);
-  await page.locator('[aria-label="Go to step 3"]').click().catch(() => {});
-  await page.waitForTimeout(1500);
+  await goStep(stepIdx);
 
   // ---- Step 4: Field
   s = await next('/field', '04-field');
@@ -162,8 +185,7 @@ export async function runDemo(browser, vp, theme, EXP, add) {
   if (wtd1 !== wtd0 + 48) rec('/command', `Metres this week ${wtd0} → ${wtd1} after field log, expected +48`, s);
   flushSink('/field actions', s, mark);
   // back into the demo at the field step
-  await page.locator('[aria-label="Go to step 4"]').click().catch(() => {});
-  await page.waitForTimeout(1500);
+  await goStep(stepIdx);
 
   // ---- Step 5: Finance
   s = await next('/finance', '05-finance');
@@ -221,8 +243,7 @@ export async function runDemo(browser, vp, theme, EXP, add) {
   await nav(page, '/home/aaron', 2000);
   const aaronTxt = await mainText(page);
   fs.writeFileSync(path.join('qa/out/text', `${tag}-aaron-after-takeoff.txt`), aaronTxt);
-  await page.locator('[aria-label="Go to step 6"]').click().catch(() => {});
-  await page.waitForTimeout(1500);
+  await goStep(stepIdx);
 
   // ---- Step 7: Assistant on Command
   s = await next('/command', '07-assistant');
@@ -274,8 +295,11 @@ export async function runDemo(browser, vp, theme, EXP, add) {
   await page.click('[data-testid=assist-close]').catch(() => {});
   await next('/integrations', '08-integrations');
   await next('/efficiency', '09-efficiency');
-  await page.click('[data-testid=demo-next]');
-  await page.waitForTimeout(1200);
+  for (let k = 0; k < 8 && (await page.locator('[data-testid=demo-guide], [data-testid=tour-pill]').first().isVisible().catch(() => false)); k++) {
+    await ensureGuide();
+    await page.click('[data-testid=demo-next]');
+    await page.waitForTimeout(1500);
+  }
   s = await shot(page, `${tag}-10-finished`);
   if (await page.locator('[data-testid=demo-guide]').isVisible().catch(() => false)) fail('demo', 'Demo guide still visible after Finish', s);
 
@@ -285,6 +309,7 @@ export async function runDemo(browser, vp, theme, EXP, add) {
   await check('/command (end of demo)', s);
   const cmdEnd = await mainText(page);
   fs.writeFileSync(path.join('qa/out/text', `${tag}-command-end.txt`), cmdEnd);
+  if (/Thurrock application not submitted/.test(cmdEnd)) rec('/command', 'Attention feed still says "Thurrock application not submitted … Needs Valerie’s approval" after Valerie approved and submitted it on /finance', s);
   if (/Clonee is 6 days behind with no crew booked tomorrow/.test(cmdEnd)) rec('/command', 'Attention feed still says Clonee has no crew booked tomorrow after IE Crew 8 was booked', s);
   flushSink('end of demo', s);
   await ctx.close();

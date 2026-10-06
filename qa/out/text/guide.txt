@@ -1,0 +1,255 @@
+PRESENTER
+Presenter guide
+
+Your run sheet for the call: 12 steps in 9 chapters, about 12 minutes. Notes for any page are one key away: press N.
+
+Open on second screen
+Reset demo
+Start walkthrough
+Run sheet
+
+Click a step to jump straight to it in the walkthrough
+
+1
+Every site on one screen
+/command
+The whole business, one screen
+“113 live jobs across Ireland, the UK and Asia. Health, crews, metres, valuations and tenders, without ringing round.”
+Do: Point along the KPI row: live sites, metres this week vs plan, crew utilisation, WIP, applications outstanding.
+40s
+by 0:40
+The map
+“Every live site, coloured by health. Amber is at risk, red is blocked. Overseas design work sits in the inset.”
+Do: Hover a couple of pins. Don’t click yet.
+30s
+by 1:10
+Needs your attention
+“Nobody typed this list. The agents read site updates, emails and programmes overnight and flagged what needs you today.”
+Do: Read the top item: Clonee is six days behind with no crew tomorrow.
+40s
+by 1:50
+2
+Where does this job truly stand?
+/projects/CE-2333
+Clonee: the truth, without a phone call
+“Last update came in by email from Kilcarra. The programme moved, the roof is available from Wednesday, and nobody is booked tomorrow.”
+Do: Point at the last update and its source, then “Tomorrow: none”.
+60s
+by 2:50
+3
+Cover the gap
+/crews
+Sites needing a crew
+“IE Crew 8 frees up after Tuesday. Put them on Clonee for Wednesday to Friday.”
+Do: Drag a crew onto Clonee, or click IE Crew 8’s Wednesday cell and pick Clonee, or approve the Scheduler Agent’s suggestion.
+55s
+by 3:45
+Tickets before they bite
+“Two of the Cork crew have IPAF expiring next week, on a pharma site that needs it for the permit. You know now, not at the gate.”
+Do: Scroll to Technicians & tickets. Point at the amber IPAF chips.
+30s
+by 4:15
+4
+The field app
+/field
+Barry logs 48 metres
+“This is Barry at Dexcom. He logs 48 m of siphonic pipe with a photo. No phone call, no spreadsheet.”
+Do: Sign RAMS → Log → 48 m siphonic → Snap photo → Submit → “View in Capcon OS”.
+75s
+by 5:30
+5
+Valuation Agent
+/finance
+October application, drafted
+“Thurrock’s cut-off is Thursday. The agent drafts the application from installed metres and agreed variations. Valerie approves.”
+Do: Draft application → let it run → read the lines → Approve.
+75s
+by 6:45
+6
+Takeoff Agent
+/tenders
+Measuring, done for Aaron
+“Aaron is one person and well over capacity. The agent reads the tender pack and drafts the BOQ, so he reviews instead of measures.”
+Do: Run Takeoff Agent → Use sample pack → watch → Send to Aaron for review.
+85s
+by 8:10
+7
+Ask Capcon
+/command
+Ask the business a question
+“Anyone can ask in plain English. Answers come from live data, with sources and links.”
+Do: Ask: “Where are we on Dexcom?”, “Whose IPAF expires this month?”, “What applications for payment are over 60 days?”
+75s
+by 9:25
+8
+Own software or AI on what you have?
+/integrations
+Both
+“Capcon OS is your own platform, connected into Outlook, SharePoint, Sage, Revit and the rest. Agents work on top, with your approval.”
+Do: Walk the diagram left to right, then ask: “Which of these do you use today?”
+65s
+by 10:30
+9
+What this gives back
+/efficiency
+Your numbers, not ours
+“Let’s put your numbers in. Sites, calls per site, hours per valuation.”
+Do: Ask Donnacha for each figure and move the sliders live. Finish on hours per week and FTE.
+90s
+by 12:00
+Before the call
+1
+Open the hosted URL in Chrome, full screen (F11 / Ctrl+Cmd+F), zoom 100%, light mode.
+2
+Keep dist-single/index.html on the desktop as an offline backup.
+3
+Click “Reset demo” on this page (or reload) so the story starts fresh: Clonee uncovered, Thurrock in draft.
+4
+Close other tabs and notifications. Share the browser window, not the whole screen.
+5
+Have Donnacha’s likely numbers ready for the efficiency sliders: live sites, calls per site, hours per valuation.
+Keyboard
+Next walkthrough step
+→ or Space
+Previous step
+←
+Minimise the walkthrough
+Esc
+Notes: how this page works
+N
+Ask Capcon
+Ctrl/Cmd + K
+Search
+Ctrl/Cmd + /
+Scripted questions for Ask Capcon
+
+These always work, and so do close variants
+
+Where are we on Dexcom?
+Which sites have nobody on them tomorrow?
+What applications for payment are over 60 days?
+Which tenders close this week and who's pricing them?
+Whose IPAF expires this month?
+How many metres did we install in the UK last week?
+What's our margin on pharma jobs this year?
+Which maintenance contracts renew in the next 90 days?
+What's blocking NLHPP?
+Draft an update email to John Paul Construction on Dexcom.
+HOW EACH PART WORKS
+Command Centre
+/command
+
+Donnacha’s home: every live site, crew, valuation and tender on one screen, with a feed of what needs him today.
+
+Hide
+
+Donnacha’s home: every live site, crew, valuation and tender on one screen, with a feed of what needs him today.
+
+HOW IT WORKS
+KPIs are calculated live from the same job, crew, valuation and tender records every other page uses, so numbers match everywhere.
+The map plots all 106 Ireland and UK sites by health; overseas design jobs (Changi T5, Singapore pharma, Nordic, Milan, Malaysia) sit in the inset.
+“Needs your attention” is written by the agents: Scheduler spots crew gaps, Valuation watches cut-offs, Compliance watches tickets, Inbox watches RFIs and verbal variations.
+Items clear themselves when the underlying problem is fixed (e.g. book a crew on Clonee and that item disappears).
+Charts: metres installed per week (12 weeks, IE vs UK), revenue vs cost (12 months), tender win rate by sector.
+CLICK THIS
+Hover a map pin for status, click it to open the job.
+Click any KPI to jump to the page behind it.
+Click an attention item to go straight to the fix.
+SAY THIS
+“This replaces ringing round on a Monday morning. 113 jobs, one screen.”
+“Nobody typed this feed. The agents read site updates, emails and the programme overnight and flagged what needs you.”
+IF THEY ASK
+“Where do these numbers come from?”
+In the real build: your foremen’s app, projects@ inbox, your accounts package and programmes. Here it’s realistic demo data that reconciles end to end.
+“Can I see just the UK?”
+Yes. Region filters on the map, and the € / £ toggle in the top bar converts everything to group euro.
+Open Command Centre →
+Role homes
+/home
+
+Each person lands on their own home with the numbers that matter to them: Eugene, Robert, Stephen, Aaron, Valerie, Julia.
+
+Show
+Projects & Sites
+/projects
+
+Every live job with stage, % complete, crew today, programme, valuation status and when it last reported in.
+
+Show
+Crews & Scheduling
+/crews
+
+Weekly crew board for Ireland and the UK, with drag-and-drop allocation, live ticket checks and gap spotting.
+
+Show
+Technician app
+/field
+
+What Barry sees on site: today’s job, tasks, log metres, snap a photo, flag an issue, RAMS sign-on, tickets wallet.
+
+Show
+Commercial & Finance
+/finance
+
+Valerie’s view: applications for payment, certification, cash, retentions, variations, margin and a 13-week cash forecast.
+
+Show
+Tenders & Estimating
+/tenders
+
+Tender pipeline from enquiry to won or lost, estimator workload, win rates and the Takeoff Agent.
+
+Show
+Design & BIM
+/design
+
+Design register per job: drawings and revisions, hydraulic calcs, sign-off, BIM status, clash trend, RFIs, hours vs budget.
+
+Show
+Prefabrication
+/prefab
+
+Maynooth workshop board: spools moving from cut to on site, with QR labels, stock and a dispatch calendar.
+
+Show
+Testing, Commissioning & Handover
+/handover
+
+Handover pack readiness per job: test certs, commissioning records, BCAR ancillary certificate, O&M manual, warranty.
+
+Show
+Maintenance & Service
+/maintenance
+
+Maintenance contracts, planned visits, callouts, building asset registers, inspections and the defect → quote → repair flow.
+
+Show
+HSQE & Sustainability
+/hsqe
+
+Julia’s view: ISO 45001 safety, ISO 9001 non-conformances, ISO 14001 / EcoVadis carbon, waste and rainwater harvesting, and an ESG export.
+
+Show
+Agents
+/agents
+
+The AI layer made visible: eight agents, each with one job, what it can touch, what it did today, and an approval queue.
+
+Show
+Integrations
+/integrations
+
+Answers “own software or AI on top of what we have?”: both. Your own platform, connected to your tools, with agents on top.
+
+Show
+What this gives back
+/efficiency
+
+Hours saved per week by department, from your own numbers. Every assumption and formula is on screen.
+
+Show
+Ask Capcon (assistant)
+
+Ask the business a question in plain English. Answers come from live data, with tables, charts, sources and links.
+
+Show

@@ -30,18 +30,16 @@ export function Shell({ children }: { children: ReactNode }) {
       <div className="flex min-w-0 flex-1 flex-col">
         <Topbar />
         <main className="scroll-thin relative flex-1 overflow-y-auto overflow-x-hidden" id="main-scroll">
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={loc.pathname}
-              initial={{ opacity: 0, y: 8 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -4 }}
-              transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
-              className="mx-auto w-full max-w-[1680px] px-6 pb-28 pt-2"
-            >
-              {children}
-            </motion.div>
-          </AnimatePresence>
+          {/* Enter-only transition: an exit phase can stall and leave the next page invisible. */}
+          <motion.div
+            key={loc.pathname}
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
+            className="mx-auto w-full max-w-[1680px] px-6 pb-28 pt-2"
+          >
+            {children}
+          </motion.div>
         </main>
       </div>
       <AssistantPanel />
@@ -63,13 +61,14 @@ function useAgentTicker() {
     const n = useStore.getState().clockMinutes;
     const agent = AGENTS[n % AGENTS.length];
     const tpl = agent.logTemplates[Math.floor(n / AGENTS.length) % agent.logTemplates.length];
-    const live = jobs.filter((j) => j.stage === 'Install');
+    // Only fictional jobs: agent lines can sound negative, and real companies never appear next to problems.
+    const live = jobs.filter((j) => j.stage === 'Install' && !j.showcase && !j.mainContractorPublic);
     const job = live[(n * 7) % live.length];
     const text = tpl
       .replace('{job}', job.shortName)
       .replace('{mc}', job.mainContractor === 'Undisclosed' ? 'the main contractor' : job.mainContractor)
       .replace('{m}', String(12 + ((n * 5) % 30)))
-      .replace('{tender}', 'Hyperscale data centre, Clonee Phase 3')
+      .replace('{tender}', 'Distribution centre, Harlow')
       .replace('{site}', 'Dublin Airport Logistics Park');
     pushLog({ agent: agent.id, text, jobId: tpl.includes('{job}') ? job.id : undefined });
   }, 9000);

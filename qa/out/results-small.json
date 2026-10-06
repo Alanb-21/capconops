@@ -1,0 +1,178 @@
+[
+ {
+  "kind": "empty-main",
+  "route": "/tenders",
+  "vp": "1280x720-light",
+  "detail": "Page content still invisible (route fade-in not finished) 8 s after navigation",
+  "shot": "qa/screenshots/1280x720-light-tenders.png",
+  "severity": "high"
+ },
+ {
+  "kind": "empty-main",
+  "route": "/design",
+  "vp": "1280x720-light",
+  "detail": "Page content still invisible (route fade-in not finished) 8 s after navigation",
+  "shot": "qa/screenshots/1280x720-light-design.png",
+  "severity": "high"
+ },
+ {
+  "kind": "empty-main",
+  "route": "/finance",
+  "vp": "1280x720-light",
+  "detail": "Page content still invisible (route fade-in not finished) 8 s after navigation",
+  "shot": "qa/screenshots/1280x720-light-finance.png",
+  "severity": "high"
+ },
+ {
+  "kind": "real-company-negative",
+  "detail": "[RDS + \"chasing\"] Compiled draft O&M for RDS Anglesea Stand, missing items listed for chasing",
+  "route": "/agents",
+  "vp": "1280x720-light",
+  "shot": "qa/screenshots/1280x720-light-agents.png",
+  "severity": "high"
+ },
+ {
+  "kind": "element-overflow",
+  "detail": "<span class=\"shrink-0 text-[11px] text-ink-3 tnum\"> \"08:24\" sticks out of <button class=\"min-w-0 rounded-2xl bg-sunk px-3 py-2.5 text-left transition hover:bg-brand-soft\"> \"Site Progress Agent 08:24 Read 2 photos from Barry McEvoy on Dexcom, d\" by 7px",
+  "route": "/command",
+  "vp": "1280x720-light",
+  "shot": "qa/screenshots/1280x720-light-command.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "element-overflow",
+  "detail": "<span class=\"shrink-0 text-[11px] text-ink-3 tnum\"> \"08:02\" sticks out of <div class=\"flex items-center justify-between gap-2\"> \"Compliance Agent 08:02\" by 12px",
+  "route": "/command",
+  "vp": "1280x720-light",
+  "shot": "qa/screenshots/1280x720-light-command.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "element-overflow",
+  "detail": "<span class=\"absolute -translate-x-1/2 whitespace-nowrap text-[10.5px] text-ink-3\"> \"Jan 27\" sticks out of <div class=\"\"> \"Mar Apr May Jun Jul Aug Sep Oct Nov Dec Jan 27 Main contractor 18 Feb \" by 10px",
+  "route": "/projects/CE-2291",
+  "vp": "1280x720-light",
+  "shot": "qa/screenshots/1280x720-light-projects_CE_2291.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "element-overflow",
+  "detail": "<button class=\"inline-flex select-none items-center justify-center gap-1.5 whitespace-nowrap ro\"> \"Reorder\" sticks out of <div class=\"scroll-thin -mx-1 overflow-x-auto px-1 !overflow-visible\"> \"MATERIAL Ø MM ON HAND VS REORDER LEVEL ON ORDER HDPE Geberit 110 70 / \" by 29px",
+  "route": "/prefab",
+  "vp": "1280x720-light",
+  "shot": "qa/screenshots/1280x720-light-prefab.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "element-overflow",
+  "detail": "<button class=\"inline-flex select-none items-center justify-center gap-1.5 whitespace-nowrap ro\"> \"Draft quote\" sticks out of <div class=\"glass-strong rounded-xl p-2.5\"> \"Siphonic outlet baffle damaged Low National Children’s Hospital, Dubli\" by 7px",
+  "route": "/maintenance",
+  "vp": "1280x720-light",
+  "shot": "qa/screenshots/1280x720-light-maintenance.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "element-overflow",
+  "detail": "<button class=\"inline-flex select-none items-center justify-center gap-1.5 whitespace-nowrap ro\"> \"Advance\" sticks out of <div class=\"mt-1.5 flex items-center justify-between gap-2\"> \"€1,000 Advance\" by 7px",
+  "route": "/maintenance",
+  "vp": "1280x720-light",
+  "shot": "qa/screenshots/1280x720-light-maintenance.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "element-overflow",
+  "detail": "<span class=\"shrink-0 text-[11px] text-ink-3 tnum\"> \"08:24\" sticks out of <button class=\"min-w-0 rounded-2xl bg-sunk px-3 py-2.5 text-left transition hover:bg-brand-soft\"> \"Site Progress Agent 08:24 Read 2 photos from Barry McEvoy on Dexcom, d\" by 7px",
+  "route": "/command",
+  "vp": "1280x720-dark",
+  "shot": "qa/screenshots/1280x720-dark-command.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "element-overflow",
+  "detail": "<span class=\"shrink-0 text-[11px] text-ink-3 tnum\"> \"08:02\" sticks out of <div class=\"flex items-center justify-between gap-2\"> \"Compliance Agent 08:02\" by 12px",
+  "route": "/command",
+  "vp": "1280x720-dark",
+  "shot": "qa/screenshots/1280x720-dark-command.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "element-overflow",
+  "detail": "<span class=\"absolute -translate-x-1/2 whitespace-nowrap text-[10.5px] text-ink-3\"> \"Jan 27\" sticks out of <div class=\"\"> \"Mar Apr May Jun Jul Aug Sep Oct Nov Dec Jan 27 Main contractor 18 Feb \" by 10px",
+  "route": "/projects/CE-2291",
+  "vp": "1280x720-dark",
+  "shot": "qa/screenshots/1280x720-dark-projects_CE_2291.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "text-clipped",
+  "detail": "<div class=\"line-clamp-2 text-[12.5px] font-medium leading-snug text-ink\"> \"Stand redevelopment, Sligo\" scrollWidth 93 > clientWidth 88",
+  "route": "/tenders",
+  "vp": "1280x720-light",
+  "shot": "qa/screenshots/1280x720-light-tenders.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "text-clipped",
+  "detail": "<div class=\"line-clamp-2 text-[12.5px] font-medium leading-snug text-ink\"> \"Stand redevelopment, Ringaskiddy\" scrollWidth 93 > clientWidth 88",
+  "route": "/tenders",
+  "vp": "1280x720-light",
+  "shot": "qa/screenshots/1280x720-light-tenders.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "text-clipped",
+  "detail": "<div class=\"line-clamp-2 text-[12.5px] font-medium leading-snug text-ink\"> \"Stand redevelopment, Wexford\" scrollWidth 93 > clientWidth 88",
+  "route": "/tenders",
+  "vp": "1280x720-light",
+  "shot": "qa/screenshots/1280x720-light-tenders.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "text-clipped",
+  "detail": "<div class=\"line-clamp-2 text-[12.5px] font-medium leading-snug text-ink\"> \"Stand redevelopment, Swords\" scrollWidth 93 > clientWidth 88",
+  "route": "/tenders",
+  "vp": "1280x720-light",
+  "shot": "qa/screenshots/1280x720-light-tenders.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "text-clipped",
+  "detail": "<div class=\"line-clamp-2 text-[12.5px] font-medium leading-snug text-ink\"> \"Stand redevelopment, Sligo\" scrollWidth 93 > clientWidth 88",
+  "route": "/tenders",
+  "vp": "1280x720-dark",
+  "shot": "qa/screenshots/1280x720-dark-tenders.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "text-clipped",
+  "detail": "<div class=\"line-clamp-2 text-[12.5px] font-medium leading-snug text-ink\"> \"Stand redevelopment, Ringaskiddy\" scrollWidth 93 > clientWidth 88",
+  "route": "/tenders",
+  "vp": "1280x720-dark",
+  "shot": "qa/screenshots/1280x720-dark-tenders.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "text-clipped",
+  "detail": "<div class=\"line-clamp-2 text-[12.5px] font-medium leading-snug text-ink\"> \"Stand redevelopment, Wexford\" scrollWidth 93 > clientWidth 88",
+  "route": "/tenders",
+  "vp": "1280x720-dark",
+  "shot": "qa/screenshots/1280x720-dark-tenders.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "text-clipped",
+  "detail": "<div class=\"line-clamp-2 text-[12.5px] font-medium leading-snug text-ink\"> \"Stand redevelopment, Swords\" scrollWidth 93 > clientWidth 88",
+  "route": "/tenders",
+  "vp": "1280x720-dark",
+  "shot": "qa/screenshots/1280x720-dark-tenders.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "text-overflow",
+  "detail": "<p class=\"mt-0.5 text-[12.5px] text-ink-3\"> \"2 open items\" scrollWidth 32 > clientWidth 15",
+  "route": "/hsqe",
+  "vp": "1280x720-light",
+  "shot": "qa/screenshots/1280x720-light-hsqe.png",
+  "severity": "medium"
+ }
+]

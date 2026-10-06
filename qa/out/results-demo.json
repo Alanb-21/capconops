@@ -1,27 +1,19 @@
 [
  {
-  "kind": "overlap",
-  "severity": "high",
-  "route": "/field",
+  "kind": "reconcile",
+  "route": "/projects/CE-2333",
   "vp": "1440x900-light-demo",
-  "detail": "Cannot click [data-testid=tab-log] as a user would: [data-testid=demo-guide] covers it",
-  "shot": "qa/screenshots/1440x900-light-demo-04-field.png"
+  "detail": "After IE Crew 8 was booked on Clonee Wed–Fri, the job page still says \"no crew booked tomorrow\"",
+  "shot": "qa/screenshots/1440x900-light-demo-03d-clonee-after-booking.png",
+  "severity": "high"
  },
  {
-  "kind": "overlap",
-  "severity": "high",
-  "route": "/finance",
+  "kind": "reconcile",
+  "route": "/projects/CE-2333",
   "vp": "1440x900-light-demo",
-  "detail": "Cannot click locator('button').filter({ hasText: 'Approve and submit' }) as a user would: [data-testid=demo-guide] covers it",
-  "shot": "qa/screenshots/1440x900-light-demo-05c-valuation-draft.png"
- },
- {
-  "kind": "overlap",
-  "severity": "high",
-  "route": "/finance",
-  "vp": "1920x1080-dark-demo",
-  "detail": "Cannot click locator('button').filter({ hasText: 'Approve and submit' }) as a user would: <p class=\"mt-1 text-[13px] text-ink-2\">From installed metres and agreed variations, the …</p> from <div id=\"root\">…</div> subtree covers it",
-  "shot": "qa/screenshots/1920x1080-dark-demo-05c-valuation-draft.png"
+  "detail": "Clonee shows conflicting programme slippage on one screen: 6 days behind vs 5 days behind vs 5 days behind",
+  "shot": "qa/screenshots/1440x900-light-demo-03d-clonee-after-booking.png",
+  "severity": "high"
  },
  {
   "kind": "reconcile",
@@ -33,10 +25,42 @@
  },
  {
   "kind": "reconcile",
+  "route": "/command",
+  "vp": "1440x900-light-demo",
+  "detail": "Attention feed still says \"Thurrock application not submitted … Needs Valerie’s approval\" after Valerie approved and submitted it on /finance",
+  "shot": "qa/screenshots/1440x900-light-demo-11-command-end.png",
+  "severity": "high"
+ },
+ {
+  "kind": "reconcile",
+  "route": "/projects/CE-2333",
+  "vp": "1920x1080-dark-demo",
+  "detail": "After IE Crew 8 was booked on Clonee Wed–Fri, the job page still says \"no crew booked tomorrow\"",
+  "shot": "qa/screenshots/1920x1080-dark-demo-03d-clonee-after-booking.png",
+  "severity": "high"
+ },
+ {
+  "kind": "reconcile",
+  "route": "/projects/CE-2333",
+  "vp": "1920x1080-dark-demo",
+  "detail": "Clonee shows conflicting programme slippage on one screen: 6 days behind vs 5 days behind vs 5 days behind",
+  "shot": "qa/screenshots/1920x1080-dark-demo-03d-clonee-after-booking.png",
+  "severity": "high"
+ },
+ {
+  "kind": "reconcile",
   "route": "assistant",
   "vp": "1920x1080-dark-demo",
   "detail": "Q9 \"What’s blocking NLHPP?\": expected 8 spools at re-test. Answer: North London Heat & Power Plant is at risk at 52% complete. What’s holding it: Status: Zone C spools held at re-test; 3 RFIs on outlet positions open with the design team Spools held: 10 spools (38.7 m) at pressure test in prefab, waiting on re-test before QC and dispatch SPOOL MATERIAL Ø LENGTH SIT",
   "shot": "qa/screenshots/1920x1080-dark-demo-07-q09.png",
+  "severity": "high"
+ },
+ {
+  "kind": "reconcile",
+  "route": "/command",
+  "vp": "1920x1080-dark-demo",
+  "detail": "Attention feed still says \"Thurrock application not submitted … Needs Valerie’s approval\" after Valerie approved and submitted it on /finance",
+  "shot": "qa/screenshots/1920x1080-dark-demo-11-command-end.png",
   "severity": "high"
  },
  {

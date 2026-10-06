@@ -34,7 +34,9 @@ function RoleHomeRoute() {
   const current = useStore((s) => s.role);
   useEffect(() => {
     if (role && role !== current && ['eugene', 'robert', 'stephen', 'aaron', 'valerie', 'julia'].includes(role)) setRole(role as RoleId);
-  }, [role, current, setRole]);
+    // Only when the URL changes: re-running on store changes would undo a role switch mid-navigation.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [role]);
   if (role === 'donnacha') return <Navigate to="/command" replace />;
   return <RoleHome />;
 }

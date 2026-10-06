@@ -35,7 +35,7 @@ export const AGENTS: AgentDef[] = [
     hoursSavedWeek: 9,
     logTemplates: [
       'Measured 14 roof areas on tender pack for {tender}',
-      'Drafted BOQ for {tender}: 46 line items, sent to Aaron for review',
+      'Measured outlets and gutters on {tender} drawings, draft BOQ started',
       'Flagged spec clash: gravity specified but roof area suits siphonic on {tender}',
     ],
   },

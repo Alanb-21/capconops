@@ -332,7 +332,7 @@ export const TOUR: TourStep[] = [
     route: '/command',
     title: 'Needs your attention',
     say: 'Nobody typed this list. The agents read site updates, emails and programmes overnight and flagged what needs you today.',
-    do: 'Read the top item: Clonee is six days behind with no crew tomorrow.',
+    do: 'Read the top item: Clonee is behind programme with no crew booked tomorrow.',
     how: 'Scheduler, Valuation, Compliance and Inbox agents each raise their own items. Items clear when the problem is fixed.',
     ask: { q: 'Can it get this wrong?', a: 'It only flags. You decide. And every flag links to the evidence.' },
     target: { text: 'Needs your attention' },

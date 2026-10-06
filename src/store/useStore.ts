@@ -47,7 +47,7 @@ function initialLog(): AgentLogEntry[] {
     ['maintenance', '07:31', 'Booked annual inspection at National Children’s Hospital Block C for Tue 13 Oct'],
     ['inbox', '07:15', 'Tender invitation from Halden Build filed to Tenders as new enquiry'],
     ['takeoff', '07:02', 'Measured 14 roof areas on tender pack for Biologics expansion, Leixlip'],
-    ['handover', '06:55', 'Compiled draft O&M for RDS Anglesea Stand, missing items listed for chasing', 'CE-2242'],
+    ['handover', '06:55', 'Compiled draft O&M for RDS Anglesea Stand, ready for review', 'CE-2242'],
     ['compliance', '06:40', 'Checked 60 technicians’ tickets: 6 expire in the next 30 days'],
     ['progress', '06:31', 'No update from Carrigtwohill since Friday, nudged foreman', 'CE-2326'],
     ['inbox', '06:12', 'Drawing issue received for NLHPP: 4 drawings at rev C3, register updated', 'CE-2304'],
@@ -147,7 +147,8 @@ export const useStore = create<AppState>((set, get) => ({
   setNotesOpen: (notesOpen) => set({ notesOpen }),
   theme: prefersDark ? 'dark' : 'light',
   currencyMode: 'local',
-  sidebarCollapsed: false,
+  // Smaller screens (e.g. 1280×720 projectors) get the slim sidebar so tables and KPI labels fit.
+  sidebarCollapsed: typeof window !== 'undefined' && window.innerWidth < 1400,
   assistantOpen: false,
   searchOpen: false,
   demo: { active: false, step: 0 },
@@ -219,15 +220,19 @@ export const useStore = create<AppState>((set, get) => ({
     get().pushLog({ agent: 'progress', text: `Issue flagged by ${author}: ${note}`, jobId });
   },
 
-  moveCrew: (crewId, day, jobId) =>
-    set((s) => ({ allocation: { ...s.allocation, [crewId]: { ...s.allocation[crewId], [day]: jobId } } })),
+  moveCrew: (crewId, day, jobId) => {
+    set((s) => ({ allocation: { ...s.allocation, [crewId]: { ...s.allocation[crewId], [day]: jobId } } }));
+    syncClonee();
+  },
 
-  assignCrewRange: (crewId, days, jobId) =>
+  assignCrewRange: (crewId, days, jobId) => {
     set((s) => {
       const row = { ...s.allocation[crewId] };
       for (const d of days) row[d] = jobId;
       return { allocation: { ...s.allocation, [crewId]: row } };
-    }),
+    });
+    syncClonee();
+  },
 
   decideApproval: (id, decision, edits) => {
     const a = get().approvals.find((x) => x.id === id);
@@ -279,6 +284,19 @@ export const useStore = create<AppState>((set, get) => ({
   setRamsSigned: (ramsSigned) => set({ ramsSigned }),
   tickClock: () => set((s) => ({ clockMinutes: s.clockMinutes + 1 })),
 }));
+
+/** Keep the Clonee storyline consistent with the crew board, however the gap gets covered. */
+function syncClonee() {
+  const st = useStore.getState();
+  const covered = Object.values(st.allocation).some((r) => r.Wed === 'CE-2333');
+  const reason = covered
+    ? 'Behind the main contractor programme after the rev F resequence; crew booked from Wednesday to recover'
+    : 'Behind the main contractor programme after the rev F resequence; no crew booked for Wednesday';
+  useStore.setState((s) => ({
+    jobs: s.jobs.map((j) => (j.id === 'CE-2333' && j.healthReason !== reason ? { ...j, healthReason: reason } : j)),
+    approvals: covered ? s.approvals.map((a) => (a.id === 'AP-2' && a.status === 'Pending' ? { ...a, status: 'Approved' as const, detail: a.detail + ' Covered on the crew board.' } : a)) : s.approvals,
+  }));
+}
 
 /** Demo clock: 08:30 on Tue 6 Oct 2026 plus elapsed minutes. */
 export function currentIso(clockMinutes: number): string {

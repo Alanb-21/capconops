@@ -239,14 +239,14 @@ export function attentionItems(jobs: Job[], alloc: Allocation): AttentionItem[] 
       id: 'att-clonee',
       severity: 'high',
       agent: 'scheduler',
-      title: `${clonee.name} is 6 days behind with no crew booked tomorrow`,
+      title: `${clonee.name} is behind programme with no crew booked tomorrow`,
       detail: 'Kilcarra issued programme rev F: data hall 3 roof available from Wednesday. Scheduler Agent suggests IE Crew 8.',
       route: '/projects/CE-2333',
       jobId: 'CE-2333',
       roles: ['donnacha', 'eugene', 'robert'],
     });
   }
-  items.push({
+  if (jobs.find((j) => j.id === 'CE-2309')?.valuationStatus === 'Draft') items.push({
     id: 'att-thurrock',
     severity: 'high',
     agent: 'valuation',

@@ -1,0 +1,238 @@
+[
+ {
+  "kind": "action",
+  "route": "role:Barry McEvoy",
+  "vp": "1440x900-light",
+  "detail": "Role switcher shows \"JC Julia Cavanaugh Sustainability\" after picking Barry McEvoy",
+  "shot": "qa/screenshots/1440x900-light-role-Barry_McEvoy.png",
+  "severity": "high"
+ },
+ {
+  "kind": "action",
+  "route": "role:Barry McEvoy",
+  "vp": "1440x900-dark",
+  "detail": "Role switcher shows \"JC Julia Cavanaugh Sustainability\" after picking Barry McEvoy",
+  "shot": "qa/screenshots/1440x900-dark-role-Barry_McEvoy.png",
+  "severity": "high"
+ },
+ {
+  "kind": "action",
+  "route": "role:Barry McEvoy",
+  "vp": "1920x1080-light",
+  "detail": "Role switcher shows \"JC Julia Cavanaugh Sustainability\" after picking Barry McEvoy",
+  "shot": "qa/screenshots/1920x1080-light-role-Barry_McEvoy.png",
+  "severity": "high"
+ },
+ {
+  "kind": "action",
+  "route": "role:Barry McEvoy",
+  "vp": "1920x1080-dark",
+  "detail": "Role switcher shows \"JC Julia Cavanaugh Sustainability\" after picking Barry McEvoy",
+  "shot": "qa/screenshots/1920x1080-dark-role-Barry_McEvoy.png",
+  "severity": "high"
+ },
+ {
+  "kind": "empty-main",
+  "route": "/tenders",
+  "vp": "1440x900-light",
+  "detail": "Page content still invisible (route fade-in not finished) 8 s after navigation",
+  "shot": "qa/screenshots/1440x900-light-tenders.png",
+  "severity": "high"
+ },
+ {
+  "kind": "empty-main",
+  "route": "/design",
+  "vp": "1440x900-light",
+  "detail": "Page content still invisible (route fade-in not finished) 8 s after navigation",
+  "shot": "qa/screenshots/1440x900-light-design.png",
+  "severity": "high"
+ },
+ {
+  "kind": "empty-main",
+  "route": "/finance",
+  "vp": "1440x900-light",
+  "detail": "Page content still invisible (route fade-in not finished) 8 s after navigation",
+  "shot": "qa/screenshots/1440x900-light-finance.png",
+  "severity": "high"
+ },
+ {
+  "kind": "empty-main",
+  "route": "/tenders",
+  "vp": "1440x900-dark",
+  "detail": "Page content still invisible (route fade-in not finished) 8 s after navigation",
+  "shot": "qa/screenshots/1440x900-dark-tenders.png",
+  "severity": "high"
+ },
+ {
+  "kind": "empty-main",
+  "route": "/design",
+  "vp": "1440x900-dark",
+  "detail": "Page content still invisible (route fade-in not finished) 8 s after navigation",
+  "shot": "qa/screenshots/1440x900-dark-design.png",
+  "severity": "high"
+ },
+ {
+  "kind": "empty-main",
+  "route": "/finance",
+  "vp": "1440x900-dark",
+  "detail": "Page content still invisible (route fade-in not finished) 8 s after navigation",
+  "shot": "qa/screenshots/1440x900-dark-finance.png",
+  "severity": "high"
+ },
+ {
+  "kind": "empty-main",
+  "route": "/tenders",
+  "vp": "1920x1080-light",
+  "detail": "Page content still invisible (route fade-in not finished) 8 s after navigation",
+  "shot": "qa/screenshots/1920x1080-light-tenders.png",
+  "severity": "high"
+ },
+ {
+  "kind": "empty-main",
+  "route": "/design",
+  "vp": "1920x1080-light",
+  "detail": "Page content still invisible (route fade-in not finished) 8 s after navigation",
+  "shot": "qa/screenshots/1920x1080-light-design.png",
+  "severity": "high"
+ },
+ {
+  "kind": "empty-main",
+  "route": "/finance",
+  "vp": "1920x1080-light",
+  "detail": "Page content still invisible (route fade-in not finished) 8 s after navigation",
+  "shot": "qa/screenshots/1920x1080-light-finance.png",
+  "severity": "high"
+ },
+ {
+  "kind": "empty-main",
+  "route": "/tenders",
+  "vp": "1920x1080-dark",
+  "detail": "Page content still invisible (route fade-in not finished) 8 s after navigation",
+  "shot": "qa/screenshots/1920x1080-dark-tenders.png",
+  "severity": "high"
+ },
+ {
+  "kind": "empty-main",
+  "route": "/design",
+  "vp": "1920x1080-dark",
+  "detail": "Page content still invisible (route fade-in not finished) 8 s after navigation",
+  "shot": "qa/screenshots/1920x1080-dark-design.png",
+  "severity": "high"
+ },
+ {
+  "kind": "empty-main",
+  "route": "/finance",
+  "vp": "1920x1080-dark",
+  "detail": "Page content still invisible (route fade-in not finished) 8 s after navigation",
+  "shot": "qa/screenshots/1920x1080-dark-finance.png",
+  "severity": "high"
+ },
+ {
+  "kind": "real-company-negative",
+  "detail": "[RDS + \"chasing\"] Compiled draft O&M for RDS Anglesea Stand, missing items listed for chasing",
+  "route": "/agents",
+  "vp": "1440x900-light",
+  "shot": "qa/screenshots/1440x900-light-agents.png",
+  "severity": "high"
+ },
+ {
+  "kind": "real-company-negative",
+  "detail": "[RDS + \"chasing\"] Compiled draft O&M for RDS Anglesea Stand, missing items listed for chasing",
+  "route": "/agents",
+  "vp": "1440x900-dark",
+  "shot": "qa/screenshots/1440x900-dark-agents.png",
+  "severity": "high"
+ },
+ {
+  "kind": "real-company-negative",
+  "detail": "[RDS + \"chasing\"] Compiled draft O&M for RDS Anglesea Stand, missing items listed for chasing",
+  "route": "/agents",
+  "vp": "1920x1080-light",
+  "shot": "qa/screenshots/1920x1080-light-agents.png",
+  "severity": "high"
+ },
+ {
+  "kind": "real-company-negative",
+  "detail": "[RDS + \"chasing\"] Compiled draft O&M for RDS Anglesea Stand, missing items listed for chasing",
+  "route": "/agents",
+  "vp": "1920x1080-dark",
+  "shot": "qa/screenshots/1920x1080-dark-agents.png",
+  "severity": "high"
+ },
+ {
+  "kind": "reconcile",
+  "route": "/command, /home/eugene, /home/valerie, /finance, /projects/CE-2291?tab=commercial, /projects/CE-2337?tab=commercial, /projects/CE-2304?tab=commercial, /projects/CE-2333?tab=commercial",
+  "vp": "1440x900-light",
+  "detail": "\"Work in progress\" shows different values on different pages: {\"€2.65m\":[\"/command\",\"/home/eugene\",\"/home/valerie\",\"/finance\"],\"€95,256\":[\"/projects/CE-2291?tab=commercial\"],\"€66,205\":[\"/projects/CE-2337?tab=commercial\"],\"£20,205\":[\"/projects/CE-2304?tab=commercial\"],\"€42,303\":[\"/projects/CE-2333?tab=commercial\"]}",
+  "severity": "high"
+ },
+ {
+  "kind": "reconcile",
+  "route": "/command, /home/eugene, /home/eugene",
+  "vp": "1440x900-light",
+  "detail": "\"Tender pipeline\" shows different values on different pages: {\"€22.0m\":[\"/command\",\"/home/eugene\"],\"What is coming next\":[\"/home/eugene\"]}",
+  "severity": "high"
+ },
+ {
+  "kind": "reconcile",
+  "route": "/finance, /home/valerie",
+  "vp": "1440x900-light",
+  "detail": "\"Over 60 days\" shows different values on different pages: {\"3\":[\"/finance\"],\"€26k\":[\"/home/valerie\"]}",
+  "severity": "high"
+ },
+ {
+  "kind": "reconcile",
+  "route": "/efficiency, /command",
+  "vp": "1440x900-light",
+  "detail": "\"Live sites\" shows different values on different pages: {\"10\":[\"/efficiency\"],\"113\":[\"/command\"]}",
+  "severity": "high"
+ },
+ {
+  "kind": "element-overflow",
+  "detail": "<span class=\"absolute -translate-x-1/2 whitespace-nowrap text-[10.5px] text-ink-3\"> \"Jan 27\" sticks out of <div class=\"\"> \"Mar Apr May Jun Jul Aug Sep Oct Nov Dec Jan 27 Main contractor 18 Feb \" by 9px",
+  "route": "/projects/CE-2291",
+  "vp": "1440x900-light",
+  "shot": "qa/screenshots/1440x900-light-projects_CE_2291.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "element-overflow",
+  "detail": "<span class=\"absolute -translate-x-1/2 whitespace-nowrap text-[10.5px] text-ink-3\"> \"Jan 27\" sticks out of <div class=\"\"> \"Mar Apr May Jun Jul Aug Sep Oct Nov Dec Jan 27 Main contractor 18 Feb \" by 9px",
+  "route": "/projects/CE-2291",
+  "vp": "1440x900-dark",
+  "shot": "qa/screenshots/1440x900-dark-projects_CE_2291.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "element-overflow",
+  "detail": "<span class=\"absolute -translate-x-1/2 whitespace-nowrap text-[10.5px] text-ink-3\"> \"Jan 27\" sticks out of <div class=\"\"> \"Mar Apr May Jun Jul Aug Sep Oct Nov Dec Jan 27 Main contractor 18 Feb \" by 4px",
+  "route": "/projects/CE-2291",
+  "vp": "1920x1080-light",
+  "shot": "qa/screenshots/1920x1080-light-projects_CE_2291.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "element-overflow",
+  "detail": "<span class=\"absolute -translate-x-1/2 whitespace-nowrap text-[10.5px] text-ink-3\"> \"Jan 27\" sticks out of <div class=\"\"> \"Mar Apr May Jun Jul Aug Sep Oct Nov Dec Jan 27 Main contractor 18 Feb \" by 4px",
+  "route": "/projects/CE-2291",
+  "vp": "1920x1080-dark",
+  "shot": "qa/screenshots/1920x1080-dark-projects_CE_2291.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "text-overflow",
+  "detail": "<th class=\"sticky top-0 z-[2] whitespace-nowrap border-b hairline bg-[var(--c-surface-stron\"> \"SECTOR · CONTRACTOR\" scrollWidth 153 > clientWidth 140",
+  "route": "/projects",
+  "vp": "1920x1080-light",
+  "shot": "qa/screenshots/1920x1080-light-projects.png",
+  "severity": "medium"
+ },
+ {
+  "kind": "text-overflow",
+  "detail": "<th class=\"sticky top-0 z-[2] whitespace-nowrap border-b hairline bg-[var(--c-surface-stron\"> \"SECTOR · CONTRACTOR\" scrollWidth 153 > clientWidth 140",
+  "route": "/projects",
+  "vp": "1920x1080-dark",
+  "shot": "qa/screenshots/1920x1080-dark-projects.png",
+  "severity": "medium"
+ }
+]

@@ -25,7 +25,7 @@ const BASE_ROUTES = [
   '/command', '/home/eugene', '/home/robert', '/home/stephen', '/home/aaron', '/home/valerie', '/home/julia',
   '/projects', '/projects?view=stand',
   '/projects/CE-2291', '/projects/CE-2337', '/projects/CE-2304', '/projects/CE-2333',
-  '/crews', '/prefab', '/handover', '/tenders', '/design', '/finance', '/maintenance', '/hsqe', '/agents', '/integrations', '/efficiency', '/field',
+  '/crews', '/prefab', '/handover', '/tenders', '/design', '/finance', '/maintenance', '/hsqe', '/agents', '/integrations', '/efficiency', '/field', '/guide',
 ];
 const JOB_TABS = ['diary', 'programme', 'commercial', 'docs', 'hs'];
 const TAB_ROUTES = ['CE-2291', 'CE-2337', 'CE-2304', 'CE-2333'].flatMap((id) => JOB_TABS.map((t) => `/projects/${id}?tab=${t}`));
@@ -54,6 +54,7 @@ async function sweep(browser, vp, theme, { full = false, routes = ROUTES, roles 
     const before = sink.length;
     await nav(page, r, 2200);
     const s = await shot(page, `${tag}-${slug(r)}`, { full });
+    if (page._qaInvisible === r) add({ kind: 'empty-main', route: r, vp: tag, detail: 'Page content still invisible (route fade-in not finished) 8 s after navigation', shot: s });
     const hash = page.url().split('#')[1] ?? '';
     if (hash.split('?')[0] !== r.split('?')[0]) add({ kind: 'not-found', route: r, vp: tag, detail: `Route redirected to ${hash}`, shot: s });
     for (const f of await domChecks(page)) add({ ...f, route: r, vp: tag, shot: s });
