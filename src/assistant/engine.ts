@@ -458,9 +458,9 @@ function noCrew(day: DayKey): Answer {
     },
     {
       kind: 'table',
-      columns: [{ label: 'Site' }, { label: 'Contractor', wrap: true }, { label: 'Done', align: 'right' }, { label: 'Next milestone', wrap: true }],
+      columns: [{ label: 'Site' }, { label: 'Contractor' }, { label: 'Next milestone', wrap: true }],
       rows: list.map((j) => ({
-        cells: [jobShort(j), contractorLabel(j).split(' ')[0], pct(jobPct(j)), `${j.nextMilestone.name}, ${fmtDate(j.nextMilestone.date)}`],
+        cells: [jobShort(j), contractorLabel(j).split(' ')[0], `${j.nextMilestone.name}, ${fmtDate(j.nextMilestone.date)}`],
         to: `/projects/${j.id}`,
         tone: j.health === 'at-risk' ? 'warn' : j.health === 'blocked' ? 'bad' : undefined,
       })),
@@ -470,7 +470,9 @@ function noCrew(day: DayKey): Answer {
   const used = new Set<string>();
   const sugg: string[] = [];
   const ordered = [...list].sort((a, b) => (a.health === 'at-risk' ? -1 : 0) - (b.health === 'at-risk' ? -1 : 0));
+  const coveredLater = (j: Job) => DAYS_AFTER(day).some((d) => crewsOn(s.allocation, j.id, d).length > 0);
   for (const j of ordered) {
+    if (coveredLater(j)) continue;
     const pref = j.id === 'CE-2333' && free.includes('IE-08') && !used.has('IE-08') ? 'IE-08' : free.find((c) => c.startsWith(j.region) && !used.has(c));
     if (!pref) continue;
     used.add(pref);

@@ -74,7 +74,7 @@ function Toasts() {
   const toasts = useStore((s) => s.toasts);
   const dismiss = useStore((s) => s.dismissToast);
   return (
-    <div className="pointer-events-none fixed right-5 top-20 z-[80] flex w-[340px] flex-col gap-2">
+    <div className="pointer-events-none fixed left-1/2 top-20 z-[80] flex w-[360px] -translate-x-1/2 flex-col gap-2">
       <AnimatePresence>
         {toasts.map((t) => (
           <motion.div

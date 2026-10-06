@@ -80,15 +80,12 @@ export default async function handler(req: Req, res: Res) {
           'content-type': 'application/json',
           'x-api-key': key,
           'anthropic-version': '2023-06-01',
-          'anthropic-beta': 'server-side-fallback-2026-07-01',
         },
         body: JSON.stringify({
           model: MODEL,
           max_tokens: 600,
           system: SYSTEM,
           messages,
-          output_config: { effort: 'low' },
-          fallbacks: 'default',
         }),
         signal: ctrl.signal,
       });
