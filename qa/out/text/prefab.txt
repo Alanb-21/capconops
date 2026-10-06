@@ -159,7 +159,7 @@ HDPE · Ø40 · 2.9 m
 Due 8 Oct
 +45 more
 Pressure tested
-44
+42
 SP-4015
 Re-test
 NLHPP
@@ -190,9 +190,9 @@ Re-test
 NLHPP
 HDPE · Ø200 · 4.6 m
 Due 12 Oct
-+38 more
++36 more
 QC passed
-47
+49
 SP-4010
 Dexcom
 HDPE · Ø200 · 2.5 m
@@ -213,11 +213,11 @@ SP-4072
 Swords
 HDPE · Ø160 · 2.3 m
 Due 9 Oct
-SP-4029
-Laya Arena
-HDPE · Ø56 · 5.1 m
+SP-4026
+NLHPP
+HDPE · Ø90 · 1.5 m
 Due 11 Oct
-+41 more
++43 more
 Packed
 42
 SP-4059

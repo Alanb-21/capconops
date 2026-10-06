@@ -1,0 +1,8 @@
+ presenter 1440-light done (12 steps)
+ presenter 1440-dark done (12 steps)
+ presenter 1920-light done (12 steps)
+ presenter 1920-dark done (12 steps)
+ presenter 1280-light done (12 steps)
+
+29 findings in 317s against http://localhost:4173/ { 'medium:overlap': 4, 'medium:ux': 25 }
+QA: FAIL

@@ -288,13 +288,15 @@ export const useStore = create<AppState>((set, get) => ({
 /** Keep the Clonee storyline consistent with the crew board, however the gap gets covered. */
 function syncClonee() {
   const st = useStore.getState();
-  const covered = Object.values(st.allocation).some((r) => r.Wed === 'CE-2333');
+  const on = (d: 'Wed' | 'Thu' | 'Fri') => Object.values(st.allocation).some((r) => r[d] === 'CE-2333');
+  const covered = on('Wed');
+  const fullyCovered = on('Wed') && on('Thu') && on('Fri');
   const reason = covered
     ? 'Behind the main contractor programme after the rev F resequence; crew booked from Wednesday to recover'
     : 'Behind the main contractor programme after the rev F resequence; no crew booked for Wednesday';
   useStore.setState((s) => ({
     jobs: s.jobs.map((j) => (j.id === 'CE-2333' && j.healthReason !== reason ? { ...j, healthReason: reason } : j)),
-    approvals: covered ? s.approvals.map((a) => (a.id === 'AP-2' && a.status === 'Pending' ? { ...a, status: 'Approved' as const, detail: a.detail + ' Covered on the crew board.' } : a)) : s.approvals,
+    approvals: fullyCovered ? s.approvals.map((a) => (a.id === 'AP-2' && a.status === 'Pending' ? { ...a, status: 'Approved' as const, detail: a.detail + ' Covered on the crew board.' } : a)) : s.approvals,
   }));
 }
 

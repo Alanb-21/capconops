@@ -9,7 +9,7 @@ Agents running
 8
 One job each
 Actions today
-169
+167
 Reading, filing, drafting
 Waiting for you
 5
@@ -109,34 +109,22 @@ Compliance
 Scheduler
 Maintenance
 Handover Pack
-08:41
-Valuation Agent
-
-Cut-off for Cold store is in 2 days, application not yet submitted
-
-CE-2113 · Cold store
-08:40
-Site Progress Agent
-
-Updated Data centre campus Phase 2 installed metres from foreman message (+32 m)
-
-CE-2315 · Data centre campus Phase 2
 08:39
 Takeoff Agent
 
-Drafted BOQ for Hyperscale data centre, Clonee Phase 3: 46 line items, sent to Aaron for review
+Measured outlets and gutters on Distribution centre, Harlow drawings, draft BOQ started
 
 08:38
 Inbox Agent
 
-Tender invitation from Ashcombe Projects filed to Tenders as new enquiry
+Tender invitation from Northwold Construction filed to Tenders as new enquiry
 
 08:37
 Handover Pack Agent
 
-Compiled draft O&M for Data centre campus Phase 2: 2 items missing
+Compiled draft O&M for Food processing plant: 2 items missing
 
-CE-2179 · Data centre campus Phase 2
+CE-2185 · Food processing plant
 08:36
 Maintenance Agent
 
@@ -145,31 +133,31 @@ Inspection report drafted for Dublin Airport Logistics Park, 2 defects found
 08:35
 Scheduler Agent
 
-University science building has work ready Wednesday and no crew booked
+Build-to-rent block has work ready Wednesday and no crew booked
 
-CE-2149 · University science building
+CE-2164 · Build-to-rent block
 08:34
 Compliance Agent
 
-IPAF for 2 technicians on Hospital extension expires next week, flagged
+IPAF for 2 technicians on Hyperscale data centre expires next week, flagged
 
-CE-2136 · Hospital extension
+CE-2148 · Hyperscale data centre
 08:33
 Valuation Agent
 
-Drafted application for payment on Food processing plant, ready for Valerie
+Drafted application for payment on Cold store, ready for Valerie
 
-CE-2121 · Food processing plant
+CE-2135 · Cold store
 08:32
 Site Progress Agent
 
-Read 3 photos from foreman on Water treatment works, diary entry written
+Read 3 photos from foreman on Last-mile depot, diary entry written
 
-CE-2109 · Water treatment works
+CE-2120 · Last-mile depot
 08:31
 Takeoff Agent
 
-Measured 14 roof areas on tender pack for Hyperscale data centre, Clonee Phase 3
+Measured 14 roof areas on tender pack for Distribution centre, Harlow
 
 08:24
 Site Progress Agent
@@ -231,7 +219,7 @@ Measured 14 roof areas on tender pack for Biologics expansion, Leixlip
 06:55
 Handover Pack Agent
 
-Compiled draft O&M for RDS Anglesea Stand, missing items listed for chasing
+Compiled draft O&M for RDS Anglesea Stand, ready for review
 
 CE-2242 · Anglesea Stand
 06:40
@@ -285,7 +273,7 @@ Running
 Reads foremen’s photo updates and messages, updates % complete and writes the site diary so nobody has to ring round for status.
 
 Today
-43
+42
 Hours saved / wk
 14
 CAN TOUCH
@@ -299,7 +287,7 @@ Running
 Drafts each month’s application for payment from installed metres and agreed variations, checks it against the main contractor’s cut-off date.
 
 Today
-9
+8
 Hours saved / wk
 8
 CAN TOUCH

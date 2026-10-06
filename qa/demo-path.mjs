@@ -120,6 +120,20 @@ export async function runDemo(browser, vp, theme, EXP, add) {
       await userClick(page, ap, (d) => add({ kind: 'overlap', severity: 'high', route: (page.url().split('#')[1] ?? ''), vp: tag, detail: d, shot: s }));
       await page.waitForTimeout(900);
       s = await shot(page, `${tag}-03c-crews-approved-after-pick`);
+    } else {
+      // suggestion was auto-resolved by the Wed booking: it must not claim Wed–Fri is covered while Thu/Fri are empty
+      const thu = (await page.textContent('[data-testid=cell-IE-08-Thu]').catch(() => '')) ?? '';
+      const card = (await mainText(page)).match(/SCHEDULER AGENT SUGGESTS[\s\S]{0,400}/i)?.[0] ?? '';
+      if (!/Clonee/.test(thu) && /Approved/.test(card) && /Wed to Fri|Wed–Fri/.test(card))
+        add({ kind: 'reconcile', severity: 'medium', route: '/crews', vp: tag, detail: 'Booking IE Crew 8 on Clonee for Wednesday only marks the Scheduler suggestion "Approved … Wed to Fri, covered on the crew board" and removes it from the approval queue, while Thu/Fri are still Unassigned and Clonee is still listed under "Sites needing a crew".', shot: s });
+      // finish the booking by hand for Thu and Fri
+      for (const d of ['Thu', 'Fri']) {
+        await userClick(page, `[data-testid=cell-IE-08-${d}]`, () => {});
+        await page.waitForSelector('[data-testid=site-picker]', { timeout: 5000 }).catch(() => {});
+        await userClick(page, '[data-testid=pick-CE-2333]', () => {});
+        await page.waitForTimeout(800);
+      }
+      s = await shot(page, `${tag}-03c-crews-picked-wed-fri`);
     }
   } else {
     await userClick(page, page.locator('button', { hasText: 'Approve move' }), (d) => add({ kind: 'overlap', severity: 'high', route: (page.url().split('#')[1] ?? ''), vp: tag, detail: d, shot: s }));

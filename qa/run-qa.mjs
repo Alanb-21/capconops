@@ -1,11 +1,12 @@
 // Capcon OS QA sweep. Needs the preview server on :4173 (npm run build && npm run preview).
-// Usage: node qa/run-qa.mjs [all|sweep|small|demo]   (default all)
+// Usage: node qa/run-qa.mjs [all|sweep|small|presenter|demo]   (default all)
 // Writes screenshots to qa/screenshots/, page text to qa/out/text/, results to qa/out/results.json.
 import fs from 'node:fs';
 import path from 'node:path';
 import { execSync } from 'node:child_process';
 import { launch, newPage, nav, shot, slug, domChecks, mainText, BASE } from './lib.mjs';
 import { runDemo } from './demo-path.mjs';
+import { runPresenter } from './presenter.mjs';
 
 const MODE = process.argv[2] ?? 'all';
 const OUT = path.resolve('qa/out');
@@ -141,7 +142,15 @@ function reconcile(texts, tag) {
       const re = new RegExp(`(?:^|\\n)${L.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\n([^\\n]+)`, 'g');
       for (const m of t.matchAll(re)) (vals[m[1].trim()] ??= []).push(r);
     }
-    if (Object.keys(vals).length > 1) R('reconcile', Object.values(vals).flat().join(', '), `"${L}" shows different values on different pages: ${JSON.stringify(vals)}`);
+    // Compare like with like: skip per-job tabs (job-level figures), the /efficiency sliders and non-numeric text,
+    // and only flag when two pages show different values of the same kind (money vs count).
+    for (const v of Object.keys(vals)) {
+      vals[v] = vals[v].filter((r) => !r.includes('?tab=') && r !== '/efficiency');
+      if (!vals[v].length || !/\d/.test(v)) delete vals[v];
+    }
+    const kinds = {};
+    for (const v of Object.keys(vals)) (kinds[/[€£]/.test(v) ? 'money' : 'count'] ??= []).push(v);
+    if (Object.values(kinds).some((k) => k.length > 1)) R('reconcile', Object.values(vals).flat().join(', '), `"${L}" shows different values on different pages: ${JSON.stringify(vals)}`);
   }
   fs.writeFileSync(path.join(OUT, 'kpi-values.json'), JSON.stringify(EXP, null, 1));
 }
@@ -159,6 +168,13 @@ try {
   if (MODE === 'all' || MODE === 'small') {
     await sweep(browser, { width: 1280, height: 720 }, 'light', { routes: BASE_ROUTES, roles: false });
     await sweep(browser, { width: 1280, height: 720 }, 'dark', { routes: ['/command', '/crews', '/finance', '/tenders', '/projects/CE-2291'], roles: false });
+  }
+  if (MODE === 'all' || MODE === 'presenter') {
+    for (const [vp, th] of [[{ width: 1440, height: 900 }, 'light'], [{ width: 1440, height: 900 }, 'dark'], [{ width: 1920, height: 1080 }, 'light'], [{ width: 1920, height: 1080 }, 'dark'], [{ width: 1280, height: 720 }, 'light']]) {
+      const st = await runPresenter(browser, vp, th, add);
+      fs.writeFileSync(path.join(OUT, `walkthrough-${vp.width}-${th}.json`), JSON.stringify(st, null, 1));
+      console.log(` presenter ${vp.width}-${th} done (${st.length} steps)`);
+    }
   }
   if (MODE === 'all' || MODE === 'demo') {
     await runDemo(browser, { width: 1440, height: 900 }, 'light', EXP, add);

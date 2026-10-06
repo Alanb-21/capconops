@@ -1,74 +1,10 @@
 [
  {
   "kind": "reconcile",
-  "route": "/projects/CE-2333",
-  "vp": "1440x900-light-demo",
-  "detail": "After IE Crew 8 was booked on Clonee Wed–Fri, the job page still says \"no crew booked tomorrow\"",
-  "shot": "qa/screenshots/1440x900-light-demo-03d-clonee-after-booking.png",
-  "severity": "high"
- },
- {
-  "kind": "reconcile",
-  "route": "/projects/CE-2333",
-  "vp": "1440x900-light-demo",
-  "detail": "Clonee shows conflicting programme slippage on one screen: 6 days behind vs 5 days behind vs 5 days behind",
-  "shot": "qa/screenshots/1440x900-light-demo-03d-clonee-after-booking.png",
-  "severity": "high"
- },
- {
-  "kind": "reconcile",
-  "route": "assistant",
-  "vp": "1440x900-light-demo",
-  "detail": "Q9 \"What’s blocking NLHPP?\": expected 8 spools at re-test. Answer: North London Heat & Power Plant is at risk at 52% complete. What’s holding it: Status: Zone C spools held at re-test; 3 RFIs on outlet positions open with the design team Spools held: 10 spools (38.7 m) at pressure test in prefab, waiting on re-test before QC and dispatch SPOOL MATERIAL Ø LENGTH SIT",
-  "shot": "qa/screenshots/1440x900-light-demo-07-q09.png",
-  "severity": "high"
- },
- {
-  "kind": "reconcile",
-  "route": "/command",
-  "vp": "1440x900-light-demo",
-  "detail": "Attention feed still says \"Thurrock application not submitted … Needs Valerie’s approval\" after Valerie approved and submitted it on /finance",
-  "shot": "qa/screenshots/1440x900-light-demo-11-command-end.png",
-  "severity": "high"
- },
- {
-  "kind": "reconcile",
-  "route": "/projects/CE-2333",
-  "vp": "1920x1080-dark-demo",
-  "detail": "After IE Crew 8 was booked on Clonee Wed–Fri, the job page still says \"no crew booked tomorrow\"",
-  "shot": "qa/screenshots/1920x1080-dark-demo-03d-clonee-after-booking.png",
-  "severity": "high"
- },
- {
-  "kind": "reconcile",
-  "route": "/projects/CE-2333",
-  "vp": "1920x1080-dark-demo",
-  "detail": "Clonee shows conflicting programme slippage on one screen: 6 days behind vs 5 days behind vs 5 days behind",
-  "shot": "qa/screenshots/1920x1080-dark-demo-03d-clonee-after-booking.png",
-  "severity": "high"
- },
- {
-  "kind": "reconcile",
-  "route": "assistant",
-  "vp": "1920x1080-dark-demo",
-  "detail": "Q9 \"What’s blocking NLHPP?\": expected 8 spools at re-test. Answer: North London Heat & Power Plant is at risk at 52% complete. What’s holding it: Status: Zone C spools held at re-test; 3 RFIs on outlet positions open with the design team Spools held: 10 spools (38.7 m) at pressure test in prefab, waiting on re-test before QC and dispatch SPOOL MATERIAL Ø LENGTH SIT",
-  "shot": "qa/screenshots/1920x1080-dark-demo-07-q09.png",
-  "severity": "high"
- },
- {
-  "kind": "reconcile",
-  "route": "/command",
-  "vp": "1920x1080-dark-demo",
-  "detail": "Attention feed still says \"Thurrock application not submitted … Needs Valerie’s approval\" after Valerie approved and submitted it on /finance",
-  "shot": "qa/screenshots/1920x1080-dark-demo-11-command-end.png",
-  "severity": "high"
- },
- {
-  "kind": "ux",
-  "severity": "low",
+  "severity": "medium",
   "route": "/crews",
   "vp": "1440x900-light-demo",
-  "detail": "After manually booking IE Crew 8 on Clonee Wed, the Scheduler Agent card still offers \"Approve move\" for the same booking (stale suggestion).",
+  "detail": "Booking IE Crew 8 on Clonee for Wednesday only marks the Scheduler suggestion \"Approved … Wed to Fri, covered on the crew board\" and removes it from the approval queue, while Thu/Fri are still Unassigned and Clonee is still listed under \"Sites needing a crew\".",
   "shot": "qa/screenshots/1440x900-light-demo-03b-crews-picked.png"
  }
 ]

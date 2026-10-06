@@ -11,7 +11,7 @@ Live drawings
 711
 75 out for comment
 Open RFIs
-69
+68
 Raised by Capcon, awaiting answer
 Design hours used
 82%
@@ -693,7 +693,7 @@ CE-2101 · Prefabrication
 
 Dexcom campus, Athenry
 CE-2291 · Install
-	Design team (Stansted)	Approved	Client approved	LOD 350	1	
+	Design team (Stansted)	Approved	Client approved	LOD 350	0	
 220 / 262 h
 
 

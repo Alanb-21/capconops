@@ -51,7 +51,6 @@ Sep
 Oct
 Nov
 Dec
-Jan 27
 Main contractor
 18 Feb → 26 Dec 2026
 Our forecast
@@ -122,11 +121,10 @@ This wk
 100
 RFIs
 
-1 open
+0 open
 
 RFI	SUBJECT	RAISED	STATUS
-RFI-0380	Insulation spec for collector pipes over plant room	27 Sep	
-Open 9d
+RFI-0380	Insulation spec for collector pipes over plant room	27 Sep	Answered 29 Sep
 RFI-0381	Stack termination at ground: drainage connection by others?	16 Sep	Answered 20 Sep
 RFI-0382	Outlet setting-out vs revised roof falls	12 Sep	Answered 13 Sep
 RFI-0383	Overflow provision to parapet north elevation	10 Sep	Answered 14 Sep

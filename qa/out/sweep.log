@@ -3,12 +3,5 @@
 ..............................................rrrrrrrr 1920x1080-light done
 ..............................................rrrrrrrr 1920x1080-dark done
 
-30 findings in 758s against http://localhost:4173/ {
-  'high:action': 4,
-  'high:empty-main': 12,
-  'high:real-company-negative': 4,
-  'high:reconcile': 4,
-  'medium:element-overflow': 4,
-  'medium:text-overflow': 2
-}
+4 findings in 669s against http://localhost:4173/ { 'high:reconcile': 4 }
 QA: FAIL

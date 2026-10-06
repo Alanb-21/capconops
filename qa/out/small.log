@@ -1,11 +1,5 @@
 .......................... 1280x720-light done
 ..... 1280x720-dark done
 
-22 findings in 108s against http://localhost:4173/ {
-  'high:empty-main': 3,
-  'high:real-company-negative': 1,
-  'medium:element-overflow': 9,
-  'medium:text-clipped': 8,
-  'medium:text-overflow': 1
-}
-QA: FAIL
+0 findings in 84s against http://localhost:4173/ {}
+QA: PASS

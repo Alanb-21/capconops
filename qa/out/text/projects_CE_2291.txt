@@ -61,7 +61,7 @@ Programme
 Valuation
 Submitted
 Open RFIs · VOs
-1 RFI · 2 VOs
+0 RFIs · 2 VOs
 Programme
 
 Our forecast against the main contractor programme
@@ -77,7 +77,6 @@ Sep
 Oct
 Nov
 Dec
-Jan 27
 Main contractor
 18 Feb → 26 Dec 2026
 Our forecast

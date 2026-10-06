@@ -118,9 +118,9 @@ RFIs
 3 open
 
 RFI	SUBJECT	RAISED	STATUS
-RFI-0387	Clash with sprinkler main at grid C7	15 Sep	
+RFI-0387	Confirm outlet positions at gutter G4 (Zone C)	15 Sep	
 Open 21d
-RFI-0388	Confirm design storm return period (1 in 100 or 1 in 500)	10 Aug	
+RFI-0388	Outlet setting-out at parapet, north elevation	10 Aug	
 Open 57d
-RFI-0386	Insulation spec for collector pipes over plant room	9 Aug	
+RFI-0386	Outlet positions Zone C vs revised plant layout	9 Aug	
 Open 58d

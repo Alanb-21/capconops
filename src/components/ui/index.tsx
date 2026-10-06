@@ -413,15 +413,32 @@ export function Tr({ children, onClick, className, highlight }: { children: Reac
 }
 
 // ---------------------------------------------------------------- Drawer / Modal
+function useEscape(open: boolean, onClose: () => void) {
+  const cb = useRef(onClose);
+  cb.current = onClose;
+  useEffect(() => {
+    if (!open) return;
+    const k = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        e.stopImmediatePropagation();
+        cb.current();
+      }
+    };
+    window.addEventListener('keydown', k, true);
+    return () => window.removeEventListener('keydown', k, true);
+  }, [open]);
+}
+
 export function Drawer({ open, onClose, title, subtitle, children, width = 520 }: { open: boolean; onClose: () => void; title: ReactNode; subtitle?: ReactNode; children: ReactNode; width?: number }) {
+  useEscape(open, onClose);
   // Portal to <body>: backdrop-filter on glass ancestors would otherwise trap position:fixed.
   return createPortal(
     <AnimatePresence>
       {open && (
         <>
-          <motion.div className="fixed inset-0 z-40 bg-black/20 backdrop-blur-[2px]" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={onClose} />
+          <motion.div className="fixed inset-0 z-[72] bg-black/20 backdrop-blur-[2px]" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={onClose} />
           <motion.aside
-            className="glass-strong fixed right-3 top-3 bottom-3 z-50 flex flex-col overflow-hidden rounded-[24px]"
+            className="glass-strong fixed right-3 top-3 bottom-3 z-[73] flex flex-col overflow-hidden rounded-[24px]"
             style={{ width: `min(${width}px, calc(100vw - 24px))` }}
             initial={{ x: width + 40, opacity: 0.6 }}
             animate={{ x: 0, opacity: 1 }}
@@ -446,10 +463,11 @@ export function Drawer({ open, onClose, title, subtitle, children, width = 520 }
 }
 
 export function Modal({ open, onClose, title, subtitle, children, width = 640 }: { open: boolean; onClose: () => void; title: ReactNode; subtitle?: ReactNode; children: ReactNode; width?: number }) {
+  useEscape(open, onClose);
   return createPortal(
     <AnimatePresence>
       {open && (
-        <motion.div className="fixed inset-0 z-50 grid place-items-center bg-black/25 p-4 backdrop-blur-[3px]" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={onClose}>
+        <motion.div className="fixed inset-0 z-[73] grid place-items-center bg-black/25 p-4 backdrop-blur-[3px]" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={onClose}>
           <motion.div
             onClick={(e) => e.stopPropagation()}
             className="glass-strong flex max-h-[88vh] w-full flex-col overflow-hidden rounded-[24px]"

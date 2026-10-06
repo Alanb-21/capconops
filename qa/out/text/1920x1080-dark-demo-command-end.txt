@@ -83,12 +83,8 @@ Logistics centre design
 SG
 Needs your attention
 
-9 items · 2 high priority · raised by agents overnight
+8 items · 1 high priority · raised by agents overnight
 
-Thurrock application not submitted, Northwold cut-off is Thursday
-Draft ready from 3,277 m installed and agreed variations. Needs Valerie’s approval before 8 Oct.
-Valuation Agent
-CE-2309
 Milton Keynes logistics hub blocked: roof deck not handed over
 Zones 3 and 4 not available. Crew stood down. RAMS revision needed for revised sequence.
 Site Progress Agent
@@ -129,17 +125,17 @@ Quote drafted from defect at Dublin Airport Logistics Park: outlet dome replacem
 Scheduler Agent
 08:43
 
-Proposed moving a crew to Biologics facility on Wednesday
+Proposed moving a crew to Distribution warehouse on Wednesday
 
 Compliance Agent
 08:42
 
-RAMS revision for API manufacturing block filed as ISO 45001 evidence
+RAMS revision for Data centre campus Phase 2 filed as ISO 45001 evidence
 
 Valuation Agent
 08:41
 
-Cut-off for Cold store is in 2 days, application not yet submitted
+Cut-off for Fill-finish building is in 2 days, application not yet submitted
 
 Metres installed per week
 

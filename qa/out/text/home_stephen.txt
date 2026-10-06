@@ -11,7 +11,7 @@ For comment
 75
 Drawings issued
 Open RFIs
-69
+68
 RFI-0412 open 9 days
 Design hours used
 67%

@@ -150,6 +150,9 @@ export function Walkthrough() {
   const { rect, dim } = useSpotlight(demo.active && !min ? step?.target : undefined, `${demo.active}-${demo.step}-${min}`);
 
   if (!demo.active || !step) return null;
+  // Dock the card on the side away from the highlighted element so it never covers it.
+  const dockRight = !!rect && rect.left + rect.width / 2 < 280 + (window.innerWidth - 280) / 2;
+  const dockCls = dockRight ? 'right-24' : 'left-[280px]';
   const elapsed = started.current ? (now - started.current) / 1000 : 0;
   const stepElapsed = (now - stepStarted.current) / 1000;
   const budgetSoFar = TOUR.slice(0, demo.step + 1).reduce((a, s) => a + s.secs, 0);
@@ -188,7 +191,7 @@ export function Walkthrough() {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: 20, opacity: 0 }}
             onClick={() => setMin(false)}
-            className="glass-strong fixed bottom-5 left-[280px] z-[60] flex items-center gap-3 rounded-full py-2 pl-2 pr-4 text-left"
+            className={clsx('glass-strong fixed bottom-5 z-[60] flex items-center gap-3 rounded-full py-2 pl-2 pr-4 text-left', dockCls)}
             data-testid="tour-pill"
             data-tour-ui
           >
@@ -204,7 +207,7 @@ export function Walkthrough() {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: 30, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 380, damping: 34 }}
-            className="glass-strong fixed bottom-5 left-[280px] z-[60] w-[min(470px,calc(100vw-300px))] overflow-hidden rounded-[22px]"
+            className={clsx('glass-strong fixed bottom-5 z-[60] w-[min(470px,calc(100vw-300px))] overflow-hidden rounded-[22px]', dockCls)}
             data-testid="demo-guide"
             data-tour-ui
           >

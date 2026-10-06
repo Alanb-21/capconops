@@ -1,0 +1,74 @@
+[
+ {
+  "i": 1,
+  "title": "The whole business, one screen",
+  "route": "/command",
+  "spot": 1
+ },
+ {
+  "i": 2,
+  "title": "The map",
+  "route": "/command",
+  "spot": 1
+ },
+ {
+  "i": 3,
+  "title": "Needs your attention",
+  "route": "/command",
+  "spot": 1
+ },
+ {
+  "i": 4,
+  "title": "Clonee: the truth, without a phone call",
+  "route": "/projects/CE-2333",
+  "spot": 1
+ },
+ {
+  "i": 5,
+  "title": "Sites needing a crew",
+  "route": "/crews",
+  "spot": 1
+ },
+ {
+  "i": 6,
+  "title": "Tickets before they bite",
+  "route": "/crews",
+  "spot": 1
+ },
+ {
+  "i": 7,
+  "title": "Barry logs 48 metres",
+  "route": "/field",
+  "spot": 0
+ },
+ {
+  "i": 8,
+  "title": "October application, drafted",
+  "route": "/finance",
+  "spot": 1
+ },
+ {
+  "i": 9,
+  "title": "Measuring, done for Aaron",
+  "route": "/tenders",
+  "spot": 1
+ },
+ {
+  "i": 10,
+  "title": "Ask the business a question",
+  "route": "/command",
+  "spot": 0
+ },
+ {
+  "i": 11,
+  "title": "Both",
+  "route": "/integrations",
+  "spot": 1
+ },
+ {
+  "i": 12,
+  "title": "Your numbers, not ours",
+  "route": "/efficiency",
+  "spot": 0
+ }
+]
