@@ -1,0 +1,2235 @@
+DELIVERY
+Projects & Sites
+
+113 jobs across Ireland, the UK and overseas. Every site's progress, crew and programme, updated from the foreman and technician apps.
+
+Table
+Where each job stands
+All
+IE
+UK
+Overseas
+All sectors
+Airports
+Commercial
+Data Centre
+Education
+Hospitals
+Pharmaceutical
+Residential
+Specialist
+Stadiums
+Warehouse
+All stages
+Design
+Prefabrication
+Install
+Testing & commissioning
+Handover
+Any health
+On track
+At risk
+Blocked
+113
+jobs
+97
+on track
+15
+at risk
+1
+blocked
+93 of 113 updated in the last 24 hours, no phone calls needed
+JOB
+	PROGRESS
+	CREW TODAY	PROGRAMME
+	NEXT MILESTONE
+	VALUATION	LAST SITE UPDATE
+
+
+Dexcom campus, Athenry
+CE-2291 · Athenry, Co. Galway
+	
+Install
+74%
+1,743 / 2,356 m
+	
+IE Crew 2
+Barry · 4 on site
+	
+On track
+2 days ahead
+	
+Building 2 siphonic water test
+Wed 14 Oct
+	Submitted
+2 open VOs
+	
+38 min ago
+Foreman app
+
+
+Student accommodation, Clonee
+CE-2104 · Clonee, Co. Meath
+	
+Prefabrication
+2%
+12 / 771 m
+	None	
+On track
+1 day ahead
+	
+First spool delivery
+Sun 8 Nov
+	Not started
+No open VOs
+	
+43 min ago
+Foreman app
+
+
+Distribution warehouse, Doncaster
+CE-2183 · Doncaster, South Yorkshire
+	
+Install
+46%
+1,291 / 2,823 m
+	None	
+On track
+On programme
+	
+Stacks to ground
+Tue 20 Oct
+	Certified
+2 open VOs
+	
+44 min ago
+Foreman app
+
+
+Primary school campus, Wexford
+CE-2115 · Wexford, Co. Wexford
+	
+T&C
+94%
+453 / 483 m
+	None	
+On track
+2 days ahead
+	
+Commissioning certificate
+Sat 17 Oct
+	Not started
+No open VOs
+	
+46 min ago
+Site Progress Agent
+
+
+Data centre campus Phase 2, Grange Castle
+CE-2140 · Grange Castle, Dublin 22
+	
+T&C
+97%
+3,013 / 3,093 m
+	None	
+On track
+On programme
+	
+Commissioning certificate
+Thu 5 Nov
+	Not started
+No open VOs
+	
+51 min ago
+Site Progress Agent
+
+
+Cold store, Sandyford
+CE-2124 · Sandyford, Dublin 18
+	
+Prefabrication
+3%
+83 / 2,610 m
+	None	
+On track
+1 day ahead
+	
+First spool delivery
+Wed 11 Nov
+	Submitted
+No open VOs
+	
+56 min ago
+Email
+
+
+Food processing plant, Sligo
+CE-2121 · Sligo, Co. Sligo
+	
+Install
+75%
+1,010 / 1,339 m
+	None	
+On track
+5 days ahead
+	
+Siphonic water test
+Sun 18 Oct
+	Submitted
+1 open VO
+	
+1h ago
+Foreman app
+
+
+Colocation data centre, Limerick
+CE-2155 · Limerick, Co. Limerick
+	
+Design
+0%
+0 / 2,834 m
+	None	
+On track
+4 days ahead
+	
+Design sign-off
+Mon 2 Nov
+	Not started
+No open VOs
+	
+1h ago
+Site Progress Agent
+
+
+Distribution warehouse, Letterkenny
+CE-2125 · Letterkenny, Co. Donegal
+	
+Design
+0%
+0 / 4,971 m
+	None	
+On track
+5 days ahead
+	
+Design sign-off
+Sun 15 Nov
+	Not started
+No open VOs
+	
+1h ago
+Site Progress Agent
+
+
+Pharma expansion, Sandyford
+CE-2122 · Sandyford, Dublin 18
+	
+Handover
+100%
+543 / 543 m
+	None	
+On track
+6 days ahead
+	
+Handover pack issued
+Mon 19 Oct
+	Not started
+No open VOs
+	
+2h ago
+Foreman app
+
+
+Hyperscale data centre, Drogheda
+CE-2118 · Drogheda, Co. Louth
+	
+Prefabrication
+6%
+221 / 3,565 m
+	None	
+On track
+1 day behind
+	
+First spool delivery
+Wed 21 Oct
+	Not started
+No open VOs
+	
+2h ago
+Foreman app
+
+
+API manufacturing block, Dunboyne
+CE-2102 · Dunboyne, Co. Meath
+	
+Install
+27%
+239 / 893 m
+	
+IE Crew 5
+Kieran · 4 on site
+	
+On track
+2 days ahead
+	
+Zone complete
+Sun 11 Oct
+	Certified
+1 open VO
+	
+3h ago
+Email
+
+
+Data centre campus Phase 2, Grange Castle
+CE-2315 · Grange Castle, Dublin 22
+	
+Install
+60%
+2,345 / 3,908 m
+	
+IE Crew 7
+Owen · 4 on site
+	
+On track
+4 days ahead
+	
+Roof outlets complete
+Sat 31 Oct
+	Certified
+2 open VOs
+	
+3h ago
+Site Progress Agent
+
+
+Fill-finish building, Tallaght
+CE-2127 · Tallaght, Dublin 24
+	
+Prefabrication
+6%
+107 / 1,769 m
+	None	
+On track
+1 day behind
+	
+First spool delivery
+Wed 21 Oct
+	Not started
+3 open VOs
+	
+3h ago
+Email
+
+
+Regional sports campus, Letterkenny
+CE-2114 · Letterkenny, Co. Donegal
+	
+Prefabrication
+4%
+61 / 1,485 m
+	None	
+On track
+On programme
+	
+First spool delivery
+Thu 22 Oct
+	Submitted
+1 open VO
+	
+3h ago
+Foreman app
+
+
+Terminal pier extension, Swords
+CE-2108 · Swords, Co. Dublin
+	
+Prefabrication
+1%
+6 / 470 m
+	None	
+On track
+4 days ahead
+	
+First spool delivery
+Thu 29 Oct
+	Certified
+No open VOs
+	
+4h ago
+Site Progress Agent
+
+
+Tile factory, Sittingbourne
+CE-2347 · Sittingbourne, Kent
+	
+Install
+88%
+440 / 500 m
+	
+UK Crew 1
+Rory · 4 on site
+	
+On track
+6 days ahead
+	
+Stacks to ground
+Tue 10 Nov
+	Submitted
+1 open VO
+	
+4h ago
+Foreman app
+
+
+Water treatment works, Arklow
+CE-2123 · Arklow, Co. Wicklow
+	
+Handover
+100%
+1,145 / 1,145 m
+	None	
+On track
+2 days ahead
+	
+Handover pack issued
+Mon 19 Oct
+	Not started
+No open VOs
+	
+4h ago
+Site Progress Agent
+
+
+Cold store, Mullingar
+CE-2147 · Mullingar, Co. Westmeath
+	
+Install
+79%
+4,036 / 5,107 m
+	None	
+On track
+2 days behind
+	
+Siphonic water test
+Fri 9 Oct
+	Submitted
+1 open VO
+	
+5h ago
+Email
+
+
+Colocation data centre, Wexford
+CE-2119 · Wexford, Co. Wexford
+	
+Install
+52%
+2,765 / 5,353 m
+	None	
+On track
+1 day ahead
+	
+Stacks to ground
+Sun 1 Nov
+	Submitted
+1 open VO
+	
+5h ago
+Foreman app
+
+
+Fill-finish building, Cavan
+CE-2129 · Cavan, Co. Cavan
+	
+Prefabrication
+7%
+84 / 1,286 m
+	None	
+On track
+6 days ahead
+	
+First spool delivery
+Tue 3 Nov
+	Not started
+No open VOs
+	
+5h ago
+Site Progress Agent
+
+
+API manufacturing block, Sandyford
+CE-2131 · Sandyford, Dublin 18
+	
+Install
+40%
+579 / 1,448 m
+	None	
+On track
+4 days ahead
+	
+Siphonic water test
+Wed 4 Nov
+	Submitted
+No open VOs
+	
+5h ago
+Site Progress Agent
+
+
+Terminal pier extension, Tallaght
+CE-2117 · Tallaght, Dublin 24
+	
+Install
+60%
+889 / 1,472 m
+	None	
+On track
+6 days ahead
+	
+Siphonic water test
+Tue 20 Oct
+	Certified
+1 open VO
+	
+5h ago
+Foreman app
+
+
+Last-mile depot, Wexford
+CE-2106 · Wexford, Co. Wexford
+	
+T&C
+95%
+4,510 / 4,741 m
+	None	
+On track
+1 day ahead
+	
+Commissioning certificate
+Sat 10 Oct
+	Submitted
+2 open VOs
+	
+5h ago
+Foreman app
+
+
+Water treatment works, Ballycoolin
+CE-2101 · Ballycoolin, Dublin 11
+	
+Prefabrication
+0%
+4 / 2,396 m
+	None	
+On track
+1 day behind
+	
+First spool delivery
+Tue 13 Oct
+	Not started
+No open VOs
+	
+6h ago
+Foreman app
+
+
+Build-to-rent block, Birmingham
+CE-2164 · Birmingham, West Midlands
+	
+Install
+61%
+451 / 736 m
+	None	
+On track
+6 days ahead
+	
+Roof outlets complete
+Sun 8 Nov
+	Certified
+No open VOs
+	
+6h ago
+Email
+
+
+RDS Anglesea Stand
+CE-2242 · Ballsbridge, Dublin 4
+	
+T&C
+97%
+582 / 600 m
+	None	
+On track
+4 days ahead
+	
+Commissioning certificate
+Fri 6 Nov
+	Not started
+1 open VO
+	
+6h ago
+Site Progress Agent
+
+
+Laya Arena, Ballsbridge
+CE-2318 · Ballsbridge, Dublin 4
+	
+Install
+63%
+586 / 930 m
+	
+IE Crew 4
+Brian · 4 on site
+	
+On track
+3 days ahead
+	
+Siphonic water test
+Thu 12 Nov
+	Certified
+1 open VO
+	
+6h ago
+Site Progress Agent
+
+
+Distribution warehouse, Thurrock
+CE-2309 · Thurrock, Essex
+	
+Install
+67%
+3,277 / 4,891 m
+	None	
+On track
+6 days ahead
+	
+Siphonic water test
+Sun 25 Oct
+	Draft
+No open VOs
+	
+6h ago
+Site Progress Agent
+
+
+Hyperscale data centre, Crawley
+CE-2160 · Crawley, West Sussex
+	
+Install
+65%
+2,913 / 4,489 m
+	
+UK Crew 3
+Jack · 4 on site
+	
+At risk
+10 days behind
+	
+Roof outlets complete
+Sun 11 Oct
+	Submitted
+No open VOs
+	
+6h ago
+Foreman app
+
+
+Colocation data centre, Coventry
+CE-2159 · Coventry, West Midlands
+	
+Prefabrication
+6%
+143 / 2,560 m
+	None	
+On track
+1 day behind
+	
+First spool delivery
+Thu 12 Nov
+	Certified
+No open VOs
+	
+6h ago
+Foreman app
+
+
+Biologics facility, Dunboyne
+CE-2141 · Dunboyne, Co. Meath
+	
+Install
+67%
+1,525 / 2,270 m
+	None	
+On track
+6 days ahead
+	
+Stacks to ground
+Thu 29 Oct
+	Submitted
+No open VOs
+	
+6h ago
+Email
+
+
+Pharma expansion, Leeds
+CE-2171 · Leeds, West Yorkshire
+	
+Design
+0%
+0 / 1,262 m
+	None	
+On track
+6 days ahead
+	
+Design sign-off
+Fri 30 Oct
+	Not started
+No open VOs
+	
+7h ago
+Site Progress Agent
+
+
+Project Oriel, St Pancras
+CE-2312 · St Pancras, London
+	
+Install
+58%
+1,102 / 1,900 m
+	
+UK Crew 2
+Kieran · 4 on site
+	
+On track
+3 days ahead
+	
+Siphonic water test
+Fri 30 Oct
+	Submitted
+1 open VO
+	
+7h ago
+Site Progress Agent
+
+
+Acute block refurbishment, Newry
+CE-2168 · Newry, Co. Down
+	
+Install
+60%
+1,155 / 1,927 m
+	None	
+On track
+2 days ahead
+	
+Stacks to ground
+Fri 23 Oct
+	Submitted
+1 open VO
+	
+7h ago
+Site Progress Agent
+
+
+Hyperscale data centre, Limerick
+CE-2126 · Limerick, Co. Limerick
+	
+Prefabrication
+7%
+294 / 4,356 m
+	None	
+On track
+On programme
+	
+First spool delivery
+Sun 11 Oct
+	Not started
+No open VOs
+	
+7h ago
+Foreman app
+
+
+Terminal pier extension, Shannon
+CE-2139 · Shannon, Co. Clare
+	
+Install
+56%
+327 / 580 m
+	None	
+On track
+5 days ahead
+	
+Roof outlets complete
+Fri 30 Oct
+	Submitted
+No open VOs
+	
+8h ago
+Email
+
+
+Mixed-use block, Peterborough
+CE-2178 · Peterborough, Cambridgeshire
+	
+Install
+69%
+1,346 / 1,945 m
+	None	
+On track
+2 days ahead
+	
+Stacks to ground
+Tue 13 Oct
+	Submitted
+2 open VOs
+	
+8h ago
+Site Progress Agent
+
+
+Student accommodation, Limerick
+CE-2130 · Limerick, Co. Limerick
+	
+Install
+86%
+770 / 892 m
+	None	
+On track
+3 days ahead
+	
+Roof outlets complete
+Sun 1 Nov
+	Submitted
+4 open VOs
+	
+8h ago
+Foreman app
+
+
+Cold store, Leixlip
+CE-2154 · Leixlip, Co. Kildare
+	
+Install
+33%
+451 / 1,353 m
+	None	
+On track
+3 days ahead
+	
+Stacks to ground
+Sat 31 Oct
+	Certified
+No open VOs
+	
+8h ago
+Email
+
+
+Mixed-use block, Park Royal
+CE-2170 · Park Royal, London
+	
+Install
+87%
+1,223 / 1,411 m
+	None	
+On track
+5 days ahead
+	
+Stacks to ground
+Sat 10 Oct
+	Certified
+No open VOs
+	
+9h ago
+Site Progress Agent
+
+
+Secondary school, Crawley
+CE-2177 · Crawley, West Sussex
+	
+Design
+0%
+0 / 313 m
+	None	
+On track
+2 days behind
+	
+Design sign-off
+Fri 9 Oct
+	Not started
+No open VOs
+	
+10h ago
+Site Progress Agent
+
+
+Hospital extension, Mullingar
+CE-2136 · Mullingar, Co. Westmeath
+	
+Install
+15%
+142 / 936 m
+	None	
+On track
+4 days ahead
+	
+Siphonic water test
+Tue 10 Nov
+	Submitted
+No open VOs
+	
+10h ago
+Foreman app
+
+
+Fill-finish building, Blanchardstown
+CE-2146 · Blanchardstown, Dublin 15
+	
+Design
+0%
+0 / 1,651 m
+	None	
+On track
+2 days behind
+	
+Design sign-off
+Tue 27 Oct
+	Not started
+No open VOs
+	
+10h ago
+Foreman app
+
+
+Data hall extension, Naas
+CE-2132 · Naas, Co. Kildare
+	
+Install
+60%
+1,336 / 2,209 m
+	None	
+On track
+5 days ahead
+	
+Zone complete
+Thu 12 Nov
+	Certified
+1 open VO
+	
+11h ago
+Site Progress Agent
+
+
+Primary school campus, Ennis
+CE-2156 · Ennis, Co. Clare
+	
+Handover
+100%
+564 / 564 m
+	None	
+On track
+1 day ahead
+	
+Handover pack issued
+Mon 2 Nov
+	Not started
+1 open VO
+	
+11h ago
+Foreman app
+
+
+Hyperscale data centre, Newport
+CE-2191 · Newport, Wales
+	
+Install
+51%
+1,760 / 3,443 m
+	None	
+On track
+6 days ahead
+	
+Roof outlets complete
+Mon 26 Oct
+	Certified
+2 open VOs
+	
+11h ago
+Email
+
+
+API manufacturing block, Manchester
+CE-2182 · Manchester, Greater Manchester
+	
+Install
+16%
+202 / 1,252 m
+	None	
+On track
+3 days ahead
+	
+Zone complete
+Sat 10 Oct
+	Certified
+No open VOs
+	
+11h ago
+Foreman app
+
+
+Biologics facility, Drogheda
+CE-2144 · Drogheda, Co. Louth
+	
+Handover
+100%
+1,534 / 1,534 m
+	None	
+On track
+1 day behind
+	
+Handover pack issued
+Thu 12 Nov
+	Not started
+No open VOs
+	
+12h ago
+Foreman app
+
+
+Diageo carbon-neutral brewery
+CE-2276 · Littleton, Co. Tipperary
+	
+T&C
+95%
+1,473 / 1,550 m
+	None	
+On track
+3 days ahead
+	
+Commissioning certificate
+Wed 11 Nov
+	Not started
+No open VOs
+	
+12h ago
+Email
+
+
+Food processing plant, Basingstoke
+CE-2175 · Basingstoke, Hampshire
+	
+Prefabrication
+4%
+78 / 1,777 m
+	None	
+On track
+6 days ahead
+	
+First spool delivery
+Wed 4 Nov
+	Certified
+3 open VOs
+	
+13h ago
+Site Progress Agent
+
+
+Office scheme, Clonee
+CE-2134 · Clonee, Co. Meath
+	
+Install
+41%
+690 / 1,689 m
+	None	
+At risk
+6 days behind
+	
+Siphonic water test
+Wed 11 Nov
+	Certified
+No open VOs
+	
+14h ago
+Site Progress Agent
+
+
+Last-mile depot, Waterford
+CE-2145 · Waterford, Co. Waterford
+	
+Install
+77%
+2,603 / 3,388 m
+	None	
+On track
+2 days behind
+	
+Siphonic water test
+Tue 27 Oct
+	Certified
+No open VOs
+	
+14h ago
+Foreman app
+
+
+Fill-finish building, Naas
+CE-2112 · Naas, Co. Kildare
+	
+Install
+83%
+985 / 1,193 m
+	
+IE Crew 8
+Liam · 4 on site
+	
+On track
+6 days ahead
+	
+Roof outlets complete
+Fri 30 Oct
+	Certified
+1 open VO
+	
+14h ago
+Site Progress Agent
+
+
+Hyperscale data centre, Swords
+CE-2148 · Swords, Co. Dublin
+	
+Install
+87%
+3,153 / 3,609 m
+	None	
+On track
+6 days ahead
+	
+Roof outlets complete
+Sun 15 Nov
+	Submitted
+3 open VOs
+	
+15h ago
+Foreman app
+
+
+Data centre campus Phase 2, Naas
+CE-2152 · Naas, Co. Kildare
+	
+Handover
+100%
+3,695 / 3,695 m
+	None	
+On track
+3 days ahead
+	
+Handover pack issued
+Wed 21 Oct
+	Not started
+1 open VO
+	
+15h ago
+Site Progress Agent
+
+
+Cold store, Galway
+CE-2113 · Galway, Co. Galway
+	
+Install
+58%
+1,394 / 2,396 m
+	None	
+On track
+1 day ahead
+	
+Zone complete
+Mon 19 Oct
+	Submitted
+No open VOs
+	
+15h ago
+Email
+
+
+Changi Airport Terminal 5
+CE-2337 · Changi, Singapore
+	
+Design
+68%
+Design only
+	None	
+On track
+3 days ahead
+	
+Design sign-off
+Tue 10 Nov
+	Submitted
+No open VOs
+	
+15h ago
+Design register
+
+
+Pharma facility design, Tuas
+CE-2351 · Tuas, Singapore
+	
+Design
+67%
+Design only
+	None	
+On track
+1 day ahead
+	
+Design sign-off
+Fri 23 Oct
+	Submitted
+No open VOs
+	
+15h ago
+Design register
+
+
+Nordic data centre remedial (-35°C)
+CE-2359 · Luleå, Sweden
+	
+Design
+68%
+Design only
+	None	
+On track
+3 days ahead
+	
+Design sign-off
+Sun 1 Nov
+	Submitted
+No open VOs
+	
+15h ago
+Design register
+
+
+Milan data centre design
+CE-2362 · Milan, Italy
+	
+Design
+81%
+Design only
+	None	
+On track
+3 days ahead
+	
+Design sign-off
+Thu 12 Nov
+	Submitted
+No open VOs
+	
+15h ago
+Design register
+
+
+Hyperscale data centre design, Johor
+CE-2192 · Johor, Malaysia
+	
+Design
+71%
+Design only
+	None	
+On track
+6 days ahead
+	
+Design sign-off
+Thu 29 Oct
+	Submitted
+No open VOs
+	
+15h ago
+Design register
+
+
+Semiconductor fab design, Kulim
+CE-2193 · Kulim, Malaysia
+	
+Design
+35%
+Design only
+	None	
+On track
+On programme
+	
+Design sign-off
+Thu 29 Oct
+	Submitted
+No open VOs
+	
+15h ago
+Design register
+
+
+Logistics centre design, Jurong
+CE-2194 · Jurong, Singapore
+	
+Design
+65%
+Design only
+	None	
+On track
+4 days ahead
+	
+Design sign-off
+Sat 7 Nov
+	Certified
+No open VOs
+	
+15h ago
+Design register
+
+
+Food processing plant, Dartford
+CE-2174 · Dartford, Kent
+	
+Prefabrication
+6%
+72 / 1,283 m
+	None	
+On track
+On programme
+	
+First spool delivery
+Mon 19 Oct
+	Not started
+No open VOs
+	
+15h ago
+Site Progress Agent
+
+
+Hyperscale data centre, Little Island
+CE-2137 · Little Island, Co. Cork
+	
+Prefabrication
+6%
+257 / 4,598 m
+	None	
+On track
+3 days ahead
+	
+First spool delivery
+Wed 4 Nov
+	Not started
+1 open VO
+	
+16h ago
+Foreman app
+
+
+Food processing plant, Hayes
+CE-2176 · Hayes, London
+	
+Install
+61%
+1,083 / 1,764 m
+	None	
+On track
+1 day behind
+	
+Stacks to ground
+Fri 9 Oct
+	Certified
+1 open VO
+	
+16h ago
+Foreman app
+
+
+North London Heat & Power Plant
+CE-2304 · Edmonton, London
+	
+Install
+52%
+1,622 / 3,120 m
+	
+UK Crew 5
+Niall · 4 on site
+	
+At risk
+7 days behind
+	
+Zone C install start
+Tue 13 Oct
+	Certified
+No open VOs
+	
+16h ago
+Site Progress Agent
+
+
+Food processing plant, Newry
+CE-2185 · Newry, Co. Down
+	
+Install
+60%
+482 / 805 m
+	None	
+On track
+5 days ahead
+	
+Roof outlets complete
+Mon 2 Nov
+	Submitted
+No open VOs
+	
+16h ago
+Site Progress Agent
+
+
+Office scheme, Cambridge
+CE-2180 · Cambridge, Cambridgeshire
+	
+Install
+82%
+1,185 / 1,446 m
+	None	
+On track
+3 days ahead
+	
+Roof outlets complete
+Wed 4 Nov
+	Submitted
+2 open VOs
+	
+16h ago
+Site Progress Agent
+
+
+Sports centre, Arklow
+CE-2111 · Arklow, Co. Wicklow
+	
+T&C
+96%
+1,007 / 1,050 m
+	None	
+On track
+1 day ahead
+	
+Commissioning certificate
+Wed 14 Oct
+	Not started
+No open VOs
+	
+17h ago
+Foreman app
+
+
+Business park Unit 4, Slough
+CE-2165 · Slough, Berkshire
+	
+Install
+79%
+533 / 672 m
+	None	
+On track
+3 days ahead
+	
+Siphonic water test
+Mon 19 Oct
+	Certified
+No open VOs
+	
+17h ago
+Email
+
+
+Distribution warehouse, Tallaght
+CE-2143 · Tallaght, Dublin 24
+	
+Design
+0%
+0 / 3,106 m
+	None	
+On track
+2 days ahead
+	
+Design sign-off
+Thu 12 Nov
+	Not started
+No open VOs
+	
+17h ago
+Foreman app
+
+
+Logistics hub, Edinburgh
+CE-2166 · Edinburgh, Scotland
+	
+T&C
+97%
+2,393 / 2,455 m
+	None	
+On track
+2 days ahead
+	
+Commissioning certificate
+Thu 15 Oct
+	Submitted
+1 open VO
+	
+17h ago
+Foreman app
+
+
+University science building, Belfast
+CE-2172 · Belfast, Co. Antrim
+	
+T&C
+95%
+656 / 687 m
+	None	
+On track
+6 days ahead
+	
+Commissioning certificate
+Mon 12 Oct
+	Certified
+No open VOs
+	
+18h ago
+Site Progress Agent
+
+
+Pharma expansion, Ringaskiddy
+CE-2321 · Ringaskiddy, Co. Cork
+	
+Install
+55%
+1,010 / 1,837 m
+	
+IE Crew 3
+Ciarán · 4 on site
+	
+At risk
+14 days behind
+	
+Roof outlets complete
+Tue 13 Oct
+	Submitted
+No open VOs
+	
+18h ago
+Foreman app
+
+
+Water treatment works, Basingstoke
+CE-2187 · Basingstoke, Hampshire
+	
+Design
+0%
+0 / 546 m
+	None	
+On track
+4 days ahead
+	
+Design sign-off
+Tue 13 Oct
+	Not started
+No open VOs
+	
+18h ago
+Site Progress Agent
+
+
+Biologics facility, Citywest
+CE-2110 · Citywest, Dublin 24
+	
+Install
+33%
+355 / 1,072 m
+	None	
+On track
+1 day behind
+	
+Roof outlets complete
+Sat 7 Nov
+	Submitted
+No open VOs
+	
+18h ago
+Email
+
+
+University science building, Blanchardstown
+CE-2149 · Blanchardstown, Dublin 15
+	
+Install
+34%
+223 / 664 m
+	None	
+On track
+On programme
+	
+Zone complete
+Sat 7 Nov
+	Certified
+No open VOs
+	
+19h ago
+Site Progress Agent
+
+
+Build-to-rent block, Cardiff
+CE-2163 · Cardiff, Wales
+	
+Install
+18%
+133 / 756 m
+	None	
+On track
+6 days ahead
+	
+Siphonic water test
+Fri 23 Oct
+	Certified
+1 open VO
+	
+19h ago
+Email
+
+
+Last-mile depot, Southampton
+CE-2162 · Southampton, Hampshire
+	
+Install
+29%
+1,188 / 4,158 m
+	None	
+On track
+1 day ahead
+	
+Roof outlets complete
+Sun 11 Oct
+	Submitted
+2 open VOs
+	
+20h ago
+Email
+
+
+Regional sports campus, Clonee
+CE-2158 · Clonee, Co. Meath
+	
+Prefabrication
+3%
+73 / 2,103 m
+	None	
+On track
+2 days behind
+	
+First spool delivery
+Tue 13 Oct
+	Not started
+No open VOs
+	
+21h ago
+Foreman app
+
+
+Fill-finish building, Kilkenny
+CE-2138 · Kilkenny, Co. Kilkenny
+	
+Install
+81%
+1,346 / 1,665 m
+	None	
+On track
+On programme
+	
+Zone complete
+Mon 26 Oct
+	Submitted
+No open VOs
+	
+21h ago
+Foreman app
+
+
+Water treatment works, Belfast
+CE-2188 · Belfast, Co. Antrim
+	
+Install
+22%
+471 / 2,124 m
+	None	
+On track
+2 days behind
+	
+Siphonic water test
+Sun 1 Nov
+	Submitted
+No open VOs
+	
+21h ago
+Email
+
+
+Business park Unit 4, Ennis
+CE-2150 · Ennis, Co. Clare
+	
+Prefabrication
+4%
+95 / 2,173 m
+	None	
+On track
+1 day behind
+	
+First spool delivery
+Tue 10 Nov
+	Not started
+No open VOs
+	
+21h ago
+Foreman app
+
+
+Data hall extension, Belfast
+CE-2181 · Belfast, Co. Antrim
+	
+Install
+41%
+1,076 / 2,610 m
+	None	
+On track
+4 days ahead
+	
+Zone complete
+Sun 8 Nov
+	Submitted
+No open VOs
+	
+21h ago
+Site Progress Agent
+
+
+Data centre campus Phase 2, Nottingham
+CE-2179 · Nottingham, Nottinghamshire
+	
+Install
+63%
+1,404 / 2,229 m
+	None	
+On track
+1 day ahead
+	
+Zone complete
+Mon 2 Nov
+	Submitted
+No open VOs
+	
+21h ago
+Email
+
+
+Terminal pier extension, Clonee
+CE-2103 · Clonee, Co. Meath
+	
+T&C
+97%
+1,636 / 1,684 m
+	None	
+On track
+2 days behind
+	
+Commissioning certificate
+Sun 25 Oct
+	Not started
+No open VOs
+	
+21h ago
+Foreman app
+
+
+Build-to-rent block, Ennis
+CE-2142 · Ennis, Co. Clare
+	
+Prefabrication
+2%
+15 / 803 m
+	None	
+On track
+1 day ahead
+	
+First spool delivery
+Mon 9 Nov
+	Not started
+1 open VO
+	
+23h ago
+Foreman app
+
+
+Hyperscale data centre, Bristol
+CE-2190 · Bristol, Avon
+	
+Install
+39%
+1,041 / 2,659 m
+	None	
+On track
+6 days ahead
+	
+Siphonic water test
+Thu 29 Oct
+	Submitted
+1 open VO
+	
+23h ago
+Email
+
+
+Cold store, Cavan
+CE-2135 · Cavan, Co. Cavan
+	
+Install
+54%
+1,127 / 2,082 m
+	None	
+At risk
+12 days behind
+	
+Zone complete
+Wed 14 Oct
+	Certified
+1 open VO
+	
+24h ago
+Site Progress Agent
+
+
+Hangar and stands, Leixlip
+CE-2105 · Leixlip, Co. Kildare
+	
+Design
+0%
+0 / 748 m
+	None	
+On track
+5 days ahead
+	
+Design sign-off
+Mon 19 Oct
+	Not started
+No open VOs
+	
+24h ago
+Foreman app
+
+
+Hyperscale data centre, Sligo
+CE-2116 · Sligo, Co. Sligo
+	
+Prefabrication
+6%
+251 / 3,980 m
+	None	
+On track
+1 day behind
+	
+First spool delivery
+Wed 28 Oct
+	Submitted
+1 open VO
+	
+24h ago
+Foreman app
+
+
+Energy-from-waste plant, Luton
+CE-2184 · Luton, Bedfordshire
+	
+Install
+24%
+349 / 1,435 m
+	None	
+On track
+1 day behind
+	
+Stacks to ground
+Mon 9 Nov
+	Certified
+1 open VO
+	
+yesterday
+Foreman app
+
+
+Acute block refurbishment, Shannon
+CE-2133 · Shannon, Co. Clare
+	
+Prefabrication
+0%
+2 / 1,103 m
+	None	
+On track
+2 days behind
+	
+First spool delivery
+Sun 1 Nov
+	Submitted
+No open VOs
+	
+yesterday
+Site Progress Agent
+
+
+Water treatment works, Kilkenny
+CE-2109 · Kilkenny, Co. Kilkenny
+	
+Install
+24%
+321 / 1,352 m
+	
+IE Crew 6
+Oisín · 4 on site
+	
+On track
+2 days behind
+	
+Zone complete
+Mon 26 Oct
+	Submitted
+2 open VOs
+	
+yesterday
+Site Progress Agent
+
+
+Data centre campus Phase 2, Blanchardstown
+CE-2151 · Blanchardstown, Dublin 15
+	
+Install
+25%
+1,072 / 4,369 m
+	None	
+On track
+2 days ahead
+	
+Zone complete
+Wed 14 Oct
+	Submitted
+No open VOs
+	
+yesterday
+Site Progress Agent
+
+
+Food processing plant, Mullingar
+CE-2128 · Mullingar, Co. Westmeath
+	
+Install
+42%
+438 / 1,054 m
+	None	
+On track
+On programme
+	
+Zone complete
+Mon 2 Nov
+	Submitted
+1 open VO
+	
+yesterday
+Site Progress Agent
+
+
+Business park Unit 4, Stansted
+CE-2189 · Stansted, Essex
+	
+Handover
+100%
+1,396 / 1,396 m
+	None	
+On track
+1 day ahead
+	
+Handover pack issued
+Sun 11 Oct
+	Certified
+No open VOs
+	
+yesterday
+Site Progress Agent
+
+
+Dexcom Stadium, Connacht Rugby
+CE-2329 · Galway, Co. Galway
+	
+Install
+41%
+476 / 1,160 m
+	
+IE Crew 9
+Darragh · 4 on site
+	
+On track
+4 days ahead
+	
+Siphonic water test
+Fri 6 Nov
+	Submitted
+No open VOs
+	
+yesterday
+Email
+
+
+Hangar and stands, Carlow
+CE-2107 · Carlow, Co. Carlow
+	
+T&C
+93%
+2,084 / 2,230 m
+	None	
+On track
+On programme
+	
+Commissioning certificate
+Fri 13 Nov
+	Not started
+3 open VOs
+	
+yesterday
+Site Progress Agent
+
+
+Data hall extension, Citywest
+CE-2157 · Citywest, Dublin 24
+	
+T&C
+99%
+3,360 / 3,401 m
+	None	
+On track
+6 days ahead
+	
+Commissioning certificate
+Sat 7 Nov
+	Not started
+No open VOs
+	
+yesterday
+Email
+
+
+Logistics hub, Milton Keynes
+CE-2340 · Milton Keynes, Buckinghamshire
+	
+Install
+22%
+979 / 4,451 m
+	None	
+Blocked
+18 days behind
+	
+Zone complete
+Mon 2 Nov
+	Certified
+1 open VO
+	
+yesterday
+Foreman app
+
+
+Distribution warehouse, Edinburgh
+CE-2167 · Edinburgh, Scotland
+	
+Install
+69%
+3,614 / 5,212 m
+	None	
+At risk
+14 days behind
+	
+Stacks to ground
+Tue 27 Oct
+	Submitted
+1 open VO
+	
+yesterday
+Email
+
+
+Business park Unit 4, Didcot
+CE-2186 · Didcot, Oxfordshire
+	
+Install
+37%
+368 / 1,000 m
+	None	
+At risk
+11 days behind
+	
+Siphonic water test
+Fri 6 Nov
+	Submitted
+No open VOs
+	
+yesterday
+Site Progress Agent
+
+
+Data hall extension, Slough
+CE-2298 · Slough, Berkshire
+	
+Install
+71%
+1,331 / 1,875 m
+	
+UK Crew 4
+Fergal · 4 on site
+	
+At risk
+14 days behind
+	
+Siphonic water test
+Sun 15 Nov
+	Certified
+No open VOs
+	
+2 days ago
+Site Progress Agent
+
+
+Biologics facility, Carrigtwohill
+CE-2326 · Carrigtwohill, Co. Cork
+	
+Install
+31%
+404 / 1,303 m
+	None	
+At risk
+5 days behind
+	
+Roof outlets complete
+Wed 11 Nov
+	Submitted
+No open VOs
+	
+2 days ago
+Site Progress Agent
+
+
+Last-mile depot, Blanchardstown
+CE-2120 · Blanchardstown, Dublin 15
+	
+Install
+51%
+2,408 / 4,706 m
+	None	
+At risk
+6 days behind
+	
+Roof outlets complete
+Sat 31 Oct
+	Certified
+No open VOs
+	
+2 days ago
+Foreman app
+
+
+Office scheme, Drogheda
+CE-2153 · Drogheda, Co. Louth
+	
+T&C
+98%
+1,170 / 1,194 m
+	None	
+At risk
+8 days behind
+	
+Commissioning certificate
+Wed 4 Nov
+	Submitted
+1 open VO
+	
+2 days ago
+Foreman app
+
+
+Mixed-use block, Glasgow
+CE-2161 · Glasgow, Scotland
+	
+Prefabrication
+0%
+0 / 690 m
+	None	
+At risk
+10 days behind
+	
+First spool delivery
+Wed 28 Oct
+	Not started
+1 open VO
+	
+2 days ago
+Site Progress Agent
+
+
+Biologics facility, Birmingham
+CE-2169 · Birmingham, West Midlands
+	
+Install
+55%
+315 / 575 m
+	None	
+At risk
+5 days behind
+	
+Zone complete
+Fri 9 Oct
+	Submitted
+No open VOs
+	
+2 days ago
+Foreman app
+
+
+Elective care centre, Bristol
+CE-2173 · Bristol, Avon
+	
+Handover
+100%
+732 / 732 m
+	None	
+At risk
+13 days behind
+	
+Handover pack issued
+Sat 31 Oct
+	Submitted
+No open VOs
+	
+3 days ago
+Site Progress Agent
+
+
+Hyperscale data centre, Clonee
+CE-2333 · Clonee, Co. Meath
+	
+Install
+46%
+1,926 / 4,186 m
+	
+IE Crew 1
+Rory · 4 on site
+	
+At risk
+5 days behind
+	
+Stacks to ground
+Fri 23 Oct
+	Submitted
+No open VOs
+	
+4 days ago
+Email

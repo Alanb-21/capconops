@@ -1,0 +1,568 @@
+DELIVERY
+Prefabrication
+
+Maynooth off-site facility. Spools are cut, fused, pressure tested and labelled in the workshop, then dispatched to match site install dates.
+
+Job
+All jobs (277 spools)
+Dexcom (14)
+NLHPP (14)
+Acute block refurbishment, Newry (2)
+Acute block refurbishment, Shannon (7)
+API manufacturing block, Dunboyne (2)
+API manufacturing block, Manchester (2)
+API manufacturing block, Sandyford (2)
+Biologics facility, Birmingham (2)
+Biologics facility, Carrigtwohill (2)
+Biologics facility, Citywest (2)
+Biologics facility, Dunboyne (2)
+Build-to-rent block, Birmingham (2)
+Build-to-rent block, Cardiff (2)
+Build-to-rent block, Ennis (7)
+Business park Unit 4, Didcot (2)
+Business park Unit 4, Ennis (7)
+Business park Unit 4, Slough (2)
+Cold store, Cavan (2)
+Cold store, Galway (2)
+Cold store, Leixlip (2)
+Cold store, Mullingar (2)
+Cold store, Sandyford (7)
+Colocation data centre, Coventry (7)
+Colocation data centre, Wexford (2)
+Connacht Rugby (2)
+Data centre campus Phase 2, Blanchardstown (2)
+Data centre campus Phase 2, Grange Castle (2)
+Data centre campus Phase 2, Nottingham (2)
+Data hall extension, Belfast (2)
+Data hall extension, Naas (2)
+Data hall extension, Slough (2)
+Distribution warehouse, Doncaster (2)
+Distribution warehouse, Edinburgh (2)
+Distribution warehouse, Thurrock (2)
+Energy-from-waste plant, Luton (2)
+Fill-finish building, Cavan (7)
+Fill-finish building, Kilkenny (2)
+Fill-finish building, Naas (2)
+Fill-finish building, Tallaght (7)
+Food processing plant, Basingstoke (7)
+Food processing plant, Dartford (7)
+Food processing plant, Hayes (2)
+Food processing plant, Mullingar (2)
+Food processing plant, Newry (2)
+Food processing plant, Sligo (2)
+Hospital extension, Mullingar (2)
+Hyperscale data centre, Bristol (2)
+Hyperscale data centre, Clonee (2)
+Hyperscale data centre, Crawley (2)
+Hyperscale data centre, Drogheda (7)
+Hyperscale data centre, Limerick (7)
+Hyperscale data centre, Little Island (7)
+Hyperscale data centre, Newport (2)
+Hyperscale data centre, Sligo (7)
+Hyperscale data centre, Swords (2)
+Last-mile depot, Blanchardstown (2)
+Last-mile depot, Southampton (2)
+Last-mile depot, Waterford (2)
+Laya Arena (2)
+Logistics hub, Milton Keynes (2)
+Mixed-use block, Glasgow (7)
+Mixed-use block, Park Royal (2)
+Mixed-use block, Peterborough (2)
+Office scheme, Cambridge (2)
+Office scheme, Clonee (2)
+Pharma expansion, Ringaskiddy (2)
+Project Oriel (2)
+Regional sports campus, Clonee (7)
+Regional sports campus, Letterkenny (7)
+Sittingbourne (2)
+Student accommodation, Clonee (7)
+Student accommodation, Limerick (2)
+Terminal pier extension, Shannon (2)
+Terminal pier extension, Swords (7)
+Terminal pier extension, Tallaght (2)
+University science building, Blanchardstown (2)
+Water treatment works, Ballycoolin (7)
+Water treatment works, Belfast (2)
+Water treatment works, Kilkenny (2)
+Spools in the workshop
+226
+874 m of pipework
+Dispatching next 7 days
+75
+36 sites
+Held at pressure test
+8
+held
+NLHPP Zone C · re-test Thu 8 Oct
+Offcut waste, prefab
+2.1%
+vs 8–10% cutting on site
+NLHPP Zone C: 8 spools held at pressure test
+Re-test booked Thu 8 Oct after a failed hold on two joints. UK Crew 5 is on site all week, so Zone C install slips to Mon 12 Oct unless the re-test passes first time.
+Show NLHPP spools
+Workshop board
+
+All jobs · 277 spools · click a spool for its label
+
+Cut
+42
+SP-4055
+Ballycoolin
+HDPE · Ø160 · 3.6 m
+Due 7 Oct
+SP-4136
+Cavan
+HDPE · Ø50 · 6.0 m
+Due 7 Oct
+SP-4199
+Clonee
+HDPE · Ø125 · 2.3 m
+Due 7 Oct
+SP-4157
+Cavan
+HDPE · Ø125 · 5.3 m
+Due 8 Oct
+SP-4251
+Basingstoke
+HDPE · Ø315 · 3.7 m
+Due 8 Oct
+SP-4266
+Luton
+HDPE · Ø56 · 3.0 m
+Due 8 Oct
++36 more
+Fused / welded
+51
+SP-4082
+Letterkenny
+HDPE · Ø75 · 1.4 m
+Due 7 Oct
+SP-4130
+Tallaght
+HDPE · Ø75 · 5.8 m
+Due 7 Oct
+SP-4228
+Slough
+HDPE · Ø315 · 4.8 m
+Due 7 Oct
+SP-4264
+Doncaster
+HDPE · Ø63 · 1.6 m
+Due 7 Oct
+SP-4065
+Clonee
+HDPE · Ø63 · 5.2 m
+Due 8 Oct
+SP-4102
+Drogheda
+HDPE · Ø40 · 2.9 m
+Due 8 Oct
++45 more
+Pressure tested
+44
+SP-4015
+Re-test
+NLHPP
+HDPE · Ø315 · 3.8 m
+Due 12 Oct
+SP-4016
+Re-test
+NLHPP
+HDPE · Ø50 · 2.1 m
+Due 12 Oct
+SP-4017
+Re-test
+NLHPP
+HDPE · Ø63 · 3.5 m
+Due 12 Oct
+SP-4018
+Re-test
+NLHPP
+HDPE · Ø40 · 2.8 m
+Due 12 Oct
+SP-4019
+Re-test
+NLHPP
+HDPE · Ø250 · 5.2 m
+Due 12 Oct
+SP-4020
+Re-test
+NLHPP
+HDPE · Ø200 · 4.6 m
+Due 12 Oct
++38 more
+QC passed
+47
+SP-4010
+Dexcom
+HDPE · Ø200 · 2.5 m
+Due 7 Oct
+SP-4083
+Letterkenny
+HDPE · Ø160 · 3.1 m
+Due 8 Oct
+SP-4089
+Sligo
+HDPE · Ø56 · 6.0 m
+Due 8 Oct
+SP-4108
+Blanchardstown
+HDPE · Ø315 · 3.8 m
+Due 8 Oct
+SP-4072
+Swords
+HDPE · Ø160 · 2.3 m
+Due 9 Oct
+SP-4029
+Laya Arena
+HDPE · Ø56 · 5.1 m
+Due 11 Oct
++41 more
+Packed
+42
+SP-4059
+Late
+Dunboyne
+HDPE · Ø90 · 1.6 m
+Due 7 Oct
+SP-4114
+Sandyford
+HDPE · Ø63 · 5.8 m
+Due 8 Oct
+SP-4223
+Southampton
+HDPE · Ø63 · 4.7 m
+Due 9 Oct
+SP-4086
+Letterkenny
+HDPE · Ø125 · 4.6 m
+Due 11 Oct
+SP-4197
+Leixlip
+HDPE · Ø56 · 4.2 m
+Due 11 Oct
+SP-4267
+Luton
+HDPE · Ø110 · 3.5 m
+Due 11 Oct
++36 more
+Dispatched
+17
+SP-4012
+Dexcom
+HDPE · Ø160 · 2.9 m
+Due 8 Oct
+SP-4269
+Newry
+HDPE · Ø56 · 5.2 m
+Due 8 Oct
+SP-4276
+Newport
+HDPE · Ø56 · 3.4 m
+Due 8 Oct
+SP-4043
+Carrigtwohill
+Stainless · Ø40 · 1.4 m
+Due 9 Oct
+SP-4255
+Peterborough
+HDPE · Ø90 · 3.8 m
+Due 10 Oct
+SP-4185
+Swords
+HDPE · Ø110 · 3.2 m
+Due 13 Oct
++11 more
+On site
+34
+SP-4007
+Dexcom
+HDPE · Ø160 · 3.6 m
+Due 16 Sep
+SP-4183
+Mullingar
+HDPE · Ø50 · 5.9 m
+Due 16 Sep
+SP-4181
+Waterford
+HDPE · Ø160 · 1.6 m
+Due 17 Sep
+SP-4001
+Dexcom
+HDPE · Ø110 · 2.3 m
+Due 18 Sep
+SP-4235
+Birmingham
+HDPE · Ø50 · 4.3 m
+Due 18 Sep
+SP-4048
+Milton Keynes
+HDPE · Ø125 · 4.9 m
+Due 19 Sep
++28 more
+DISPATCH CALENDAR
+Loads matched to site install dates
+
+Each spool leaves Maynooth the working day before the site needs it. Red means it will not be ready in time and a crew is booked.
+
+2 clashes
+Mon 5 Oct
+No dispatches
+Tue 6 Oct
+11 loads
+12 spools · 44 m
+Dunboyne
+1
+Tallaght
+2
+Dexcom
+1
++8 more loads
+Wed 7 Oct
+13 loads
+14 spools · 60 m
+Basingstoke
+2
+Dexcom
+1
+Clonee
+1
++10 more loads
+Thu 8 Oct
+7 loads
+9 spools · 31 m
+Sligo
+2
+Coventry
+2
+Carrigtwohill
+1
++4 more loads
+Fri 9 Oct
+19 loads
+32 spools · 124 m
+NLHPP
+9
+Dexcom
+2
+Ballycoolin
+2
++16 more loads
+Mon 12 Oct
+5 loads
+5 spools · 19 m
+Cavan
+1
+Naas
+1
+Cavan
+1
++2 more loads
+Tue 13 Oct
+9 loads
+9 spools · 41 m
+Sandyford
+1
+Limerick
+1
+Limerick
+1
++6 more loads
+Wed 14 Oct
+3 loads
+3 spools · 12 m
+Ennis
+1
+Glasgow
+1
+Dartford
+1
+Thu 15 Oct
+6 loads
+6 spools · 24 m
+Ballycoolin
+1
+Clonee
+1
+Mullingar
+1
++3 more loads
+Fri 16 Oct
+17 loads
+21 spools · 75 m
+Tallaght
+3
+Drogheda
+2
+Limerick
+2
++14 more loads
+API manufacturing block, Dunboyne: 1 spool due to leave Tue 6 Oct but ready Wed 7 Oct. Crew booked on site.
+NLHPP: 8 spools due to leave Fri 9 Oct but ready Mon 12 Oct. Crew booked on site.
+Material stock
+
+By material and diameter · 4 lines below reorder level
+
+4 to reorder
+MATERIAL	Ø MM	ON HAND VS REORDER LEVEL	ON ORDER	
+
+HDPE
+Geberit
+	110	
+70 / 195 m
+	–	
+Reorder
+
+Stainless steel
+Blucher
+	110	
+11 / 30 m
+	–	
+Reorder
+
+HDPE
+Valsir
+	160	
+68 / 170 m
+	–	
+Reorder
+
+HDPE
+Terrain
+	56	
+170 / 222 m
+	–	
+Reorder
+
+HDPE
+Geberit
+	250	
+175 / 125 m
+	–	
+
+HDPE
+Geberit
+	200	
+217 / 150 m
+	–	
+
+Aluminium
+Merchant
+	100	
+46 / 30 m
+	–	
+
+Stainless steel
+Blucher
+	50	
+55 / 30 m
+	–	
+
+Cast iron
+Merchant
+	75	
+67 / 30 m
+	–	
+
+HDPE
+Geberit
+	63	
+502 / 219 m
+	–	
+
+HDPE
+Valsir
+	125	
+433 / 188 m
+	–	
+
+HDPE
+Geberit
+	315	
+230 / 93 m
+	–	
+
+HDPE
+Geberit
+	40	
+607 / 230 m
+	–	
+
+HDPE
+Terrain
+	50	
+601 / 225 m
+	–	
+
+Cast iron
+Merchant
+	100	
+81 / 30 m
+	–	
+
+HDPE
+Terrain
+	90	
+613 / 205 m
+	–	
+
+Stainless steel
+Blucher
+	160	
+91 / 30 m
+	–	
+
+Stainless steel
+Blucher
+	200	
+92 / 30 m
+	–	
+
+Cast iron
+Merchant
+	150	
+93 / 30 m
+	–	
+
+HDPE
+Valsir
+	75	
+679 / 213 m
+	–	
+
+Aluminium
+Merchant
+	150	
+98 / 30 m
+	–	
+
+Stainless steel
+Blucher
+	75	
+99 / 30 m
+	–	
+
+Aluminium
+Merchant
+	75	
+102 / 30 m
+	–	
+Waste: prefab vs cutting on site
+
+HDPE offcuts as a share of pipe used, year to date
+
+Maynooth prefab
+2.1%
+Typical site install
+8–10%
+HDPE saved
+2,663 kg
+on 38.6 t fabricated
+Skips avoided
+7
+site skip lifts
+Embodied carbon
+5.1 t
+CO₂e avoided
+
+Cutting in the workshop uses offcuts on the next spool and recycles the rest as HDPE regrind. These figures feed the sustainability report and EcoVadis evidence on the HSQE page.

@@ -36,7 +36,28 @@ the network or the hosted URL misbehaves.
 
 ## Demo path (about 12 minutes)
 
-Press **Demo** in the top bar for a guided walk-through with talking points. You can also follow it by hand:
+### Presenting tools
+
+- **Walkthrough:** press **Demo** in the top bar. There are 12 steps in 9 chapters, timed to 12 minutes. Each step:
+  - opens the right page
+  - highlights what to point at
+  - gives you the line to say, the click to make, a "How it works" explanation and an answer if asked.
+  - **Keys:** → / Space for next, ← for back, Esc to tuck the card away.
+  - **Tucking:** clicking anywhere in the app tucks it into a small pill, so it never blocks the click you need.
+  - **Timer:** a timer shows elapsed time against the plan.
+- **How it works notes:** press **N** (or the book icon in the top bar) on any page. A drawer shows:
+  - what the page is for and how it works
+  - what to click and what to say
+  - likely questions with answers.
+- **Presenter guide** (`/#/guide`, in the sidebar) has:
+  - the full run sheet (click any step to jump to it) and a before-the-call checklist
+  - keyboard shortcuts and one-click Ask Capcon questions
+  - **Reset demo** to restore the starting story
+  - **Open on second screen** to keep notes on another monitor.
+- **Printable cheat sheet:** `docs/PRESENTER_NOTES.md`, generated from the same source (`src/presenter/notes.ts`) with `npm run notes`.
+- **Staying signed in:** a reload keeps you signed in in that tab, so Reset demo is one click.
+
+The steps by hand:
 
 1. **Command Centre** (Donnacha): 113 live jobs on one screen, KPI row, site map, and the
    "Needs your attention" feed the agents wrote.
@@ -128,6 +149,7 @@ src/store/       zustand store (shared state: jobs, crews, approvals, agent log�
 src/components/  UI kit (glass), layout shell, map, charts
 src/pages/       one file per department view
 src/assistant/   Capcon Assistant panel + local intent engine
+src/presenter/   walkthrough, presenter notes (single source for in-app notes + docs/PRESENTER_NOTES.md)
 api/assistant.ts optional Vercel function for the Claude API path (guarded, 4 s timeout)
 research/        public research notes and the merged brief
 qa/              Playwright QA script and screenshots

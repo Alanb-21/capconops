@@ -1,0 +1,1536 @@
+VALERIE CURRAN · FINANCIAL ACCOUNTANT
+Commercial & Finance
+
+Applications for payment, debt, retentions, variations and cash, all from installed metres and the variation register.
+
+All regions
+Ireland
+UK
+Work in progress
+€2.65m
+Earned, not yet certified
+Applications outstanding
+€3.46m
+123 applications unpaid
+Over 60 days
+3
+chase
+€26k with 3 contractors
+Cash received, 30 days
+€1.66m
+Matched to applications
+Retentions held
+€822k
+Released at PC and end of defects
+Variations not yet agreed
+€942k
+63 pending pricing or submitted
+Valuation Agent: October applications
+
+13 jobs need an application this cycle. The agent drafts, Valerie approves.
+
+Draft only
+Distribution warehouse, Thurrock
+CE-2309
+Northwold Construction
+·
+Cut-off Thu 8 Oct (2 days)
+£13,018
+net, app 6
+Draft application
+Biologics facility, Drogheda
+CE-2144
+Slaney Build
+·
+Cut-off Tue 20 Oct
+€2,500
+net, app 13
+Draft application
+Pharma expansion, Sandyford
+CE-2122
+Tolka Building
+·
+Cut-off Tue 20 Oct
+€1,774
+net, app 13
+Draft application
+Hyperscale data centre, Limerick
+CE-2126
+Derravaragh Projects
+·
+Cut-off Tue 20 Oct
+€1,221
+net, app 2
+Draft application
+RDS Anglesea Stand
+CE-2242
+Undisclosed
+·
+Cut-off Thu 22 Oct
+€2,600
+net, app 10
+Draft application
+
+Approved applications post to Sage / Xero as a draft invoice (example connection).
+
+Aged debt
+
+Certified, unpaid: €2.02m · days since application
+
+0–30
+31–60
+61–90
+90+
+€0
+€400k
+€800k
+€1.20m
+Over 60 days
+
+Unpaid applications to chase
+
+Water treatment works, Ballycoolin
+Kilcarra Construction · app 1 · €792
+78 days
+Chase
+Hangar and stands, Carlow
+Derravaragh Projects · app 15 · €7,387
+78 days
+Chase
+Data hall extension, Slough
+Maresfield Contracting · app 7 · £15,538
+74 days
+Chase
+Applications for payment by job
+
+Latest application, certification and payment. October cut-off from each main contractor’s payment schedule.
+
+All jobs
+Needs October app
+JOB	LATEST APP	APPLIED	CERTIFIED	PAID	DAYS TO CERT.	OCT CUT-OFF	STATUS
+
+Distribution warehouse, Thurrock
+CE-2309 · Northwold Construction
+	No. 5 · Sep 26	£65,526	£63,913	–	12 d	Thu 8 Oct2 days	
+Draft
+
+Biologics facility, Drogheda
+CE-2144 · Slaney Build
+	No. 12 · Jun 26	€29,750	€29,358	€29,358	9 d	Tue 20 Oct	
+Not started
+
+Build-to-rent block, Cardiff
+CE-2163 · Ashcombe Projects
+	No. 6 · Sep 26	£3,556	£3,356	–	20 d	Tue 20 Oct	
+Certified
+
+Business park Unit 4, Slough
+CE-2165 · Halden Build
+	No. 14 · Sep 26	£45,939	£41,740	–	17 d	Tue 20 Oct	
+Certified
+
+Cold store, Cavan
+CE-2135 · Moyola Build
+	No. 10 · Sep 26	€29,031	€26,622	–	11 d	Tue 20 Oct	
+Certified
+
+Cold store, Leixlip
+CE-2154 · Kilcarra Construction
+	No. 8 · Sep 26	€11,007	€10,277	–	21 d	Tue 20 Oct	
+Certified
+
+Colocation data centre, Wexford
+CE-2119 · Moyola Build
+	No. 10 · Sep 26	€64,230	awaiting	–	16 d so far	Tue 20 Oct	
+Submitted
+
+Data hall extension, Belfast
+CE-2181 · Ashcombe Projects
+	No. 9 · Sep 26	£40,653	awaiting	–	16 d so far	Tue 20 Oct	
+Submitted
+
+Energy-from-waste plant, Luton
+CE-2184 · Northwold Construction
+	No. 6 · Sep 26	£32,014	£30,933	–	10 d	Tue 20 Oct	
+Certified
+
+Hangar and stands, Carlow
+CE-2107 · Derravaragh Projects
+	No. 16 · Aug 26	€3,681	€3,334	€3,334	10 d	Tue 20 Oct	
+Not started
+
+Hospital extension, Mullingar
+CE-2136 · Corrib Contracting
+	No. 5 · Sep 26	€4,472	awaiting	–	16 d so far	Tue 20 Oct	
+Submitted
+
+Hyperscale data centre, Bristol
+CE-2190 · Barrowford Construction
+	No. 9 · Sep 26	£16,124	awaiting	–	16 d so far	Tue 20 Oct	
+Submitted
+
+Hyperscale data centre, Drogheda
+CE-2118 · Corrib Contracting
+	No. 1 · Jul 26	€37,877	€36,197	€36,197	19 d	Tue 20 Oct	
+Not started
+
+Hyperscale data centre, Limerick
+CE-2126 · Derravaragh Projects
+	No. 1 · Jun 26	€50,012	€46,291	€46,291	8 d	Tue 20 Oct	
+Not started
+
+Logistics centre design, Jurong
+CE-2194 · Design only
+	No. 1 · Sep 26	€88,937	€80,883	–	13 d	Tue 20 Oct	
+Certified
+
+Nordic data centre remedial (-35°C)
+CE-2359 · Design only
+	No. 2 · Sep 26	€14,691	awaiting	–	16 d so far	Tue 20 Oct	
+Submitted
+
+Pharma expansion, Sandyford
+CE-2122 · Tolka Building
+	No. 12 · Jun 26	€9,583	€9,247	€9,247	21 d	Tue 20 Oct	
+Not started
+
+Student accommodation, Limerick
+CE-2130 · Tolka Building
+	No. 15 · Sep 26	€20,556	awaiting	–	16 d so far	Tue 20 Oct	
+Submitted
+
+Terminal pier extension, Swords
+CE-2108 · Ballinure Construction
+	No. 2 · Sep 26	€29,800	€28,493	–	15 d	Tue 20 Oct	
+Certified
+
+Terminal pier extension, Tallaght
+CE-2117 · Corrib Contracting
+	No. 12 · Sep 26	€24,700	€23,155	–	17 d	Tue 20 Oct	
+Certified
+
+University science building, Belfast
+CE-2172 · Kestrel Main Contracting
+	No. 16 · Sep 26	£21,500	£20,918	–	9 d	Tue 20 Oct	
+Certified
+
+Water treatment works, Ballycoolin
+CE-2101 · Kilcarra Construction
+	No. 2 · Aug 26	€13,000	€11,988	€11,988	14 d	Tue 20 Oct	
+Not started
+
+Water treatment works, Kilkenny
+CE-2109 · Kilcarra Construction
+	No. 7 · Sep 26	€7,871	awaiting	–	16 d so far	Tue 20 Oct	
+Submitted
+
+Business park Unit 4, Stansted
+CE-2189 · Halden Build
+	No. 15 · Sep 26	£5,600	£5,170	–	16 d	Thu 22 Oct	
+Certified
+
+Changi Airport Terminal 5
+CE-2337 · Design only
+	No. 10 · Sep 26	€46,648	awaiting	–	14 d so far	Thu 22 Oct	
+Submitted
+
+Cold store, Mullingar
+CE-2147 · Feale Contracts
+	No. 14 · Sep 26	€112,391	awaiting	–	14 d so far	Thu 22 Oct	
+Submitted
+
+Cold store, Sandyford
+CE-2124 · Slaney Build
+	No. 3 · Sep 26	€20,600	awaiting	–	14 d so far	Thu 22 Oct	
+Submitted
+
+Data centre campus Phase 2, Grange Castle
+CE-2140 · Corrib Contracting
+	No. 14 · Aug 26	€8,600	€8,335	€8,335	15 d	Thu 22 Oct	
+Not started
+
+Distribution warehouse, Doncaster
+CE-2183 · Maresfield Contracting
+	No. 11 · Sep 26	£33,002	£32,358	–	21 d	Thu 22 Oct	
+Certified
+
+Distribution warehouse, Edinburgh
+CE-2167 · Thornbury Build Group
+	No. 13 · Sep 26	£71,950	awaiting	–	14 d so far	Thu 22 Oct	
+Submitted
+
+Elective care centre, Bristol
+CE-2173 · Northwold Construction
+	No. 14 · Sep 26	£18,700	awaiting	–	14 d so far	Thu 22 Oct	
+Submitted
+
+Fill-finish building, Cavan
+CE-2129 · Tolka Building
+	No. 1 · Jul 26	€17,897	€16,831	€16,831	14 d	Thu 22 Oct	
+Not started
+
+Fill-finish building, Kilkenny
+CE-2138 · Moyola Build
+	No. 14 · Sep 26	€44,468	awaiting	–	14 d so far	Thu 22 Oct	
+Submitted
+
+Fill-finish building, Naas
+CE-2112 · Corrib Contracting
+	No. 14 · Sep 26	€35,873	€32,960	–	8 d	Thu 22 Oct	
+Certified
+
+Food processing plant, Basingstoke
+CE-2175 · Northwold Construction
+	No. 2 · Sep 26	£15,600	£14,138	–	15 d	Thu 22 Oct	
+Certified
+
+Food processing plant, Hayes
+CE-2176 · Northwold Construction
+	No. 12 · Sep 26	£19,090	£17,606	–	20 d	Thu 22 Oct	
+Certified
+
+Food processing plant, Mullingar
+CE-2128 · Slaney Build
+	No. 9 · Sep 26	€20,705	awaiting	–	14 d so far	Thu 22 Oct	
+Submitted
+
+Hyperscale data centre, Crawley
+CE-2160 · Halden Build
+	No. 13 · Sep 26	£61,372	awaiting	–	14 d so far	Thu 22 Oct	
+Submitted
+
+Hyperscale data centre, Little Island
+CE-2137 · Slaney Build
+	No. 3 · Aug 26	€17,900	€16,744	€16,744	14 d	Thu 22 Oct	
+Not started
+
+Hyperscale data centre, Newport
+CE-2191 · Northwold Construction
+	No. 11 · Sep 26	£27,439	£25,112	–	11 d	Thu 22 Oct	
+Certified
+
+Hyperscale data centre, Sligo
+CE-2116 · Tolka Building
+	No. 2 · Sep 26	€38,600	awaiting	–	14 d so far	Thu 22 Oct	
+Submitted
+
+Last-mile depot, Blanchardstown
+CE-2120 · Corrib Contracting
+	No. 11 · Sep 26	€44,433	€43,176	–	15 d	Thu 22 Oct	
+Certified
+
+Last-mile depot, Southampton
+CE-2162 · Maresfield Contracting
+	No. 7 · Sep 26	£20,520	awaiting	–	14 d so far	Thu 22 Oct	
+Submitted
+
+Logistics hub, Milton Keynes
+CE-2340 · Halden Build
+	No. 3 · Sep 26	£19,085	£17,948	–	20 d	Thu 22 Oct	
+Certified
+
+Milan data centre design
+CE-2362 · Design only
+	No. 2 · Sep 26	€21,963	awaiting	–	14 d so far	Thu 22 Oct	
+Submitted
+
+Mixed-use block, Park Royal
+CE-2170 · Thornbury Build Group
+	No. 14 · Sep 26	£23,325	£23,083	–	16 d	Thu 22 Oct	
+Certified
+
+Primary school campus, Wexford
+CE-2115 · Derravaragh Projects
+	No. 18 · Aug 26	€9,253	€8,880	€8,880	16 d	Thu 22 Oct	
+Not started
+
+Project Oriel, St Pancras
+CE-2312 · Bouygues UK
+	No. 7 · Sep 26	£26,365	awaiting	–	14 d so far	Thu 22 Oct	
+Submitted
+
+RDS Anglesea Stand
+CE-2242 · Undisclosed
+	No. 9 · Aug 26	€18,907	€18,246	€18,246	8 d	Thu 22 Oct	
+Not started
+
+Regional sports campus, Clonee
+CE-2158 · Glenmore Main Contractors
+	No. 1 · Aug 26	€15,030	€14,515	€14,515	9 d	Thu 22 Oct	
+Not started
+
+Water treatment works, Belfast
+CE-2188 · Northwold Construction
+	No. 7 · Sep 26	£7,751	awaiting	–	14 d so far	Thu 22 Oct	
+Submitted
+
+Acute block refurbishment, Shannon
+CE-2133 · Feale Contracts
+	No. 2 · Sep 26	€35,700	awaiting	–	11 d so far	Sun 25 Oct	
+Submitted
+
+API manufacturing block, Dunboyne
+CE-2102 · Derravaragh Projects
+	No. 6 · Sep 26	€22,677	€21,313	–	8 d	Sun 25 Oct	
+Certified
+
+API manufacturing block, Manchester
+CE-2182 · Halden Build
+	No. 6 · Sep 26	£3,465	£3,181	–	19 d	Sun 25 Oct	
+Certified
+
+API manufacturing block, Sandyford
+CE-2131 · Corrib Contracting
+	No. 9 · Sep 26	€11,573	awaiting	–	11 d so far	Sun 25 Oct	
+Submitted
+
+Biologics facility, Birmingham
+CE-2169 · Thornbury Build Group
+	No. 10 · Sep 26	£6,696	awaiting	–	11 d so far	Sun 25 Oct	
+Submitted
+
+Biologics facility, Carrigtwohill
+CE-2326 · Slaney Build
+	No. 4 · Sep 26	€8,724	awaiting	–	11 d so far	Sun 25 Oct	
+Submitted
+
+Biologics facility, Citywest
+CE-2110 · Derravaragh Projects
+	No. 8 · Sep 26	€8,544	awaiting	–	11 d so far	Sun 25 Oct	
+Submitted
+
+Build-to-rent block, Birmingham
+CE-2164 · Kestrel Main Contracting
+	No. 12 · Sep 26	£10,679	£10,239	–	12 d	Sun 25 Oct	
+Certified
+
+Build-to-rent block, Ennis
+CE-2142 · Kilcarra Construction
+	No. 1 · Jun 26	€2,802	€2,602	€2,602	12 d	Sun 25 Oct	
+Not started
+
+Colocation data centre, Coventry
+CE-2159 · Barrowford Construction
+	No. 2 · Sep 26	£50,000	£45,663	–	20 d	Sun 25 Oct	
+Certified
+
+Data centre campus Phase 2, Grange Castle
+CE-2315 · Tolka Building
+	No. 6 · Sep 26	€62,587	€61,200	–	20 d	Sun 25 Oct	
+Certified
+
+Data centre campus Phase 2, Nottingham
+CE-2179 · Northwold Construction
+	No. 12 · Sep 26	£29,936	awaiting	–	11 d so far	Sun 25 Oct	
+Submitted
+
+Data hall extension, Citywest
+CE-2157 · Slaney Build
+	No. 15 · Aug 26	€26,710	€26,391	–	15 d	Sun 25 Oct	
+Not started
+
+Data hall extension, Naas
+CE-2132 · Kilcarra Construction
+	No. 11 · Sep 26	€36,993	€34,138	–	10 d	Sun 25 Oct	
+Certified
+
+Data hall extension, Slough
+CE-2298 · Maresfield Contracting
+	No. 9 · Sep 26	£55,050	£51,614	–	17 d	Sun 25 Oct	
+Certified
+
+Dexcom campus, Athenry
+CE-2291 · John Paul Construction
+	No. 8 · Sep 26	€78,564	awaiting	–	11 d so far	Sun 25 Oct	
+Submitted
+
+Diageo carbon-neutral brewery
+CE-2276 · Undisclosed
+	No. 8 · Aug 26	€6,800	€6,524	€6,524	19 d	Sun 25 Oct	
+Not started
+
+Fill-finish building, Tallaght
+CE-2127 · Kilcarra Construction
+	No. 1 · Jul 26	€19,053	€17,495	€17,495	17 d	Sun 25 Oct	
+Not started
+
+Food processing plant, Dartford
+CE-2174 · Northwold Construction
+	No. 1 · Aug 26	£11,055	£10,811	–	15 d	Sun 25 Oct	
+Not started
+
+Food processing plant, Newry
+CE-2185 · Barrowford Construction
+	No. 11 · Sep 26	£9,391	awaiting	–	11 d so far	Sun 25 Oct	
+Submitted
+
+Food processing plant, Sligo
+CE-2121 · Ballinure Construction
+	No. 13 · Sep 26	€21,778	awaiting	–	11 d so far	Sun 25 Oct	
+Submitted
+
+Hyperscale data centre, Clonee
+CE-2333 · Kilcarra Construction
+	No. 5 · Sep 26	€20,634	awaiting	–	11 d so far	Sun 25 Oct	
+Submitted
+
+Last-mile depot, Waterford
+CE-2145 · Ballinure Construction
+	No. 14 · Sep 26	€40,067	€38,076	–	21 d	Sun 25 Oct	
+Certified
+
+Laya Arena, Ballsbridge
+CE-2318 · Undisclosed
+	No. 4 · Sep 26	€12,484	€12,299	–	17 d	Sun 25 Oct	
+Certified
+
+North London Heat & Power Plant
+CE-2304 · Undisclosed
+	No. 6 · Sep 26	£30,797	£27,981	–	11 d	Sun 25 Oct	
+Certified
+
+Office scheme, Clonee
+CE-2134 · Corrib Contracting
+	No. 9 · Sep 26	€15,227	€14,760	–	10 d	Sun 25 Oct	
+Certified
+
+Office scheme, Drogheda
+CE-2153 · Slaney Build
+	No. 18 · Sep 26	€14,000	awaiting	–	11 d so far	Sun 25 Oct	
+Submitted
+
+Pharma expansion, Ringaskiddy
+CE-2321 · Corrib Contracting
+	No. 6 · Sep 26	€20,748	awaiting	–	11 d so far	Sun 25 Oct	
+Submitted
+
+Pharma facility design, Tuas
+CE-2351 · Design only
+	No. 5 · Sep 26	€17,327	awaiting	–	11 d so far	Sun 25 Oct	
+Submitted
+
+Primary school campus, Ennis
+CE-2156 · Corrib Contracting
+	No. 14 · Aug 26	€22,200	€21,363	–	15 d	Sun 25 Oct	
+Not started
+
+Semiconductor fab design, Kulim
+CE-2193 · Design only
+	No. 3 · Sep 26	€23,873	awaiting	–	11 d so far	Sun 25 Oct	
+Submitted
+
+Terminal pier extension, Clonee
+CE-2103 · Corrib Contracting
+	No. 16 · Aug 26	€5,492	€5,184	–	8 d	Sun 25 Oct	
+Not started
+
+Tile factory, Sittingbourne
+CE-2347 · Toureen Group
+	No. 3 · Sep 26	£8,648	awaiting	–	11 d so far	Sun 25 Oct	
+Submitted
+
+University science building, Blanchardstown
+CE-2149 · Tolka Building
+	No. 7 · Sep 26	€5,346	€4,900	–	11 d	Sun 25 Oct	
+Certified
+
+Water treatment works, Arklow
+CE-2123 · Ballinure Construction
+	No. 15 · Jul 26	€6,200	€6,097	€6,097	19 d	Sun 25 Oct	
+Not started
+
+Acute block refurbishment, Newry
+CE-2168 · Kestrel Main Contracting
+	No. 11 · Sep 26	£24,220	awaiting	–	8 d so far	Wed 28 Oct	
+Submitted
+
+Biologics facility, Dunboyne
+CE-2141 · Corrib Contracting
+	No. 13 · Sep 26	€41,635	awaiting	–	8 d so far	Wed 28 Oct	
+Submitted
+
+Business park Unit 4, Didcot
+CE-2186 · Ashcombe Projects
+	No. 8 · Sep 26	£7,335	awaiting	–	8 d so far	Wed 28 Oct	
+Submitted
+
+Business park Unit 4, Ennis
+CE-2150 · Ballinure Construction
+	No. 1 · Aug 26	€16,394	€16,204	–	18 d	Wed 28 Oct	
+Not started
+
+Cold store, Galway
+CE-2113 · Glenmore Main Contractors
+	No. 10 · Sep 26	€24,805	awaiting	–	8 d so far	Wed 28 Oct	
+Submitted
+
+Data centre campus Phase 2, Blanchardstown
+CE-2151 · Glenmore Main Contractors
+	No. 8 · Sep 26	€20,580	awaiting	–	8 d so far	Wed 28 Oct	
+Submitted
+
+Data centre campus Phase 2, Naas
+CE-2152 · Ballinure Construction
+	No. 13 · Jun 26	€50,923	€48,324	€48,324	21 d	Wed 28 Oct	
+Not started
+
+Dexcom Stadium, Connacht Rugby
+CE-2329 · Undisclosed
+	No. 3 · Sep 26	€11,683	awaiting	–	8 d so far	Wed 28 Oct	
+Submitted
+
+Hyperscale data centre design, Johor
+CE-2192 · Design only
+	No. 2 · Sep 26	€66,891	awaiting	–	8 d so far	Wed 28 Oct	
+Submitted
+
+Hyperscale data centre, Swords
+CE-2148 · Feale Contracts
+	No. 16 · Sep 26	€65,554	awaiting	–	8 d so far	Wed 28 Oct	
+Submitted
+
+Last-mile depot, Wexford
+CE-2106 · Tolka Building
+	No. 15 · Sep 26	€45,200	awaiting	–	8 d so far	Wed 28 Oct	
+Submitted
+
+Logistics hub, Edinburgh
+CE-2166 · Halden Build
+	No. 16 · Sep 26	£1,500	awaiting	–	8 d so far	Wed 28 Oct	
+Submitted
+
+Mixed-use block, Peterborough
+CE-2178 · Thornbury Build Group
+	No. 12 · Sep 26	£24,222	awaiting	–	8 d so far	Wed 28 Oct	
+Submitted
+
+Office scheme, Cambridge
+CE-2180 · Halden Build
+	No. 15 · Sep 26	£33,393	awaiting	–	8 d so far	Wed 28 Oct	
+Submitted
+
+Regional sports campus, Letterkenny
+CE-2114 · Derravaragh Projects
+	No. 2 · Sep 26	€2,700	awaiting	–	8 d so far	Wed 28 Oct	
+Submitted
+
+Sports centre, Arklow
+CE-2111 · Tolka Building
+	No. 16 · Aug 26	€6,767	€6,348	–	15 d	Wed 28 Oct	
+Not started
+
+Student accommodation, Clonee
+CE-2104 · Feale Contracts
+	No. 1 · Jun 26	€2,724	€2,513	€2,513	21 d	Wed 28 Oct	
+Not started
+
+Terminal pier extension, Shannon
+CE-2139 · Corrib Contracting
+	No. 11 · Sep 26	€9,559	awaiting	–	8 d so far	Wed 28 Oct	
+Submitted
+
+104 jobs. Amounts in job currency; use Group € in the top bar to convert. Certified amounts flow in from the Inbox Agent matching payment notices.
+
+13-week cash forecast
+
+Receipts from certified and submitted applications by due date, then next applications at 30 to 35 days. Group €.
+
+Opening position
+€1.65m
+Receipts, 13 weeks
+€6.74m
+Payments, 13 weeks
+€4.62m
+Lowest / closing
+€1.46m / €3.76m
+5 Oct
+19 Oct
+2 Nov
+16 Nov
+30 Nov
+14 Dec
+28 Dec
+−€1.50m
+€0
+€1.50m
+€3.00m
+€4.50m
+
+Payments: weekly payroll, supplier run on the last Friday of each month, fixed overheads. Opening position from the bank feed (example connection).
+
+Retentions held and release dates
+
+Half at practical completion, the rest after the 12-month defects period
+
+Held across jobs
+€822k
+97 jobs
+Due back in 6 months
+€248k
+If PC dates hold
+JOB	HELD	HALF AT PC	BALANCE
+
+Data hall extension, Citywest
+5% retention
+	€30,817	Oct 26	Oct 27
+
+RDS Anglesea Stand
+3% retention
+	€4,530	Oct 26	Oct 27
+
+University science building, Belfast
+5% retention
+	£6,661	Oct 26	Oct 27
+
+Diageo carbon-neutral brewery
+5% retention
+	€15,631	Oct 26	Oct 27
+
+Logistics hub, Edinburgh
+5% retention
+	£20,389	Oct 26	Oct 27
+
+Sports centre, Arklow
+3% retention
+	€5,516	Oct 26	Oct 27
+
+Data centre campus Phase 2, Grange Castle
+5% retention
+	€24,520	Oct 26	Oct 27
+
+Terminal pier extension, Clonee
+3% retention
+	€7,866	Oct 26	Oct 27
+
+Last-mile depot, Wexford
+5% retention
+	€47,893	Oct 26	Oct 27
+
+Office scheme, Drogheda
+5% retention
+	€12,301	Nov 26	Nov 27
+
+Primary school campus, Wexford
+3% retention
+	€3,400	Nov 26	Nov 27
+
+Hangar and stands, Carlow
+5% retention
+	€19,281	Nov 26	Nov 27
+
+Tile factory, Sittingbourne
+3% retention
+	£1,854	Nov 26	Nov 27
+
+Mixed-use block, Park Royal
+5% retention
+	£10,051	Dec 26	Dec 27
+
+Hyperscale data centre, Swords
+5% retention
+	€22,132	Dec 26	Dec 27
+
+Distribution warehouse, Thurrock
+3% retention
+	£16,220	Dec 26	Dec 27
+
+Student accommodation, Limerick
+5% retention
+	€6,930	Dec 26	Dec 27
+
+Laya Arena, Ballsbridge
+3% retention
+	€3,603	Dec 26	Dec 27
+
+Dexcom campus, Athenry
+5% retention
+	€13,984	Dec 26	Dec 27
+
+Fill-finish building, Naas
+3% retention
+	€6,515	Dec 26	Dec 27
+
+Office scheme, Cambridge
+3% retention
+	£5,132	Jan 27	Jan 28
+
+Fill-finish building, Kilkenny
+3% retention
+	€5,969	Jan 27	Jan 28
+
+Business park Unit 4, Slough
+5% retention
+	£8,160	Jan 27	Jan 28
+
+Data centre campus Phase 2, Grange Castle
+3% retention
+	€15,888	Jan 27	Jan 28
+
+Cold store, Mullingar
+5% retention
+	€39,430	Jan 27	Jan 28
+
+Data hall extension, Slough
+5% retention
+	£12,645	Jan 27	Jan 28
+
+Food processing plant, Sligo
+5% retention
+	€8,465	Feb 27	Feb 28
+
+Last-mile depot, Waterford
+3% retention
+	€14,700	Feb 27	Feb 28
+
+Dexcom Stadium, Connacht Rugby
+5% retention
+	€4,019	Feb 27	Feb 28
+
+Project Oriel, St Pancras
+3% retention
+	£5,553	Feb 27	Feb 28
+
+Mixed-use block, Peterborough
+5% retention
+	£8,927	Mar 27	Mar 28
+
+North London Heat & Power Plant
+5% retention
+	£11,571	Mar 27	Mar 28
+
+Pharma expansion, Ringaskiddy
+3% retention
+	€4,345	Mar 27	Mar 28
+
+Biologics facility, Dunboyne
+3% retention
+	€8,825	Mar 27	Mar 28
+
+Hyperscale data centre, Clonee
+5% retention
+	€14,725	Apr 27	Apr 28
+
+Distribution warehouse, Edinburgh
+5% retention
+	£25,934	Apr 27	Apr 28
+
+Data centre campus Phase 2, Nottingham
+5% retention
+	£12,889	Apr 27	Apr 28
+
+Data hall extension, Naas
+3% retention
+	€7,729	Apr 27	Apr 28
+
+Colocation data centre, Coventry
+3% retention
+	£2,030	Apr 27	Apr 28
+
+Acute block refurbishment, Newry
+5% retention
+	£8,190	May 27	Apr 28
+
+Regional sports campus, Letterkenny
+5% retention
+	€486	May 27	May 28
+
+Business park Unit 4, Ennis
+3% retention
+	€486	May 27	May 28
+
+Food processing plant, Newry
+5% retention
+	£3,184	May 27	May 28
+
+Hyperscale data centre, Crawley
+5% retention
+	£20,131	May 27	May 28
+
+Build-to-rent block, Birmingham
+5% retention
+	£3,840	May 27	May 28
+
+Terminal pier extension, Tallaght
+5% retention
+	€11,167	May 27	May 28
+
+Food processing plant, Hayes
+5% retention
+	£9,488	May 27	May 28
+
+Cold store, Galway
+5% retention
+	€11,775	May 27	May 28
+
+Terminal pier extension, Shannon
+5% retention
+	€3,036	Jun 27	Jun 28
+
+Terminal pier extension, Swords
+5% retention
+	€1,491	Jun 27	Jun 28
+
+Biologics facility, Carrigtwohill
+5% retention
+	€3,596	Jun 27	Jun 28
+
+Regional sports campus, Clonee
+5% retention
+	€726	Jun 27	Jun 28
+
+Biologics facility, Birmingham
+5% retention
+	£2,485	Jun 27	Jun 28
+
+Food processing plant, Dartford
+5% retention
+	£541	Jun 27	Jun 28
+
+Cold store, Cavan
+5% retention
+	€10,403	Jun 27	Jun 28
+
+Colocation data centre, Wexford
+5% retention
+	€21,638	Jul 27	Jul 28
+
+Hyperscale data centre, Newport
+5% retention
+	£13,463	Jul 27	Jul 28
+
+Fill-finish building, Tallaght
+5% retention
+	€875	Aug 27	Aug 28
+
+Last-mile depot, Blanchardstown
+3% retention
+	€11,919	Aug 27	Aug 28
+
+Logistics hub, Milton Keynes
+5% retention
+	£11,337	Aug 27	Aug 28
+
+Hyperscale data centre, Drogheda
+5% retention
+	€1,810	Sep 27	Sep 28
+
+Acute block refurbishment, Shannon
+3% retention
+	€136	Sep 27	Sep 28
+
+Data hall extension, Belfast
+5% retention
+	£10,236	Sep 27	Sep 28
+
+Water treatment works, Ballycoolin
+5% retention
+	€639	Sep 27	Sep 28
+
+Hyperscale data centre, Sligo
+5% retention
+	€2,146	Sep 27	Sep 28
+
+Fill-finish building, Cavan
+3% retention
+	€505	Sep 27	Sep 28
+
+Food processing plant, Mullingar
+5% retention
+	€3,881	Oct 27	Oct 28
+
+Distribution warehouse, Doncaster
+3% retention
+	£5,820	Oct 27	Oct 28
+
+Pharma expansion, Sandyford
+3% retention
+	€1,647	Released	Oct 27
+
+API manufacturing block, Sandyford
+5% retention
+	€5,475	Oct 27	Oct 28
+
+Data centre campus Phase 2, Naas
+5% retention
+	€15,557	Released	Oct 27
+
+Water treatment works, Arklow
+5% retention
+	€5,034	Released	Oct 27
+
+Primary school campus, Ennis
+3% retention
+	€1,917	Released	Oct 27
+
+Business park Unit 4, Stansted
+3% retention
+	£3,649	Released	Oct 27
+
+Biologics facility, Drogheda
+5% retention
+	€8,416	Released	Oct 27
+
+Build-to-rent block, Ennis
+3% retention
+	€78	Nov 27	Oct 28
+
+Hyperscale data centre, Little Island
+5% retention
+	€3,920	Nov 27	Nov 28
+
+Elective care centre, Bristol
+5% retention
+	£3,387	Released	Nov 27
+
+Office scheme, Clonee
+3% retention
+	€3,854	Nov 27	Nov 28
+
+Student accommodation, Clonee
+3% retention
+	€75	Nov 27	Nov 28
+
+Hyperscale data centre, Bristol
+5% retention
+	£7,874	Nov 27	Nov 28
+
+University science building, Blanchardstown
+5% retention
+	€2,255	Dec 27	Dec 28
+
+Business park Unit 4, Didcot
+5% retention
+	£2,498	Dec 27	Dec 28
+
+Hyperscale data centre, Limerick
+5% retention
+	€2,315	Jan 28	Dec 28
+
+Cold store, Sandyford
+3% retention
+	€685	Jan 28	Jan 29
+
+Food processing plant, Basingstoke
+5% retention
+	£1,221	Jan 28	Jan 29
+
+Last-mile depot, Southampton
+3% retention
+	£5,234	Jan 28	Jan 29
+
+Cold store, Leixlip
+5% retention
+	€5,553	Jan 28	Jan 29
+
+Biologics facility, Citywest
+3% retention
+	€1,750	Feb 28	Jan 29
+
+API manufacturing block, Dunboyne
+3% retention
+	€1,644	Feb 28	Feb 29
+
+Energy-from-waste plant, Luton
+5% retention
+	£4,745	May 28	May 29
+
+Hospital extension, Mullingar
+5% retention
+	€1,086	May 28	May 29
+
+Data centre campus Phase 2, Blanchardstown
+5% retention
+	€7,665	Aug 28	Aug 29
+
+Build-to-rent block, Cardiff
+5% retention
+	£2,198	Aug 28	Aug 29
+
+Water treatment works, Kilkenny
+3% retention
+	€1,678	Sep 28	Sep 29
+
+API manufacturing block, Manchester
+3% retention
+	£1,116	Sep 28	Sep 29
+
+Water treatment works, Belfast
+5% retention
+	£3,203	Nov 28	Nov 29
+Variations register
+
+Every instruction from site to agreed account. Verbal instructions get confirmed in writing before they are priced.
+
+Not yet agreed
+Verbal
+Pending pricing
+Submitted
+Agreed
+Instructed (verbal)
+1
+€18k
+Pending pricing
+27
+€401k
+Submitted
+35
+€522k
+Agreed
+93
+€1.43m
+REF	JOB	DESCRIPTION	INSTRUCTED BY	DATE	VALUE	STATUS
+VO-244	
+Data centre campus Phase 2, Grange Castle
+	
+Re-route collector around relocated AHUs on data hall 2 roof (instructed verbally on site walk)
+Not in writing, not priced. 6 days since site walk.
+Confirm in writing
+	Tolka Building site manager	30 Sep	€18,400	
+Instructed (verbal)
+VO-269	
+Hyperscale data centre, Swords
+	
+Stainless steel outlets in lieu of HDPE in kitchen roof area
+	Feale Contracts PM	2 Oct	€19,300	
+Pending pricing
+VO-231	
+Fill-finish building, Tallaght
+	
+Overflow outlets added to valley gutter
+	Kilcarra Construction PM	25 Sep	€9,500	
+Pending pricing
+VO-271	
+Hyperscale data centre, Swords
+	
+Re-route collector around revised AHU positions
+	Feale Contracts PM	24 Sep	€12,600	
+Pending pricing
+VO-256	
+Hyperscale data centre, Little Island
+	
+Additional 4 no. outlets to new plant deck
+	Slaney Build PM	21 Sep	€22,300	
+Pending pricing
+VO-280	
+Primary school campus, Ennis
+	
+Overflow outlets added to valley gutter
+	Corrib Contracting PM	20 Sep	€24,700	
+Pending pricing
+VO-332	
+Distribution warehouse, Doncaster
+	
+Additional 4 no. outlets to new plant deck
+	Maresfield Contracting PM	7 Sep	£11,400	
+Pending pricing
+VO-240	
+Student accommodation, Limerick
+	
+Additional 4 no. outlets to new plant deck
+	Tolka Building PM	1 Sep	€20,600	
+Pending pricing
+VO-162	
+RDS Anglesea Stand
+	
+Temporary drainage during roof phasing
+	Site instruction	25 Aug	€5,800	
+Pending pricing
+VO-288	
+Last-mile depot, Southampton
+	
+Insulation and trace heating to exposed runs
+	Maresfield Contracting PM	23 Aug	£9,000	
+Pending pricing
+VO-333	
+Distribution warehouse, Doncaster
+	
+Additional 4 no. outlets to new plant deck
+	Maresfield Contracting PM	19 Aug	£13,400	
+Pending pricing
+VO-204	
+Fill-finish building, Naas
+	
+Temporary drainage during roof phasing
+	Corrib Contracting PM	13 Aug	€20,700	
+Pending pricing
+VO-193	
+Hangar and stands, Carlow
+	
+Re-route collector around revised AHU positions
+	Derravaragh Projects PM	9 Aug	€20,700	
+Pending pricing
+VO-191	
+Last-mile depot, Wexford
+	
+Extend stacks 6 m below slab for revised drainage connection
+	Tolka Building PM	2 Aug	€15,000	
+Pending pricing
+VO-287	
+Mixed-use block, Glasgow
+	
+Extend stacks 6 m below slab for revised drainage connection
+	Maresfield Contracting PM	1 Aug	£9,200	
+Pending pricing
+VO-188	
+API manufacturing block, Dunboyne
+	
+Overflow outlets added to valley gutter
+	Derravaragh Projects PM	30 Jul	€2,000	
+Pending pricing
+VO-235	
+Food processing plant, Mullingar
+	
+Overflow outlets added to valley gutter
+	Slaney Build PM	30 Jul	€4,100	
+Pending pricing
+VO-200	
+Water treatment works, Kilkenny
+	
+Stainless steel outlets in lieu of HDPE in kitchen roof area
+	Kilcarra Construction PM	19 Jul	€6,000	
+Pending pricing
+VO-265	
+Cold store, Mullingar
+	
+Insulation and trace heating to exposed runs
+	Feale Contracts PM	19 Jul	€23,000	
+Pending pricing
+VO-314	
+Food processing plant, Hayes
+	
+Extend stacks 6 m below slab for revised drainage connection
+	Northwold Construction PM	10 Jul	£3,700	
+Pending pricing
+VO-179	
+Logistics hub, Milton Keynes
+	
+Extend stacks 6 m below slab for revised drainage connection
+	Halden Build PM	5 Jul	£19,000	
+Pending pricing
+VO-325	
+Office scheme, Cambridge
+	
+Additional 4 no. outlets to new plant deck
+	Halden Build PM	3 Jul	£16,100	
+Pending pricing
+VO-294	
+Build-to-rent block, Cardiff
+	
+Extend stacks 6 m below slab for revised drainage connection
+	Ashcombe Projects PM	28 Jun	£17,100	
+Pending pricing
+VO-310	
+Food processing plant, Basingstoke
+	
+Temporary drainage during roof phasing
+	Northwold Construction PM	25 Jun	£20,700	
+Pending pricing
+VO-154	
+Dexcom campus, Athenry
+	
+Trace heating to exposed high-level collectors
+	JPC site instruction	21 Jun	€7,900	
+Pending pricing
+VO-158	
+Laya Arena, Ballsbridge
+	
+Additional 4 no. outlets to new plant deck
+	Site instruction	21 Jun	€15,900	
+Pending pricing
+VO-239	
+Student accommodation, Limerick
+	
+Stainless steel outlets in lieu of HDPE in kitchen roof area
+	Tolka Building PM	13 Jun	€18,700	
+Pending pricing
+VO-291	
+Last-mile depot, Southampton
+	
+Stainless steel outlets in lieu of HDPE in kitchen roof area
+	Maresfield Contracting PM	11 Jun	£12,000	
+Pending pricing
+VO-272	
+Data centre campus Phase 2, Naas
+	
+Re-route collector around revised AHU positions
+	Ballinure Construction PM	2 Oct	€2,900	
+Submitted
+VO-229	
+Fill-finish building, Tallaght
+	
+Insulation and trace heating to exposed runs
+	Kilcarra Construction PM	30 Sep	€7,900	
+Submitted
+VO-252	
+Cold store, Cavan
+	
+Additional 4 no. outlets to new plant deck
+	Moyola Build PM	27 Sep	€6,500	
+Submitted
+VO-302	
+Distribution warehouse, Edinburgh
+	
+Re-route collector around revised AHU positions
+	Thornbury Build Group PM	25 Sep	£8,300	
+Submitted
+VO-220	
+Colocation data centre, Wexford
+	
+Overflow outlets added to valley gutter
+	Moyola Build PM	15 Sep	€6,800	
+Submitted
+VO-175	
+Data centre campus Phase 2, Grange Castle
+	
+Insulation and trace heating to exposed runs
+	Tolka Building PM	2 Sep	€4,000	
+Submitted
+VO-166	
+Tile factory, Sittingbourne
+	
+Overflow outlets added to valley gutter
+	Site instruction	18 Aug	£19,700	
+Submitted
+VO-345	
+Hyperscale data centre, Newport
+	
+Stainless steel outlets in lieu of HDPE in kitchen roof area
+	Northwold Construction PM	14 Aug	£25,000	
+Submitted
+VO-199	
+Water treatment works, Kilkenny
+	
+Stainless steel outlets in lieu of HDPE in kitchen roof area
+	Kilcarra Construction PM	12 Aug	€2,100	
+Submitted
+VO-214	
+Terminal pier extension, Tallaght
+	
+Overflow outlets added to valley gutter
+	Corrib Contracting PM	9 Aug	€20,400	
+Submitted
+VO-342	
+Hyperscale data centre, Bristol
+	
+Re-route collector around revised AHU positions
+	Barrowford Construction PM	5 Aug	£25,200	
+Submitted
+VO-195	
+Hangar and stands, Carlow
+	
+Stainless steel outlets in lieu of HDPE in kitchen roof area
+	Derravaragh Projects PM	4 Aug	€17,800	
+Submitted
+VO-237	
+Student accommodation, Limerick
+	
+Re-route collector around revised AHU positions
+	Tolka Building PM	3 Aug	€14,800	
+Submitted
+VO-312	
+Food processing plant, Basingstoke
+	
+Temporary drainage during roof phasing
+	Northwold Construction PM	2 Aug	£20,700	
+Submitted
+VO-336	
+Energy-from-waste plant, Luton
+	
+Insulation and trace heating to exposed runs
+	Northwold Construction PM	2 Aug	£24,200	
+Submitted
+VO-304	
+Acute block refurbishment, Newry
+	
+Additional 4 no. outlets to new plant deck
+	Kestrel Main Contracting PM	30 Jul	£12,400	
+Submitted
+VO-322	
+Office scheme, Cambridge
+	
+Stainless steel outlets in lieu of HDPE in kitchen roof area
+	Halden Build PM	30 Jul	£14,200	
+Submitted
+VO-299	
+Logistics hub, Edinburgh
+	
+Extend stacks 6 m below slab for revised drainage connection
+	Halden Build PM	27 Jul	£24,900	
+Submitted
+VO-164	
+Project Oriel, St Pancras
+	
+Overflow outlets added to valley gutter
+	Site instruction	26 Jul	£23,100	
+Submitted
+VO-232	
+Fill-finish building, Tallaght
+	
+Stainless steel outlets in lieu of HDPE in kitchen roof area
+	Kilcarra Construction PM	24 Jul	€22,800	
+Submitted
+VO-259	
+Build-to-rent block, Ennis
+	
+Temporary drainage during roof phasing
+	Kilcarra Construction PM	22 Jul	€7,600	
+Submitted
+VO-210	
+Hyperscale data centre, Sligo
+	
+Temporary drainage during roof phasing
+	Tolka Building PM	18 Jul	€16,100	
+Submitted
+VO-268	
+Hyperscale data centre, Swords
+	
+Overflow outlets added to valley gutter
+	Feale Contracts PM	16 Jul	€6,900	
+Submitted
+VO-344	
+Hyperscale data centre, Newport
+	
+Extend stacks 6 m below slab for revised drainage connection
+	Northwold Construction PM	15 Jul	£4,500	
+Submitted
+VO-224	
+Food processing plant, Sligo
+	
+Temporary drainage during roof phasing
+	Ballinure Construction PM	10 Jul	€2,500	
+Submitted
+VO-318	
+Mixed-use block, Peterborough
+	
+Insulation and trace heating to exposed runs
+	Thornbury Build Group PM	6 Jul	£16,900	
+Submitted
+VO-317	
+Mixed-use block, Peterborough
+	
+Stainless steel outlets in lieu of HDPE in kitchen roof area
+	Thornbury Build Group PM	1 Jul	£11,000	
+Submitted
+VO-194	
+Hangar and stands, Carlow
+	
+Overflow outlets added to valley gutter
+	Derravaragh Projects PM	30 Jun	€22,500	
+Submitted
+VO-152	
+Dexcom campus, Athenry
+	
+Additional outlets to canopy link roof
+	JPC site instruction	25 Jun	€6,200	
+Submitted
+VO-245	
+Data hall extension, Naas
+	
+Re-route collector around revised AHU positions
+	Kilcarra Construction PM	24 Jun	€13,500	
+Submitted
+VO-311	
+Food processing plant, Basingstoke
+	
+Overflow outlets added to valley gutter
+	Northwold Construction PM	23 Jun	£16,300	
+Submitted
+VO-208	
+Regional sports campus, Letterkenny
+	
+Temporary drainage during roof phasing
+	Derravaragh Projects PM	20 Jun	€13,100	
+Submitted
+VO-189	
+Last-mile depot, Wexford
+	
+Extend stacks 6 m below slab for revised drainage connection
+	Tolka Building PM	18 Jun	€25,200	
+Submitted
+VO-275	
+Office scheme, Drogheda
+	
+Overflow outlets added to valley gutter
+	Slaney Build PM	13 Jun	€5,100	
+Submitted
+VO-238	
+Student accommodation, Limerick
+	
+Stainless steel outlets in lieu of HDPE in kitchen roof area
+	Tolka Building PM	8 Jun	€11,500	
+Submitted
+Margin by job
+
+Forecast margin at completion, with value earned and cost to date
+
+STRONGEST 8
+EARNED / COST · MARGIN
+Hyperscale data centre, Limerick
+€50k / €38k
+23.8%
+Business park Unit 4, Stansted
+£233k / £174k
+23.7%
+Colocation data centre, Coventry
+£24k / £19k
+23.7%
+Sports centre, Arklow
+€195k / €149k
+23.5%
+Cold store, Mullingar
+€899k / €673k
+23.4%
+Acute block refurbishment, Newry
+£198k / £150k
+23.2%
+Hyperscale data centre, Drogheda
+€38k / €28k
+23.2%
+Water treatment works, Kilkenny
+€74k / €56k
+23.1%
+WEAKEST 8
+EARNED / COST · MARGIN
+Hyperscale data centre, Crawley
+£470k / £425k
+8.6%
+Data hall extension, Slough
+£250k / £226k
+8.8%
+Last-mile depot, Blanchardstown
+€420k / €376k
+9.0%
+Biologics facility, Birmingham
+£60k / £54k
+9.6%
+Cold store, Cavan
+€217k / €190k
+10.3%
+Hyperscale data centre, Clonee
+€337k / €303k
+11.9%
+Distribution warehouse, Edinburgh
+£621k / £539k
+12.0%
+Hyperscale data centre, Sligo
+€45k / €40k
+12.4%
+Margin by sector
+
+Earned vs cost to date on live install jobs, group €
+
+0%
+6%
+12%
+18%
+23%
+Pharmaceutical
+Residential
+Commercial
+Airports
+Hospitals
+Stadiums
+Warehouse
+Education
+Specialist
+Data Centre

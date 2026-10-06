@@ -1,0 +1,183 @@
+INTEGRATIONS
+Keep what works. Connect it. Stop re-keying.
+
+Capcon OS sits on top of the tools your teams already use, so information is typed in once and appears everywhere it is needed.
+
+Meet the agents
+“YOUR OWN SOFTWARE, OR AI ON WHAT WE HAVE?”
+
+Both. Capcon OS is your own platform, connected into the tools you already use, with AI agents doing specific jobs under human approval.
+
+How it fits together
+
+Your tools feed Capcon OS. Agents work inside it. People see one picture and approve what matters.
+
+YOUR TOOLS TODAY
+YOUR PEOPLE
+Outlook / 365
+SharePoint, Excel
+Teams, WhatsApp
+Sage, Xero
+Revit, ACC
+Procore, Aconex
+Power BI
+D
+Donnacha
+Operations
+R
+Robert
+Prefab, maintenance
+V
+Valerie
+Finance
+A
+Aaron
+Estimating
+S
+Stephen
+Design
+J
+Julia
+HSQE, sustainability
+T
+Technicians
+Phone app on site
+AI AGENTS · ONE JOB EACH · YOU APPROVE
+CAPCON OS
+Your own platform, one record per job
+Projects
+Crews
+Tenders
+Design
+Prefab
+Finance
+Maintenance
+HSQE
+Handover
+Audit log · role-based access · EU region
+CONNECTIONS
+
+Illustrative. The actual list and how each one connects are confirmed during discovery. Click any tile for an example.
+
+Microsoft 365 / Outlook
+Email and calendar
+Live
+INTO CAPCON OS
+Emails to projects@ and site inboxes
+Attachments: drawings, instructions, notices
+Calendar invites for site meetings
+BACK OUT
+Drafted replies, sent only on approval
+Meeting actions filed to the job
+Example connection, confirmed on discovery
+SharePoint / OneDrive
+Documents
+Live
+INTO CAPCON OS
+Existing project folders
+RAMS, method statements, certificates
+O&M templates
+BACK OUT
+Documents filed to the right job folder
+Compiled handover packs (PDF)
+Example connection, confirmed on discovery
+Excel
+Existing trackers
+Nightly
+INTO CAPCON OS
+Tender register
+Valuation and cash trackers
+Crew plans and ticket lists
+BACK OUT
+Any table exported back to Excel
+Example connection, confirmed on discovery
+Teams
+Chat and approvals
+Live
+INTO CAPCON OS
+Replies to approval cards
+Mentions of job numbers
+BACK OUT
+Approval cards to the right person
+Alerts to channels (e.g. #operations)
+Example connection, confirmed on discovery
+Sage
+Accounts
+On approval
+INTO CAPCON OS
+Invoices and payments received
+Cost codes and supplier costs
+BACK OUT
+Approved applications posted as sales invoices
+Example connection, confirmed on discovery
+Xero
+Accounts (other entities)
+Nightly
+INTO CAPCON OS
+Bank feed payments
+Invoices for overseas entities
+BACK OUT
+Payment matches back to applications
+Example connection, confirmed on discovery
+Autodesk Revit / ACC
+Design, BIM and Construction Cloud
+Nightly
+INTO CAPCON OS
+Sheet revisions and issue status
+Pipe and outlet schedules from the model
+BACK OUT
+Design register status
+Spool lists to prefabrication
+Example connection, confirmed on discovery
+Procore
+Main contractor platform
+On approval
+INTO CAPCON OS
+RFIs and responses
+Drawings and programme updates
+BACK OUT
+RFI responses and daily reports, on approval
+Example connection, confirmed on discovery
+Aconex
+Document control
+Nightly
+INTO CAPCON OS
+Transmittals and document registers
+BACK OUT
+Submittals prepared for approval
+Example connection, confirmed on discovery
+WhatsApp
+Site groups
+Live
+INTO CAPCON OS
+Foremen’s photos and messages from site groups
+BACK OUT
+Nudges when a site has gone quiet, on approval
+Example connection, confirmed on discovery
+Power BI
+Reporting
+Nightly
+INTO CAPCON OS
+Your existing report definitions, so figures match
+BACK OUT
+Clean, reconciled datasets for existing reports
+Example connection, confirmed on discovery
+Security and control
+
+The same rules apply to every connection and every agent
+
+Stays in your tenant
+
+Data stays in your own Microsoft tenant, hosted in the EU region. Nothing is used to train public models.
+
+Role-based access
+
+Technicians see their site, Finance sees finance, directors see everything. Agents get the same limits.
+
+Full audit log
+
+Every read, draft, approval and change is recorded with who, what and when.
+
+Approval before action
+
+Nothing is sent, submitted, booked or paid by an agent without a person saying yes.

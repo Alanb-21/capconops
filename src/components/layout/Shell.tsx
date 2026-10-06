@@ -7,7 +7,8 @@ import { Background } from './Background';
 import { Sidebar } from './Sidebar';
 import { Topbar } from './Topbar';
 import { SearchPalette } from './SearchPalette';
-import { DemoGuide } from './DemoGuide';
+import { Walkthrough } from '../../presenter/Walkthrough';
+import { NotesDrawer } from '../../presenter/NotesDrawer';
 import { AssistantPanel } from '../../assistant/AssistantPanel';
 import { useInterval } from '../ui';
 import { AGENTS } from '../../data/agents';
@@ -19,6 +20,9 @@ export function Shell({ children }: { children: ReactNode }) {
     document.documentElement.classList.toggle('dark', theme === 'dark');
   }, [theme]);
   useAgentTicker();
+  useEffect(() => {
+    document.getElementById('main-scroll')?.scrollTo({ top: 0 });
+  }, [loc.pathname]);
   return (
     <div className="flex h-full w-full">
       <Background />
@@ -42,7 +46,8 @@ export function Shell({ children }: { children: ReactNode }) {
       </div>
       <AssistantPanel />
       <SearchPalette />
-      <DemoGuide />
+      <Walkthrough />
+      <NotesDrawer />
       <Toasts />
     </div>
   );

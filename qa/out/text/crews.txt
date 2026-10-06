@@ -1,0 +1,937 @@
+OPERATIONS
+Crews & Scheduling
+
+Week commencing Mon 5 Oct. Drag a booking or a site onto the board, or click any day to pick a site. The Compliance Agent checks tickets on every change.
+
+Ireland
+UK
+Crews on site today
+9
+of 9 IE crews · Tue 6 Oct
+Crew utilisation this week
+87%
+39 of 45 crew-days booked
+Sites needing a crew
+3
+Wed–Fri
+Clonee, Kilkenny, Citywest
+Tickets expiring ≤ 30 days
+3
+IE technicians
+SCHEDULER AGENT SUGGESTS
+Move IE Crew 8 to Clonee data centre Wed to Fri
+Clonee has work ready from Wednesday (programme rev F) and no crew booked. IE Crew 8 finishes at its current site Tuesday and holds valid tickets and a Kilcarra induction.
+Decline
+Approve move
+Weekly allocation
+
+Ireland install crews · Mon 5 to Fri 9 Oct
+
+drag to move · click to pick
+CREW
+MON 5
+TUE 6TODAY
+WED 7
+THU 8
+FRI 9
+IE Crew 1 · Maynooth
+Rory Daly · 4 people
+40%
+Clonee
+Hyperscale data centre
+Clonee
+Hyperscale data centre
+Unassigned
+Unassigned
+Unassigned
+IE Crew 2 · Galway
+Barry McEvoy · 4 people
+100%
+Dexcom
+Athenry
+Dexcom
+Athenry
+Dexcom
+Athenry
+Dexcom
+Athenry
+Dexcom
+Athenry
+IE Crew 3 · Cork
+Ciarán Kavanagh · 4 people
+100%
+Ringaskiddy
+Pharma expansion
+Ringaskiddy
+Pharma expansion
+Ringaskiddy
+Pharma expansion
+Ringaskiddy
+Pharma expansion
+Ringaskiddy
+Pharma expansion
+IE Crew 4 · Dublin
+Brian Walsh · 4 people
+100%
+Laya Arena
+Ballsbridge
+Laya Arena
+Ballsbridge
+Laya Arena
+Ballsbridge
+Laya Arena
+Ballsbridge
+Laya Arena
+Ballsbridge
+IE Crew 5 · Limerick
+Kieran Ryan · 4 people
+100%
+Dunboyne
+API manufacturing block
+Dunboyne
+API manufacturing block
+Dunboyne
+API manufacturing block
+Dunboyne
+API manufacturing block
+Dunboyne
+API manufacturing block
+IE Crew 6 · Dundalk
+Oisín Nowak · 4 people
+100%
+Kilkenny
+Water treatment works
+Kilkenny
+Water treatment works
+Kilkenny
+Water treatment works
+Citywest
+Biologics facility
+Citywest
+Biologics facility
+IE Crew 7 · Maynooth
+Owen Shaw · 4 people
+100%
+Grange Castle
+Data centre campus Phase 2
+Grange Castle
+Data centre campus Phase 2
+Grange Castle
+Data centre campus Phase 2
+Grange Castle
+Data centre campus Phase 2
+Grange Castle
+Data centre campus Phase 2
+IE Crew 8 · Waterford
+Liam Dunne · 4 people
+40%
+Naas
+Fill-finish building
+Naas
+Fill-finish building
+Unassigned
+Unassigned
+Unassigned
+IE Crew 9 · Athlone
+Darragh Ryan · 4 people
+100%
+Connacht Rugby
+Galway
+Connacht Rugby
+Galway
+Connacht Rugby
+Galway
+Connacht Rugby
+Galway
+Connacht Rugby
+Galway
+Maintenance team
+Read only · planned maintenance
+NCH Block A
+NCH Block C survey
+Diageo outlets
+Office, Sandyford
+Callout cover
+Sites needing a crew
+
+Work ready, no crew · drag onto a day
+
+Clonee
+Hyperscale data centre · CE-2333
+W
+Th
+F
+Kilkenny
+Water treatment works · CE-2109
+W
+Th
+F
+Citywest
+Biologics facility · CE-2110
+W
+Th
+F
+Materials not dispatched
+
+Crew booked, but spools needed by Mon 12 Oct are still in the workshop
+
+Dunboyne
+IE-05
+1 spool at Packed, needed Wed 7 Oct
+TECHNICIANS AND TICKETS
+Expiring in 30 days
+
+Checked nightly by the Compliance Agent
+
+6
+tickets across 6 people
+TK
+Tom Kehoe
+Manual handling · UK-05
+Expired 2 Oct
+TM
+Tomás Mason
+IPAF 3a/3b · IE-03
+14 Oct
+KL
+Kevin Lynch
+IPAF 3a/3b · IE-03
+16 Oct
+TQ
+Tom Quinn
+IPAF 3a/3b · UK-02
+23 Oct
+FK
+Fergal Kehoe
+Safe Pass · IE-06
+25 Oct
+CR
+Ciarán Ryan
+CSCS · UK-04
+1 Nov
+Technicians and tickets
+
+60 of 60 people · hover a ticket for its expiry date
+
+All
+IE
+UK
+All crews
+IE Crew 1 · Maynooth
+IE Crew 2 · Galway
+IE Crew 3 · Cork
+IE Crew 4 · Dublin
+IE Crew 5 · Limerick
+IE Crew 6 · Dundalk
+IE Crew 7 · Maynooth
+IE Crew 8 · Waterford
+IE Crew 9 · Athlone
+UK Crew 1 · Stansted
+UK Crew 2 · London
+UK Crew 3 · Midlands
+UK Crew 4 · Manchester
+UK Crew 5 · Thames Gateway
+Maintenance team
+Valid
+Expires within 30 days
+Expired
+SP Safe Pass · MH Manual handling · WAH Working at height · FA First aid · IND Site induction
+NAME	CREW	TICKETS	UTILISATION	TRAVEL H/WK
+
+RD
+Rory Daly
+Foreman · Maynooth
+	IE-01	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+	75%	6
+
+SD
+Stephen Doyle
+Technician · Maynooth
+	IE-01	
+SP
+IPAF
+PASMA
+MH
+WAH
+	83%	6
+
+SK
+Shane Kehoe
+Technician · Maynooth
+	IE-01	
+SP
+IPAF
+PASMA
+MH
+WAH
+	87%	8
+
+SK
+Seán Kelly
+Technician · Maynooth
+	IE-01	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+	74%	10
+
+BM
+Barry McEvoy
+Lead Technician · Galway
+	IE-02	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+IND
+	85%	10
+
+CL
+Cian Lynch
+Technician · Galway
+	IE-02	
+SP
+IPAF
+PASMA
+MH
+WAH
+IND
+	84%	12
+
+DG
+Darragh Gallagher
+Technician · Galway
+	IE-02	
+SP
+IPAF
+PASMA
+MH
+WAH
+IND
+	95%	8
+
+MT
+Mihai Turner
+Apprentice · Galway
+	IE-02	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+IND
+	82%	5
+
+CK
+Ciarán Kavanagh
+Foreman · Cork
+	IE-03	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+IND
+	89%	7
+
+TM
+Tomás Mason
+Technician · Cork
+	IE-03	
+SP
+IPAF
+PASMA
+MH
+WAH
+IND
+	80%	9
+
+KL
+Kevin Lynch
+Technician · Cork
+	IE-03	
+SP
+IPAF
+PASMA
+MH
+WAH
+IND
+	94%	7
+
+GB
+Gary Byrne
+Technician · Cork
+	IE-03	
+SP
+IPAF
+PASMA
+MH
+WAH
+IND
+	81%	7
+
+BW
+Brian Walsh
+Foreman · Dublin
+	IE-04	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+	96%	3
+
+EK
+Eoin Kehoe
+Technician · Dublin
+	IE-04	
+SP
+IPAF
+PASMA
+MH
+WAH
+	80%	14
+
+PD
+Piotr Daly
+Technician · Dublin
+	IE-04	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+	81%	5
+
+TH
+Tadhg Hayes
+Technician · Dublin
+	IE-04	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+	74%	10
+
+KR
+Kieran Ryan
+Foreman · Limerick
+	IE-05	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+	88%	8
+
+CK
+Conor Keane
+Technician · Limerick
+	IE-05	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+	93%	11
+
+SW
+Stephen Whelan
+Technician · Limerick
+	IE-05	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+	76%	6
+
+DF
+Dylan Farrell
+Apprentice · Limerick
+	IE-05	
+SP
+IPAF
+PASMA
+MH
+WAH
+	79%	12
+
+ON
+Oisín Nowak
+Foreman · Dundalk
+	IE-06	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+	79%	12
+
+FK
+Fergal Kehoe
+Technician · Dundalk
+	IE-06	
+SP
+IPAF
+PASMA
+MH
+WAH
+	95%	10
+
+TM
+Tomasz McCarthy
+Technician · Dundalk
+	IE-06	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+	79%	11
+
+FW
+Fionn Whelan
+Technician · Dundalk
+	IE-06	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+	83%	13
+
+OS
+Owen Shaw
+Foreman · Maynooth
+	IE-07	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+	79%	8
+
+TB
+Tomás Brennan
+Technician · Maynooth
+	IE-07	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+	84%	11
+
+DQ
+Daniel Quinn
+Technician · Maynooth
+	IE-07	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+	93%	6
+
+SK
+Shane Keane
+Apprentice · Maynooth
+	IE-07	
+SP
+IPAF
+PASMA
+MH
+WAH
+	80%	4
+
+LD
+Liam Dunne
+Foreman · Waterford
+	IE-08	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+	90%	9
+
+FG
+Fergal Gallagher
+Technician · Waterford
+	IE-08	
+SP
+IPAF
+PASMA
+MH
+WAH
+	83%	8
+
+LK
+Lukas Kowalski
+Technician · Waterford
+	IE-08	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+	80%	11
+
+NC
+Niall Carroll
+Technician · Waterford
+	IE-08	
+SP
+IPAF
+PASMA
+MH
+WAH
+	92%	5
+
+DR
+Darragh Ryan
+Foreman · Athlone
+	IE-09	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+	81%	14
+
+DL
+Dermot Lynch
+Technician · Athlone
+	IE-09	
+SP
+IPAF
+PASMA
+MH
+WAH
+	74%	8
+
+DK
+Daniel Kehoe
+Technician · Athlone
+	IE-09	
+SP
+IPAF
+PASMA
+MH
+WAH
+	80%	3
+
+CH
+Craig Hayes
+Apprentice · Athlone
+	IE-09	
+SP
+IPAF
+PASMA
+MH
+WAH
+	83%	7
+
+RN
+Rory Nowak
+Foreman · Stansted
+	UK-01	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+FA
+	87%	4
+
+CK
+Callum Kehoe
+Technician · Stansted
+	UK-01	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+FA
+	78%	6
+
+JW
+Jack Walsh
+Technician · Stansted
+	UK-01	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+	81%	4
+
+CN
+Callum Nowak
+Apprentice · Stansted
+	UK-01	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+	84%	5
+
+KQ
+Kieran Quinn
+Foreman · London
+	UK-02	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+FA
+	85%	9
+
+FW
+Fergal Whelan
+Technician · London
+	UK-02	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+	79%	10
+
+TQ
+Tom Quinn
+Technician · London
+	UK-02	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+FA
+	83%	11
+
+CP
+Cian Popescu
+Technician · London
+	UK-02	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+	90%	9
+
+JW
+Jack Wright
+Foreman · Midlands
+	UK-03	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+FA
+	87%	11
+
+SB
+Seán Brennan
+Technician · Midlands
+	UK-03	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+	79%	7
+
+NB
+Niall Byrne
+Technician · Midlands
+	UK-03	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+	73%	8
+
+TD
+Tomás Doyle
+Apprentice · Midlands
+	UK-03	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+	83%	5
+
+FM
+Fergal Moran
+Foreman · Manchester
+	UK-04	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+FA
+	80%	9
+
+FM
+Fionn Murphy
+Technician · Manchester
+	UK-04	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+	95%	10
+
+KP
+Kieran Popescu
+Technician · Manchester
+	UK-04	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+	75%	8
+
+CR
+Ciarán Ryan
+Technician · Manchester
+	UK-04	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+FA
+	96%	6
+
+NK
+Niall Keane
+Foreman · Thames Gateway
+	UK-05	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+FA
+	90%	5
+
+JM
+Jack Mason
+Technician · Thames Gateway
+	UK-05	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+FA
+	88%	7
+
+TK
+Tom Kehoe
+Technician · Thames Gateway
+	UK-05	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+	92%	4
+
+SH
+Shane Hayes
+Technician · Thames Gateway
+	UK-05	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+	77%	10
+
+CM
+Ciarán McCarthy
+Maintenance Technician · Maynooth
+	MT-01	
+SP
+IPAF
+PASMA
+MH
+WAH
+FA
+	73%	14
+
+JW
+Jack Whelan
+Maintenance Technician · Maynooth
+	MT-01	
+SP
+IPAF
+PASMA
+MH
+WAH
+	85%	10
+
+DF
+Daniel Fitzgerald
+Maintenance Technician · Maynooth
+	MT-01	
+SP
+IPAF
+PASMA
+MH
+WAH
+	84%	11
+
+FW
+Fionn Walsh
+Maintenance Technician · Stansted
+	MT-01	
+CSCS
+IPAF
+PASMA
+MH
+WAH
+	76%	10

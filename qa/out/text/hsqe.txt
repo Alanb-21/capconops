@@ -1,0 +1,775 @@
+JULIA CAVANAUGH · SUSTAINABILITY AND TECHNICAL DESIGN ENGINEER
+HSQE & Sustainability
+
+ISO 45001, 9001 and 14001 evidence collected as the work happens, plus the carbon and water story clients and EcoVadis ask for.
+
+Export ESG summary
+ISO 9001
+Quality management
+Certified
+ISO 14001
+Environmental management
+Certified
+ISO 45001
+Occupational health and safety
+Certified
+EcoVadis
+Sustainability rating
+Rated
+Near misses, 30 days
+13
+Reported from the technician app
+Incidents, 12 months
+4
+All first aid only, no lost time
+RAMS approved
+80
+of 91 live sites
+Live permits
+202
+Hot works, roof access, MEWP
+Embodied carbon installed
+917 t
+8.8 kgCO2e per metre
+Rainwater harvest designed
+233k m³
+per year across 17 jobs
+ISO 45001: incidents and near misses
+
+Weekly, last 12 weeks. Near-miss reporting jumped once it moved into the technician app: a healthy sign.
+
+Toolbox talks, 14 days
+40
+Audits, 30 days
+14
+Permits issued, live
+202
+20 Jul
+3 Aug
+17 Aug
+31 Aug
+14 Sep
+28 Sep
+0
+3
+6
+9
+12
+Safety log
+
+2 open items
+
+All
+Near misses
+Incidents
+Audits
+Toolbox
+Dropped fixing from height, exclusion zone in place
+Near miss · Pharma expansion, Ringaskiddy · 3 Oct
+Open
+Wind gust moved pipe length during lift
+Near miss · Hyperscale data centre, Swords · 3 Oct
+Open
+MEWP outrigger close to open trench
+Near miss · Distribution warehouse, Thurrock · 5 Oct
+Closed
+Director site visit
+Audit · Biologics facility, Carrigtwohill · 5 Oct
+Closed
+Extension lead across walkway
+Near miss · Food processing plant, Basingstoke · 4 Oct
+Closed
+Main contractor safety walk
+Audit · Distribution warehouse, Doncaster · 4 Oct
+Closed
+Wind gust moved pipe length during lift
+Near miss · Cold store, Cavan · 3 Oct
+Closed
+ISO 45001 site audit
+Audit · Colocation data centre, Coventry · 2 Oct
+Closed
+Wind gust moved pipe length during lift
+Near miss · Food processing plant, Hayes · 2 Oct
+Closed
+Pedestrian route blocked by spool delivery
+Near miss · Biologics facility, Dunboyne · 1 Oct
+Closed
+Unsecured bracket box at roof edge
+Near miss · Business park Unit 4, Ennis · 1 Oct
+Closed
+Unsecured bracket box at roof edge
+Near miss · Data hall extension, Belfast · 1 Oct
+Closed
+MEWP outrigger close to open trench
+Near miss · Food processing plant, Newry · 1 Oct
+Closed
+Director site visit
+Audit · Energy-from-waste plant, Luton · 28 Sep
+Closed
+Director site visit
+Audit · Dexcom campus, Athenry · 27 Sep
+Closed
+Slip on wet deck, no lost time
+Incident · Dexcom Stadium, Connacht Rugby · 26 Sep
+Closed
+Director site visit
+Audit · Business park Unit 4, Ennis · 25 Sep
+Closed
+Pedestrian route blocked by spool delivery
+Near miss · Biologics facility, Citywest · 22 Sep
+Closed
+Main contractor safety walk
+Audit · Biologics facility, Birmingham · 22 Sep
+Closed
+ISO 45001 site audit
+Audit · Hyperscale data centre, Clonee · 21 Sep
+Closed
+Wind gust moved pipe length during lift
+Near miss · API manufacturing block, Sandyford · 19 Sep
+Closed
+Main contractor safety walk
+Audit · Hyperscale data centre, Drogheda · 16 Sep
+Closed
+Director site visit
+Audit · RDS Anglesea Stand · 12 Sep
+Closed
+ISO 45001 site audit
+Audit · Diageo carbon-neutral brewery · 12 Sep
+Closed
+Main contractor safety walk
+Audit · Terminal pier extension, Tallaght · 11 Sep
+Closed
+MEWP outrigger close to open trench
+Near miss · Last-mile depot, Waterford · 9 Sep
+Closed
+Director site visit
+Audit · Hyperscale data centre, Swords · 9 Sep
+Closed
+Director site visit
+Audit · Data hall extension, Slough · 7 Sep
+Closed
+Minor hand laceration, first aid only
+Incident · Cold store, Sandyford · 29 Aug
+Closed
+Extension lead across walkway
+Near miss · Hyperscale data centre, Drogheda · 25 Aug
+Closed
+Extension lead across walkway
+Near miss · Hyperscale data centre, Newport · 23 Aug
+Closed
+Extension lead across walkway
+Near miss · Dexcom Stadium, Connacht Rugby · 20 Aug
+Closed
+Minor hand laceration, first aid only
+Incident · Sports centre, Arklow · 16 Aug
+Closed
+Extension lead across walkway
+Near miss · Office scheme, Drogheda · 16 Aug
+Closed
+Wind gust moved pipe length during lift
+Near miss · Tile factory, Sittingbourne · 9 Aug
+Closed
+Minor hand laceration, first aid only
+Incident · Last-mile depot, Wexford · 7 Aug
+Closed
+RAMS and permits by site
+
+Method statements, revision and live permits on every active site
+
+SITE	RAMS	REV	REVIEWED	PERMITS
+
+Hyperscale data centre, Newport
+CE-2191 · Data Centre
+	
+Revision required	R5	8 Aug	6
+
+Terminal pier extension, Tallaght
+CE-2117 · Airports
+	
+Revision required	R3	19 Jul	2
+
+Fill-finish building, Kilkenny
+CE-2138 · Pharmaceutical
+	
+Revision required	R5	1 Oct	2
+
+Mixed-use block, Glasgow
+CE-2161 · Commercial
+	
+Revision required	R1	12 Jul	1
+
+Build-to-rent block, Birmingham
+CE-2164 · Residential
+	
+Revision required	R4	28 Jul	1
+
+Logistics hub, Milton Keynes
+CE-2340 · Warehouse · revised sequence after roof deck delay
+	
+Revision required	R4	18 Jul	0
+
+Data hall extension, Belfast
+CE-2181 · Data Centre
+	
+Submitted	R3	3 Sep	4
+
+Laya Arena, Ballsbridge
+CE-2318 · Stadiums
+	
+Submitted	R4	22 Sep	2
+
+Hospital extension, Mullingar
+CE-2136 · Hospitals
+	
+Submitted	R4	10 Jul	2
+
+Food processing plant, Mullingar
+CE-2128 · Specialist
+	
+Submitted	R3	25 Sep	0
+
+Last-mile depot, Waterford
+CE-2145 · Warehouse
+	
+Submitted	R1	8 Sep	0
+
+Hyperscale data centre, Clonee
+CE-2333 · Data Centre
+	
+Approved	R4	25 Jul	6
+
+Pharma expansion, Ringaskiddy
+CE-2321 · Pharmaceutical
+	
+Approved	R2	29 Aug	6
+
+Biologics facility, Carrigtwohill
+CE-2326 · Pharmaceutical
+	
+Approved	R1	30 Jul	6
+
+API manufacturing block, Dunboyne
+CE-2102 · Pharmaceutical
+	
+Approved	R1	10 Jul	6
+
+Fill-finish building, Naas
+CE-2112 · Pharmaceutical
+	
+Approved	R1	30 Jul	6
+
+Hyperscale data centre, Limerick
+CE-2126 · Data Centre
+	
+Approved	R4	16 Jul	6
+
+Hyperscale data centre, Swords
+CE-2148 · Data Centre
+	
+Approved	R2	8 Jul	6
+
+Colocation data centre, Coventry
+CE-2159 · Data Centre
+	
+Approved	R1	5 Aug	6
+
+Hyperscale data centre, Crawley
+CE-2160 · Data Centre
+	
+Approved	R2	19 Sep	6
+
+Biologics facility, Citywest
+CE-2110 · Pharmaceutical
+	
+Approved	R4	15 Jul	5
+
+Hyperscale data centre, Drogheda
+CE-2118 · Data Centre
+	
+Approved	R4	23 Jul	5
+
+Colocation data centre, Wexford
+CE-2119 · Data Centre
+	
+Approved	R4	1 Sep	5
+
+Hyperscale data centre, Little Island
+CE-2137 · Data Centre
+	
+Approved	R3	26 Jul	5
+
+Data centre campus Phase 2, Grange Castle
+CE-2140 · Data Centre
+	
+Approved	R1	4 Sep	5
+
+API manufacturing block, Manchester
+CE-2182 · Pharmaceutical
+	
+Approved	R1	28 Sep	5
+
+Data centre campus Phase 2, Grange Castle
+CE-2315 · Data Centre
+	
+Approved	R3	31 Jul	4
+
+Biologics facility, Birmingham
+CE-2169 · Pharmaceutical
+	
+Approved	R4	24 Jul	4
+
+Data centre campus Phase 2, Nottingham
+CE-2179 · Data Centre
+	
+Approved	R3	14 Jul	4
+
+Dexcom campus, Athenry
+CE-2291 · Pharmaceutical
+	
+Approved	R4	16 Aug	3
+
+Data hall extension, Slough
+CE-2298 · Data Centre
+	
+Approved	R1	12 Jul	3
+
+Fill-finish building, Cavan
+CE-2129 · Pharmaceutical
+	
+Approved	R5	1 Sep	3
+
+API manufacturing block, Sandyford
+CE-2131 · Pharmaceutical
+	
+Approved	R1	11 Sep	3
+
+Biologics facility, Dunboyne
+CE-2141 · Pharmaceutical
+	
+Approved	R1	8 Jul	3
+
+Data hall extension, Citywest
+CE-2157 · Data Centre
+	
+Approved	R4	30 Aug	3
+
+Hyperscale data centre, Bristol
+CE-2190 · Data Centre
+	
+Approved	R5	6 Sep	3
+
+RDS Anglesea Stand
+CE-2242 · Stadiums
+	
+Approved	R4	29 Aug	2
+
+Diageo carbon-neutral brewery
+CE-2276 · Specialist
+	
+Approved	R1	19 Sep	2
+
+Dexcom Stadium, Connacht Rugby
+CE-2329 · Stadiums
+	
+Approved	R1	25 Aug	2
+
+Tile factory, Sittingbourne
+CE-2347 · Commercial
+	
+Approved	R5	14 Sep	2
+
+Distribution warehouse, Thurrock
+CE-2309 · Warehouse
+	
+Approved	R3	29 Aug	2
+
+Student accommodation, Clonee
+CE-2104 · Residential
+	
+Approved	R3	29 Jul	2
+
+Hangar and stands, Carlow
+CE-2107 · Airports
+	
+Approved	R3	14 Sep	2
+
+Terminal pier extension, Swords
+CE-2108 · Airports
+	
+Approved	R1	6 Aug	2
+
+Sports centre, Arklow
+CE-2111 · Stadiums
+	
+Approved	R4	13 Sep	2
+
+Cold store, Galway
+CE-2113 · Warehouse
+	
+Approved	R3	18 Jul	2
+
+Hyperscale data centre, Sligo
+CE-2116 · Data Centre
+	
+Approved	R5	8 Jul	2
+
+Fill-finish building, Tallaght
+CE-2127 · Pharmaceutical
+	
+Approved	R4	13 Jul	2
+
+Data hall extension, Naas
+CE-2132 · Data Centre
+	
+Approved	R5	29 Sep	2
+
+Cold store, Cavan
+CE-2135 · Warehouse
+	
+Approved	R3	18 Aug	2
+
+Terminal pier extension, Shannon
+CE-2139 · Airports
+	
+Approved	R1	16 Jul	2
+
+Data centre campus Phase 2, Blanchardstown
+CE-2151 · Data Centre
+	
+Approved	R5	9 Aug	2
+
+Cold store, Leixlip
+CE-2154 · Warehouse
+	
+Approved	R4	2 Sep	2
+
+Logistics hub, Edinburgh
+CE-2166 · Warehouse
+	
+Approved	R2	8 Jul	2
+
+Distribution warehouse, Edinburgh
+CE-2167 · Warehouse
+	
+Approved	R5	23 Sep	2
+
+University science building, Belfast
+CE-2172 · Education
+	
+Approved	R3	9 Sep	2
+
+Office scheme, Cambridge
+CE-2180 · Commercial
+	
+Approved	R5	26 Sep	2
+
+Business park Unit 4, Didcot
+CE-2186 · Commercial
+	
+Approved	R2	25 Aug	2
+
+North London Heat & Power Plant
+CE-2304 · Specialist
+	
+Approved	R1	17 Aug	1
+
+Project Oriel, St Pancras
+CE-2312 · Hospitals
+	
+Approved	R1	3 Sep	1
+
+Water treatment works, Ballycoolin
+CE-2101 · Specialist
+	
+Approved	R2	14 Sep	1
+
+Last-mile depot, Wexford
+CE-2106 · Warehouse
+	
+Approved	R4	16 Aug	1
+
+Water treatment works, Kilkenny
+CE-2109 · Specialist
+	
+Approved	R3	13 Jul	1
+
+Last-mile depot, Blanchardstown
+CE-2120 · Warehouse
+	
+Approved	R3	14 Sep	1
+
+Food processing plant, Sligo
+CE-2121 · Specialist
+	
+Approved	R5	10 Sep	1
+
+Acute block refurbishment, Shannon
+CE-2133 · Hospitals
+	
+Approved	R2	22 Sep	1
+
+Office scheme, Clonee
+CE-2134 · Commercial
+	
+Approved	R1	15 Sep	1
+
+University science building, Blanchardstown
+CE-2149 · Education
+	
+Approved	R4	15 Aug	1
+
+Business park Unit 4, Ennis
+CE-2150 · Commercial
+	
+Approved	R4	8 Jul	1
+
+Office scheme, Drogheda
+CE-2153 · Commercial
+	
+Approved	R3	26 Jul	1
+
+Last-mile depot, Southampton
+CE-2162 · Warehouse
+	
+Approved	R4	6 Aug	1
+
+Business park Unit 4, Slough
+CE-2165 · Commercial
+	
+Approved	R3	31 Aug	1
+
+Acute block refurbishment, Newry
+CE-2168 · Hospitals
+	
+Approved	R3	18 Jul	1
+
+Mixed-use block, Park Royal
+CE-2170 · Commercial
+	
+Approved	R2	19 Jul	1
+
+Food processing plant, Dartford
+CE-2174 · Specialist
+	
+Approved	R1	1 Oct	1
+
+Food processing plant, Hayes
+CE-2176 · Specialist
+	
+Approved	R4	12 Jul	1
+
+Mixed-use block, Peterborough
+CE-2178 · Commercial
+	
+Approved	R1	19 Jul	1
+
+Distribution warehouse, Doncaster
+CE-2183 · Warehouse
+	
+Approved	R5	4 Aug	1
+
+Food processing plant, Newry
+CE-2185 · Specialist
+	
+Approved	R3	22 Sep	1
+
+Terminal pier extension, Clonee
+CE-2103 · Airports
+	
+Approved	R1	10 Jul	0
+
+Regional sports campus, Letterkenny
+CE-2114 · Stadiums
+	
+Approved	R3	31 Aug	0
+
+Primary school campus, Wexford
+CE-2115 · Education
+	
+Approved	R1	17 Jul	0
+
+Cold store, Sandyford
+CE-2124 · Warehouse
+	
+Approved	R5	29 Sep	0
+
+Student accommodation, Limerick
+CE-2130 · Residential
+	
+Approved	R2	25 Sep	0
+
+Build-to-rent block, Ennis
+CE-2142 · Residential
+	
+Approved	R2	17 Jul	0
+
+Cold store, Mullingar
+CE-2147 · Warehouse
+	
+Approved	R1	9 Aug	0
+
+Regional sports campus, Clonee
+CE-2158 · Stadiums
+	
+Approved	R4	29 Sep	0
+
+Build-to-rent block, Cardiff
+CE-2163 · Residential
+	
+Approved	R5	13 Jul	0
+
+Food processing plant, Basingstoke
+CE-2175 · Specialist
+	
+Approved	R1	10 Jul	0
+
+Energy-from-waste plant, Luton
+CE-2184 · Specialist
+	
+Approved	R2	24 Sep	0
+
+Water treatment works, Belfast
+CE-2188 · Specialist
+	
+Approved	R3	19 Aug	0
+ISO 9001: non-conformances
+
+Raised on site or in prefab, closed with evidence
+
+Open
+4
+Closed
+5
+Oldest open
+73 days
+NCR-212
+Weld log missing for 3 fusion joints
+Student accommodation, Limerick · clause 8.5.1 · 4 Oct
+Open
+NCR-211
+Bracket spacing exceeds spec on run 4
+Cold store, Sandyford · clause 7.5.3 · 13 Aug
+Open
+NCR-213
+Pressure test record not countersigned
+Hyperscale data centre, Little Island · clause 7.5.3 · 30 Jul
+Open
+NCR-210
+Weld log missing for 3 fusion joints
+Regional sports campus, Letterkenny · clause 8.6 · 25 Jul
+Open
+NCR-216
+Pressure test record not countersigned
+Food processing plant, Hayes · clause 8.6 · 21 Sep
+Closed
+NCR-218
+Insulation gap at penetration
+Regional sports campus, Letterkenny · clause 8.7 · 14 Sep
+Closed
+NCR-214
+Pressure test record not countersigned
+Build-to-rent block, Birmingham · clause 8.6 · 21 Aug
+Closed
+NCR-215
+Bracket spacing exceeds spec on run 4
+Cold store, Galway · clause 8.6 · 15 Aug
+Closed
+NCR-217
+Pressure test record not countersigned
+Acute block refurbishment, Newry · clause 8.5.1 · 9 Aug
+Closed
+ISO 14001: embodied carbon per job
+
+Installed metres × material factor, tonnes CO2e. Top 10 jobs.
+
+Installed to date
+917 tCO2e
+Metres installed
+104,812 m
+Average intensity
+8.8 kg/m
+0 t
+25 t
+50 t
+75 t
+100 t
+Last-mile depot, Wexford
+Hyperscale data centre, S…
+Terminal pier extension,…
+Hyperscale data centre, C…
+Hangar and stands, Carlow
+Office scheme, Drogheda
+Data centre campus Phase…
+Cold store, Mullingar
+Data centre campus Phase…
+Diageo carbon-neutral bre…
+
+Methodology: indicative factors, kgCO2e per metre installed incl. fittings, brackets and transport: HDPE 6, PVC 5, stainless 15, aluminium 18, cast iron 22. Replace with manufacturer EPD values for formal reporting.
+
+Waste saved through prefabrication
+
+HDPE spools cut and fused in the prefab shop instead of on the roof
+
+Prefabricated to date
+46,433 m
+930 m in the shop now
+Offcut avoided
+6.2 t
+9% site vs 2% shop
+Carbon avoided
+12.4 tCO2e
+at ~2 kgCO2e/kg HDPE
+
+Assumes ~60% of HDPE installed is prefabricated, at ~1.9 kg/m. Shop offcuts are segregated for regrind.
+
+Rainwater harvesting designed
+
+Roof area × ~800 mm annual rainfall × 0.9 runoff
+
+Data centre campus Phase 2, Blanchardstown
+30,900 m² roof · Data Centre
+22,248 m³/yr
+Hyperscale data centre, Crawley
+30,200 m² roof · Data Centre
+21,744 m³/yr
+Last-mile depot, Wexford
+30,100 m² roof · Warehouse
+21,672 m³/yr
+Logistics hub, Milton Keynes
+28,000 m² roof · Warehouse
+20,160 m³/yr
+Hyperscale data centre, Drogheda
+26,300 m² roof · Data Centre
+18,936 m³/yr
+
+17 jobs with harvesting outlets, 233,352 m³ a year of potable water offset.
+
+EcoVadis evidence checklist
+
+6 of 8 evidence items ready for the next submission
+
+Export ESG summary
+ISO 14001 certificate and surveillance audit report
+Environment · Document register
+Ready
+Embodied carbon per job (indicative factors)
+Environment · Capcon OS, this page
+Ready
+Waste records and prefabrication offcut savings
+Environment · Prefab shop log
+Ready
+Scope 1 and 2 fuel and electricity data, 2026
+Environment · Fleet cards and utility bills
+To collect
+ISO 45001 certificate, incident and near-miss statistics
+Labour & human rights · Capcon OS HSQE
+Ready
+Training and ticket records for all technicians
+Labour & human rights · Crews & tickets
+Ready
+Anti-bribery and whistleblowing policies, signed by MD
+Ethics · Policy register
+Ready
+Supplier code of conduct and pipe manufacturer EPDs
+Sustainable procurement · Purchasing
+To collect

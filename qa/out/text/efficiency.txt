@@ -1,0 +1,194 @@
+WHAT THIS GIVES BACK
+Hours back every week, on your numbers.
+
+Every figure below comes from the assumptions on this page. Move any slider to your own numbers and the totals recalculate. Nothing is hidden.
+
+Conservative
+Expected
+Reset to defaults
+Hours given back per week
+114
+Across six departments
+Full-time equivalent
+3.0
+Hours per week ÷ 37.5
+Hours per year
+5,260
+Per week × 46 working weeks
+Annual value of that time
+€289,315
+At €55 per hour
+Operations: site status and the inbox
+
+Site Progress Agent, Inbox Agent
+
+32.7 h
+per week
+Live sites
+10
+200
+Status calls per site per week
+0
+10
+Minutes per call
+min
+1 min
+20 min
+Calls no longer needed
+%
+0%
+100%
+Emails per day to projects@
+0
+400
+Minutes per email to triage and file
+min
+0.5 min
+10 min
+Triage time saved
+%
+0%
+100%
+Commercial: applications for payment
+
+Valuation Agent
+
+32.9 h
+per week
+Valuations per month
+0
+200
+Hours per valuation
+h
+0.5 h
+8 h
+Valuation time saved
+%
+0%
+100%
+Estimating: tender takeoffs
+
+Takeoff Agent
+
+13.7 h
+per week
+Tenders per month
+0
+60
+Hours per takeoff
+h
+0.5 h
+24 h
+Takeoff time saved
+%
+0%
+100%
+Maintenance: inspection reports
+
+Maintenance Agent
+
+12.5 h
+per week
+Maintenance reports per month
+0
+200
+Hours per report
+h
+0.25 h
+6 h
+Report time saved
+%
+0%
+100%
+Design: handover packs and drawing issues
+
+Handover Pack Agent, Inbox Agent
+
+19.0 h
+per week
+Handover packs per month
+0
+30
+Hours per pack
+h
+1 h
+60 h
+Pack time saved
+%
+0%
+100%
+HSQE: tickets and compliance admin
+
+Compliance Agent
+
+3.6 h
+per week
+Ticket and compliance admin hours per week
+h
+0 h
+40 h
+Admin time saved
+%
+0%
+100%
+Turning hours into value
+
+Use your own loaded cost per hour
+
+Loaded hourly rate
+€
+€25
+€120
+Working weeks per year
+40
+52
+Hours per week by department
+
+Recalculates as you move the sliders
+
+Commercial
+Operations
+Design
+Estimating
+Maintenance
+HSQE
+32.9 h
+32.7 h
+19.0 h
+13.7 h
+12.5 h
+3.6 h
+Total per week
+114.4 h
+Assumptions and maths
+
+Your numbers, not ours. Every line is shown in full.
+
+Operations
+32.7 h
+(110 sites × 3 calls × 6 min ÷ 60) × 70% = 23.1 h
++ (120 emails × 5 days × 2 min ÷ 60) × 80% × 60% = 9.6 h
+Commercial
+32.9 h
+95 valuations × 2.5 h ÷ 4.33 weeks × 60%
+Estimating
+13.7 h
+18 tenders × 6 h ÷ 4.33 weeks × 55%
+Maintenance
+12.5 h
+60 reports × 1.5 h ÷ 4.33 weeks × 60%
+Design
+19.0 h
+6 packs × 14 h ÷ 4.33 weeks × 65% = 12.6 h
++ email triage × 40% (drawing issues, RFIs) = 6.4 h
+HSQE
+3.6 h
+6 h admin per week × 60%
+Total 114.4 h per week ÷ 37.5 h = 3.05 FTE
+114.4 h × 46 weeks × €55 = €289,315 a year
+
+Monthly volumes are converted to weekly by dividing by 4.33 (52 weeks ÷ 12 months). Email volumes use a 5-day week.
+
+Hours are time freed up for people to spend on better work, not headcount cuts. Agents draft and people approve, so review time is already netted off in the “% saved” figures.
+
+See the agents doing this

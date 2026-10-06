@@ -1,0 +1,1851 @@
+DELIVERY
+Projects & Sites
+
+113 jobs across Ireland, the UK and overseas. Every site's progress, crew and programme, updated from the foreman and technician apps.
+
+Table
+Where each job stands
+All
+IE
+UK
+Overseas
+All sectors
+Airports
+Commercial
+Data Centre
+Education
+Hospitals
+Pharmaceutical
+Residential
+Specialist
+Stadiums
+Warehouse
+All stages
+Design
+Prefabrication
+Install
+Testing & commissioning
+Handover
+Any health
+On track
+At risk
+Blocked
+113
+jobs
+97
+on track
+15
+at risk
+1
+blocked
+93 of 113 updated in the last 24 hours, no phone calls needed
+Where does each job truly stand?
+The last word from every site, who said it and how, today's crew and the next milestone. Read in a minute instead of ringing round the foremen.
+Dexcom campus, Athenry
+CE-2291 · Install · 74%
+On track
+38 min ago
+Foreman app
+
+Crew on site 07:30. Continuing siphonic collector runs on Building 2, grid D–F.
+
+Barry McEvoy
+Crew today
+IE Crew 2 · 4
+Next milestone
+Building 2 siphonic water test
+14 Oct · in 8 days
+2 days ahead
+Submitted
+Student accommodation, Clonee
+CE-2104 · Prefabrication · 2%
+On track
+43 min ago
+Foreman app
+
+Collector pipe run along D4 installed and supported, 2 no. anchor points fitted.
+
+Site foreman
+Crew today
+None
+Next milestone
+First spool delivery
+8 Nov · in 33 days
+1 day ahead
+Not started
+Distribution warehouse, Doncaster
+CE-2183 · Install · 46%
+On track
+44 min ago
+Foreman app
+
+Spools from Maynooth delivered 07:40, unloaded and staged at laydown area.
+
+Site foreman
+Crew today
+None
+Next milestone
+Stacks to ground
+20 Oct · in 14 days
+On programme
+Certified
+Primary school campus, Wexford
+CE-2115 · Testing & commissioning · 94%
+On track
+46 min ago
+Site Progress Agent
+
+Toolbox talk: working at height and edge protection. All crew signed on.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Commissioning certificate
+17 Oct · in 11 days
+2 days ahead
+Not started
+Data centre campus Phase 2, Grange Castle
+CE-2140 · Testing & commissioning · 97%
+On track
+51 min ago
+Site Progress Agent
+
+Toolbox talk: working at height and edge protection. All crew signed on.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Commissioning certificate
+5 Nov · in 30 days
+On programme
+Not started
+Cold store, Sandyford
+CE-2124 · Prefabrication · 3%
+On track
+56 min ago
+Email
+
+Electrofusion welds logged on tablet, weld log uploaded.
+
+Slaney Build site team
+Crew today
+None
+Next milestone
+First spool delivery
+11 Nov · in 36 days
+1 day ahead
+Submitted
+Food processing plant, Sligo
+CE-2121 · Install · 75%
+On track
+1h ago
+Foreman app
+
+Gravity stacks to first floor complete, brackets torqued, awaiting MEWP for high level.
+
+Site foreman
+Crew today
+None
+Next milestone
+Siphonic water test
+18 Oct · in 12 days
+5 days ahead
+Submitted
+Colocation data centre, Limerick
+CE-2155 · Design · 0%
+On track
+1h ago
+Site Progress Agent
+
+Coordinated with M&E on clash at D7; offset agreed and marked up.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Design sign-off
+2 Nov · in 27 days
+4 days ahead
+Not started
+Distribution warehouse, Letterkenny
+CE-2125 · Design · 0%
+On track
+1h ago
+Site Progress Agent
+
+Lost 2 hours to wind, MEWP grounded until 11:00. Caught up in afternoon.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Design sign-off
+15 Nov · in 40 days
+5 days ahead
+Not started
+Pharma expansion, Sandyford
+CE-2122 · Handover · 100%
+On track
+2h ago
+Foreman app
+
+Toolbox talk: working at height and edge protection. All crew signed on.
+
+Site foreman
+Crew today
+None
+Next milestone
+Handover pack issued
+19 Oct · in 13 days
+6 days ahead
+Not started
+Hyperscale data centre, Drogheda
+CE-2118 · Prefabrication · 6%
+On track
+2h ago
+Foreman app
+
+Coordinated with M&E on clash at D14; offset agreed and marked up.
+
+Site foreman
+Crew today
+None
+Next milestone
+First spool delivery
+21 Oct · in 15 days
+1 day behind
+Not started
+API manufacturing block, Dunboyne
+CE-2102 · Install · 27%
+On track
+3h ago
+Email
+
+Spools from Maynooth delivered 07:40, unloaded and staged at laydown area.
+
+Kieran Ryan
+Crew today
+IE Crew 5 · 4
+Next milestone
+Zone complete
+11 Oct · in 5 days
+2 days ahead
+Certified
+Data centre campus Phase 2, Grange Castle
+CE-2315 · Install · 60%
+On track
+3h ago
+Site Progress Agent
+
+Coordinated with M&E on clash at E4; offset agreed and marked up.
+
+Site Progress Agent
+Crew today
+IE Crew 7 · 4
+Next milestone
+Roof outlets complete
+31 Oct · in 25 days
+4 days ahead
+Certified
+Fill-finish building, Tallaght
+CE-2127 · Prefabrication · 6%
+On track
+3h ago
+Email
+
+Spools from Maynooth delivered 07:40, unloaded and staged at laydown area.
+
+Kilcarra Construction site team
+Crew today
+None
+Next milestone
+First spool delivery
+21 Oct · in 15 days
+1 day behind
+Not started
+Regional sports campus, Letterkenny
+CE-2114 · Prefabrication · 4%
+On track
+3h ago
+Foreman app
+
+Outlet installation in valley gutter A14 complete, 6 no. outlets, membrane flashings by roofer.
+
+Site foreman
+Crew today
+None
+Next milestone
+First spool delivery
+22 Oct · in 16 days
+On programme
+Submitted
+Terminal pier extension, Swords
+CE-2108 · Prefabrication · 1%
+On track
+4h ago
+Site Progress Agent
+
+Siphonic tailpipes fused and clipped on grid line H1; outlets set to level.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+First spool delivery
+29 Oct · in 23 days
+4 days ahead
+Certified
+Tile factory, Sittingbourne
+CE-2347 · Install · 88%
+On track
+4h ago
+Foreman app
+
+Spools from Maynooth delivered 07:40, unloaded and staged at laydown area.
+
+Rory Nowak
+Crew today
+UK Crew 1 · 4
+Next milestone
+Stacks to ground
+10 Nov · in 35 days
+6 days ahead
+Submitted
+Water treatment works, Arklow
+CE-2123 · Handover · 100%
+On track
+4h ago
+Site Progress Agent
+
+Spools from Maynooth delivered 07:40, unloaded and staged at laydown area.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Handover pack issued
+19 Oct · in 13 days
+2 days ahead
+Not started
+Cold store, Mullingar
+CE-2147 · Install · 79%
+On track
+5h ago
+Email
+
+Siphonic tailpipes fused and clipped on grid line G4; outlets set to level.
+
+Feale Contracts site team
+Crew today
+None
+Next milestone
+Siphonic water test
+9 Oct · in 3 days
+2 days behind
+Submitted
+Colocation data centre, Wexford
+CE-2119 · Install · 52%
+On track
+5h ago
+Foreman app
+
+Gravity stacks to first floor complete, brackets torqued, awaiting MEWP for high level.
+
+Site foreman
+Crew today
+None
+Next milestone
+Stacks to ground
+1 Nov · in 26 days
+1 day ahead
+Submitted
+Fill-finish building, Cavan
+CE-2129 · Prefabrication · 7%
+On track
+5h ago
+Site Progress Agent
+
+Spools from Maynooth delivered 07:40, unloaded and staged at laydown area.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+First spool delivery
+3 Nov · in 28 days
+6 days ahead
+Not started
+API manufacturing block, Sandyford
+CE-2131 · Install · 40%
+On track
+5h ago
+Site Progress Agent
+
+Electrofusion welds logged on tablet, weld log uploaded.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Siphonic water test
+4 Nov · in 29 days
+4 days ahead
+Submitted
+Terminal pier extension, Tallaght
+CE-2117 · Install · 60%
+On track
+5h ago
+Foreman app
+
+Coordinated with M&E on clash at D2; offset agreed and marked up.
+
+Site foreman
+Crew today
+None
+Next milestone
+Siphonic water test
+20 Oct · in 14 days
+6 days ahead
+Certified
+Last-mile depot, Wexford
+CE-2106 · Testing & commissioning · 95%
+On track
+5h ago
+Foreman app
+
+Gravity stacks to first floor complete, brackets torqued, awaiting MEWP for high level.
+
+Site foreman
+Crew today
+None
+Next milestone
+Commissioning certificate
+10 Oct · in 4 days
+1 day ahead
+Submitted
+Water treatment works, Ballycoolin
+CE-2101 · Prefabrication · 0%
+On track
+6h ago
+Foreman app
+
+Collector pipe run along A5 installed and supported, 2 no. anchor points fitted.
+
+Site foreman
+Crew today
+None
+Next milestone
+First spool delivery
+13 Oct · in 7 days
+1 day behind
+Not started
+Build-to-rent block, Birmingham
+CE-2164 · Install · 61%
+On track
+6h ago
+Email
+
+Coordinated with M&E on clash at G12; offset agreed and marked up.
+
+Kestrel Main Contracting site team
+Crew today
+None
+Next milestone
+Roof outlets complete
+8 Nov · in 33 days
+6 days ahead
+Certified
+RDS Anglesea Stand
+CE-2242 · Testing & commissioning · 97%
+On track
+6h ago
+Site Progress Agent
+
+Outlet installation in valley gutter C5 complete, 6 no. outlets, membrane flashings by roofer.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Commissioning certificate
+6 Nov · in 31 days
+4 days ahead
+Not started
+Laya Arena, Ballsbridge
+CE-2318 · Install · 63%
+On track
+6h ago
+Site Progress Agent
+
+Water test on Zone A passed, witness signature from site engineer.
+
+Site Progress Agent
+Crew today
+IE Crew 4 · 4
+Next milestone
+Siphonic water test
+12 Nov · in 37 days
+3 days ahead
+Certified
+Distribution warehouse, Thurrock
+CE-2309 · Install · 67%
+On track
+6h ago
+Site Progress Agent
+
+Lost 2 hours to wind, MEWP grounded until 11:00. Caught up in afternoon.
+
+Site Progress Agent
+Crew today
+None, work ready
+Next milestone
+Siphonic water test
+25 Oct · in 19 days
+6 days ahead
+Draft
+Hyperscale data centre, Crawley
+CE-2160 · Install · 65%
+At risk
+6h ago
+Foreman app
+
+Collector pipe run along G7 installed and supported, 2 no. anchor points fitted.
+
+Jack Wright
+Crew today
+UK Crew 3 · 4
+Next milestone
+Roof outlets complete
+11 Oct · in 5 days
+10 days behind
+Submitted
+Colocation data centre, Coventry
+CE-2159 · Prefabrication · 6%
+On track
+6h ago
+Foreman app
+
+Spools from Maynooth delivered 07:40, unloaded and staged at laydown area.
+
+Site foreman
+Crew today
+None
+Next milestone
+First spool delivery
+12 Nov · in 37 days
+1 day behind
+Certified
+Biologics facility, Dunboyne
+CE-2141 · Install · 67%
+On track
+6h ago
+Email
+
+Outlet installation in valley gutter B1 complete, 6 no. outlets, membrane flashings by roofer.
+
+Corrib Contracting site team
+Crew today
+None
+Next milestone
+Stacks to ground
+29 Oct · in 23 days
+6 days ahead
+Submitted
+Pharma expansion, Leeds
+CE-2171 · Design · 0%
+On track
+7h ago
+Site Progress Agent
+
+Spools from Maynooth delivered 07:40, unloaded and staged at laydown area.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Design sign-off
+30 Oct · in 24 days
+6 days ahead
+Not started
+Project Oriel, St Pancras
+CE-2312 · Install · 58%
+On track
+7h ago
+Site Progress Agent
+
+Spools from Maynooth delivered 07:40, unloaded and staged at laydown area.
+
+Site Progress Agent
+Crew today
+UK Crew 2 · 4
+Next milestone
+Siphonic water test
+30 Oct · in 24 days
+3 days ahead
+Submitted
+Acute block refurbishment, Newry
+CE-2168 · Install · 60%
+On track
+7h ago
+Site Progress Agent
+
+Water test on Zone B passed, witness signature from site engineer.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Stacks to ground
+23 Oct · in 17 days
+2 days ahead
+Submitted
+Hyperscale data centre, Limerick
+CE-2126 · Prefabrication · 7%
+On track
+7h ago
+Foreman app
+
+Spools from Maynooth delivered 07:40, unloaded and staged at laydown area.
+
+Site foreman
+Crew today
+None
+Next milestone
+First spool delivery
+11 Oct · in 5 days
+On programme
+Not started
+Terminal pier extension, Shannon
+CE-2139 · Install · 56%
+On track
+8h ago
+Email
+
+Water test on Zone A passed, witness signature from site engineer.
+
+Corrib Contracting site team
+Crew today
+None
+Next milestone
+Roof outlets complete
+30 Oct · in 24 days
+5 days ahead
+Submitted
+Mixed-use block, Peterborough
+CE-2178 · Install · 69%
+On track
+8h ago
+Site Progress Agent
+
+Electrofusion welds logged on tablet, weld log uploaded.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Stacks to ground
+13 Oct · in 7 days
+2 days ahead
+Submitted
+Student accommodation, Limerick
+CE-2130 · Install · 86%
+On track
+8h ago
+Foreman app
+
+Spools from Maynooth delivered 07:40, unloaded and staged at laydown area.
+
+Site foreman
+Crew today
+None
+Next milestone
+Roof outlets complete
+1 Nov · in 26 days
+3 days ahead
+Submitted
+Cold store, Leixlip
+CE-2154 · Install · 33%
+On track
+8h ago
+Email
+
+Collector pipe run along B8 installed and supported, 2 no. anchor points fitted.
+
+Kilcarra Construction site team
+Crew today
+None
+Next milestone
+Stacks to ground
+31 Oct · in 25 days
+3 days ahead
+Certified
+Mixed-use block, Park Royal
+CE-2170 · Install · 87%
+On track
+9h ago
+Site Progress Agent
+
+Electrofusion welds logged on tablet, weld log uploaded.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Stacks to ground
+10 Oct · in 4 days
+5 days ahead
+Certified
+Secondary school, Crawley
+CE-2177 · Design · 0%
+On track
+10h ago
+Site Progress Agent
+
+Electrofusion welds logged on tablet, weld log uploaded.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Design sign-off
+9 Oct · in 3 days
+2 days behind
+Not started
+Hospital extension, Mullingar
+CE-2136 · Install · 15%
+On track
+10h ago
+Foreman app
+
+Gravity stacks to first floor complete, brackets torqued, awaiting MEWP for high level.
+
+Site foreman
+Crew today
+None
+Next milestone
+Siphonic water test
+10 Nov · in 35 days
+4 days ahead
+Submitted
+Fill-finish building, Blanchardstown
+CE-2146 · Design · 0%
+On track
+10h ago
+Foreman app
+
+Siphonic tailpipes fused and clipped on grid line H1; outlets set to level.
+
+Site foreman
+Crew today
+None
+Next milestone
+Design sign-off
+27 Oct · in 21 days
+2 days behind
+Not started
+Data hall extension, Naas
+CE-2132 · Install · 60%
+On track
+11h ago
+Site Progress Agent
+
+Coordinated with M&E on clash at D13; offset agreed and marked up.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Zone complete
+12 Nov · in 37 days
+5 days ahead
+Certified
+Primary school campus, Ennis
+CE-2156 · Handover · 100%
+On track
+11h ago
+Foreman app
+
+Outlet installation in valley gutter A7 complete, 6 no. outlets, membrane flashings by roofer.
+
+Site foreman
+Crew today
+None
+Next milestone
+Handover pack issued
+2 Nov · in 27 days
+1 day ahead
+Not started
+Hyperscale data centre, Newport
+CE-2191 · Install · 51%
+On track
+11h ago
+Email
+
+Toolbox talk: working at height and edge protection. All crew signed on.
+
+Northwold Construction site team
+Crew today
+None
+Next milestone
+Roof outlets complete
+26 Oct · in 20 days
+6 days ahead
+Certified
+API manufacturing block, Manchester
+CE-2182 · Install · 16%
+On track
+11h ago
+Foreman app
+
+Lost 2 hours to wind, MEWP grounded until 11:00. Caught up in afternoon.
+
+Site foreman
+Crew today
+None
+Next milestone
+Zone complete
+10 Oct · in 4 days
+3 days ahead
+Certified
+Biologics facility, Drogheda
+CE-2144 · Handover · 100%
+On track
+12h ago
+Foreman app
+
+Lost 2 hours to wind, MEWP grounded until 11:00. Caught up in afternoon.
+
+Site foreman
+Crew today
+None
+Next milestone
+Handover pack issued
+12 Nov · in 37 days
+1 day behind
+Not started
+Diageo carbon-neutral brewery
+CE-2276 · Testing & commissioning · 95%
+On track
+12h ago
+Email
+
+Lost 2 hours to wind, MEWP grounded until 11:00. Caught up in afternoon.
+
+Undisclosed site team
+Crew today
+None
+Next milestone
+Commissioning certificate
+11 Nov · in 36 days
+3 days ahead
+Not started
+Food processing plant, Basingstoke
+CE-2175 · Prefabrication · 4%
+On track
+13h ago
+Site Progress Agent
+
+Collector pipe run along E10 installed and supported, 2 no. anchor points fitted.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+First spool delivery
+4 Nov · in 29 days
+6 days ahead
+Certified
+Office scheme, Clonee
+CE-2134 · Install · 41%
+At risk
+14h ago
+Site Progress Agent
+
+Siphonic tailpipes fused and clipped on grid line D12; outlets set to level.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Siphonic water test
+11 Nov · in 36 days
+6 days behind
+Certified
+Last-mile depot, Waterford
+CE-2145 · Install · 77%
+On track
+14h ago
+Foreman app
+
+Lost 2 hours to wind, MEWP grounded until 11:00. Caught up in afternoon.
+
+Site foreman
+Crew today
+None
+Next milestone
+Siphonic water test
+27 Oct · in 21 days
+2 days behind
+Certified
+Fill-finish building, Naas
+CE-2112 · Install · 83%
+On track
+14h ago
+Site Progress Agent
+
+Toolbox talk: working at height and edge protection. All crew signed on.
+
+Site Progress Agent
+Crew today
+IE Crew 8 · 4
+Next milestone
+Roof outlets complete
+30 Oct · in 24 days
+6 days ahead
+Certified
+Hyperscale data centre, Swords
+CE-2148 · Install · 87%
+On track
+15h ago
+Foreman app
+
+Toolbox talk: working at height and edge protection. All crew signed on.
+
+Site foreman
+Crew today
+None
+Next milestone
+Roof outlets complete
+15 Nov · in 40 days
+6 days ahead
+Submitted
+Data centre campus Phase 2, Naas
+CE-2152 · Handover · 100%
+On track
+15h ago
+Site Progress Agent
+
+Coordinated with M&E on clash at E4; offset agreed and marked up.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Handover pack issued
+21 Oct · in 15 days
+3 days ahead
+Not started
+Cold store, Galway
+CE-2113 · Install · 58%
+On track
+15h ago
+Email
+
+Coordinated with M&E on clash at D2; offset agreed and marked up.
+
+Glenmore Main Contractors site team
+Crew today
+None
+Next milestone
+Zone complete
+19 Oct · in 13 days
+1 day ahead
+Submitted
+Changi Airport Terminal 5
+CE-2337 · Design · 68%
+On track
+15h ago
+Design register
+
+CAP-2337-200 Siphonic system schematic (Zone 3) issued at C2 to KPF.
+
+Stephen Morris
+Crew today
+Design only
+Next milestone
+Design sign-off
+10 Nov · in 35 days
+3 days ahead
+Submitted
+Pharma facility design, Tuas
+CE-2351 · Design · 67%
+On track
+15h ago
+Design register
+
+CAP-2351-220 Outlet details (Zone 5) issued at C2 to PM Group.
+
+Design team (Maynooth)
+Crew today
+Design only
+Next milestone
+Design sign-off
+23 Oct · in 17 days
+1 day ahead
+Submitted
+Nordic data centre remedial (-35°C)
+CE-2359 · Design · 68%
+On track
+15h ago
+Design register
+
+CAP-2359-170 Overflow strategy issued at P1 to Confidential.
+
+Design team (Maynooth)
+Crew today
+Design only
+Next milestone
+Design sign-off
+1 Nov · in 26 days
+3 days ahead
+Submitted
+Milan data centre design
+CE-2362 · Design · 81%
+On track
+15h ago
+Design register
+
+CAP-2362-180 Prefab spool drawings issued at P2 to Confidential.
+
+Design team (Stansted)
+Crew today
+Design only
+Next milestone
+Design sign-off
+12 Nov · in 37 days
+3 days ahead
+Submitted
+Hyperscale data centre design, Johor
+CE-2192 · Design · 71%
+On track
+15h ago
+Design register
+
+CAP-2192-100 Roof drainage layout issued at C4 to Confidential.
+
+Design team (Stansted)
+Crew today
+Design only
+Next milestone
+Design sign-off
+29 Oct · in 23 days
+6 days ahead
+Submitted
+Semiconductor fab design, Kulim
+CE-2193 · Design · 35%
+On track
+15h ago
+Design register
+
+CAP-2193-140 Bracketing and supports issued at C2 to Confidential.
+
+Design team (Maynooth)
+Crew today
+Design only
+Next milestone
+Design sign-off
+29 Oct · in 23 days
+On programme
+Submitted
+Logistics centre design, Jurong
+CE-2194 · Design · 65%
+On track
+15h ago
+Design register
+
+CAP-2194-120 Gravity stacks and collectors issued at C4 to Confidential.
+
+Design team (Stansted)
+Crew today
+Design only
+Next milestone
+Design sign-off
+7 Nov · in 32 days
+4 days ahead
+Certified
+Food processing plant, Dartford
+CE-2174 · Prefabrication · 6%
+On track
+15h ago
+Site Progress Agent
+
+Spools from Maynooth delivered 07:40, unloaded and staged at laydown area.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+First spool delivery
+19 Oct · in 13 days
+On programme
+Not started
+Hyperscale data centre, Little Island
+CE-2137 · Prefabrication · 6%
+On track
+16h ago
+Foreman app
+
+Electrofusion welds logged on tablet, weld log uploaded.
+
+Site foreman
+Crew today
+None
+Next milestone
+First spool delivery
+4 Nov · in 29 days
+3 days ahead
+Not started
+Food processing plant, Hayes
+CE-2176 · Install · 61%
+On track
+16h ago
+Foreman app
+
+Coordinated with M&E on clash at D6; offset agreed and marked up.
+
+Site foreman
+Crew today
+None
+Next milestone
+Stacks to ground
+9 Oct · in 3 days
+1 day behind
+Certified
+North London Heat & Power Plant
+CE-2304 · Install · 52%
+At risk
+16h ago
+Site Progress Agent
+
+Read foreman WhatsApp update: Zone B high level complete, Zone C waiting on re-tested spools.
+
+Site Progress Agent
+Crew today
+UK Crew 5 · 4
+Next milestone
+Zone C install start
+13 Oct · in 7 days
+7 days behind
+Certified
+Food processing plant, Newry
+CE-2185 · Install · 60%
+On track
+16h ago
+Site Progress Agent
+
+Outlet installation in valley gutter G12 complete, 6 no. outlets, membrane flashings by roofer.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Roof outlets complete
+2 Nov · in 27 days
+5 days ahead
+Submitted
+Office scheme, Cambridge
+CE-2180 · Install · 82%
+On track
+16h ago
+Site Progress Agent
+
+Gravity stacks to first floor complete, brackets torqued, awaiting MEWP for high level.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Roof outlets complete
+4 Nov · in 29 days
+3 days ahead
+Submitted
+Sports centre, Arklow
+CE-2111 · Testing & commissioning · 96%
+On track
+17h ago
+Foreman app
+
+Gravity stacks to first floor complete, brackets torqued, awaiting MEWP for high level.
+
+Site foreman
+Crew today
+None
+Next milestone
+Commissioning certificate
+14 Oct · in 8 days
+1 day ahead
+Not started
+Business park Unit 4, Slough
+CE-2165 · Install · 79%
+On track
+17h ago
+Email
+
+Siphonic tailpipes fused and clipped on grid line G13; outlets set to level.
+
+Halden Build site team
+Crew today
+None
+Next milestone
+Siphonic water test
+19 Oct · in 13 days
+3 days ahead
+Certified
+Distribution warehouse, Tallaght
+CE-2143 · Design · 0%
+On track
+17h ago
+Foreman app
+
+Lost 2 hours to wind, MEWP grounded until 11:00. Caught up in afternoon.
+
+Site foreman
+Crew today
+None
+Next milestone
+Design sign-off
+12 Nov · in 37 days
+2 days ahead
+Not started
+Logistics hub, Edinburgh
+CE-2166 · Testing & commissioning · 97%
+On track
+17h ago
+Foreman app
+
+Collector pipe run along D14 installed and supported, 2 no. anchor points fitted.
+
+Site foreman
+Crew today
+None
+Next milestone
+Commissioning certificate
+15 Oct · in 9 days
+2 days ahead
+Submitted
+University science building, Belfast
+CE-2172 · Testing & commissioning · 95%
+On track
+18h ago
+Site Progress Agent
+
+Collector pipe run along D5 installed and supported, 2 no. anchor points fitted.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Commissioning certificate
+12 Oct · in 6 days
+6 days ahead
+Certified
+Pharma expansion, Ringaskiddy
+CE-2321 · Install · 55%
+At risk
+18h ago
+Foreman app
+
+Siphonic tailpipes fused and clipped on grid line A6; outlets set to level.
+
+Ciarán Kavanagh
+Crew today
+IE Crew 3 · 4
+Next milestone
+Roof outlets complete
+13 Oct · in 7 days
+14 days behind
+Submitted
+Water treatment works, Basingstoke
+CE-2187 · Design · 0%
+On track
+18h ago
+Site Progress Agent
+
+Siphonic tailpipes fused and clipped on grid line D14; outlets set to level.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Design sign-off
+13 Oct · in 7 days
+4 days ahead
+Not started
+Biologics facility, Citywest
+CE-2110 · Install · 33%
+On track
+18h ago
+Email
+
+Spools from Maynooth delivered 07:40, unloaded and staged at laydown area.
+
+Derravaragh Projects site team
+Crew today
+None, work ready
+Next milestone
+Roof outlets complete
+7 Nov · in 32 days
+1 day behind
+Submitted
+University science building, Blanchardstown
+CE-2149 · Install · 34%
+On track
+19h ago
+Site Progress Agent
+
+Outlet installation in valley gutter C12 complete, 6 no. outlets, membrane flashings by roofer.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Zone complete
+7 Nov · in 32 days
+On programme
+Certified
+Build-to-rent block, Cardiff
+CE-2163 · Install · 18%
+On track
+19h ago
+Email
+
+Spools from Maynooth delivered 07:40, unloaded and staged at laydown area.
+
+Ashcombe Projects site team
+Crew today
+None
+Next milestone
+Siphonic water test
+23 Oct · in 17 days
+6 days ahead
+Certified
+Last-mile depot, Southampton
+CE-2162 · Install · 29%
+On track
+20h ago
+Email
+
+Lost 2 hours to wind, MEWP grounded until 11:00. Caught up in afternoon.
+
+Maresfield Contracting site team
+Crew today
+None
+Next milestone
+Roof outlets complete
+11 Oct · in 5 days
+1 day ahead
+Submitted
+Regional sports campus, Clonee
+CE-2158 · Prefabrication · 3%
+On track
+21h ago
+Foreman app
+
+Siphonic tailpipes fused and clipped on grid line G13; outlets set to level.
+
+Site foreman
+Crew today
+None
+Next milestone
+First spool delivery
+13 Oct · in 7 days
+2 days behind
+Not started
+Fill-finish building, Kilkenny
+CE-2138 · Install · 81%
+On track
+21h ago
+Foreman app
+
+Electrofusion welds logged on tablet, weld log uploaded.
+
+Site foreman
+Crew today
+None
+Next milestone
+Zone complete
+26 Oct · in 20 days
+On programme
+Submitted
+Water treatment works, Belfast
+CE-2188 · Install · 22%
+On track
+21h ago
+Email
+
+Coordinated with M&E on clash at H13; offset agreed and marked up.
+
+Northwold Construction site team
+Crew today
+None
+Next milestone
+Siphonic water test
+1 Nov · in 26 days
+2 days behind
+Submitted
+Business park Unit 4, Ennis
+CE-2150 · Prefabrication · 4%
+On track
+21h ago
+Foreman app
+
+Siphonic tailpipes fused and clipped on grid line G9; outlets set to level.
+
+Site foreman
+Crew today
+None
+Next milestone
+First spool delivery
+10 Nov · in 35 days
+1 day behind
+Not started
+Data hall extension, Belfast
+CE-2181 · Install · 41%
+On track
+21h ago
+Site Progress Agent
+
+Siphonic tailpipes fused and clipped on grid line C11; outlets set to level.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Zone complete
+8 Nov · in 33 days
+4 days ahead
+Submitted
+Data centre campus Phase 2, Nottingham
+CE-2179 · Install · 63%
+On track
+21h ago
+Email
+
+Gravity stacks to first floor complete, brackets torqued, awaiting MEWP for high level.
+
+Northwold Construction site team
+Crew today
+None
+Next milestone
+Zone complete
+2 Nov · in 27 days
+1 day ahead
+Submitted
+Terminal pier extension, Clonee
+CE-2103 · Testing & commissioning · 97%
+On track
+21h ago
+Foreman app
+
+Siphonic tailpipes fused and clipped on grid line D9; outlets set to level.
+
+Site foreman
+Crew today
+None
+Next milestone
+Commissioning certificate
+25 Oct · in 19 days
+2 days behind
+Not started
+Build-to-rent block, Ennis
+CE-2142 · Prefabrication · 2%
+On track
+23h ago
+Foreman app
+
+Gravity stacks to first floor complete, brackets torqued, awaiting MEWP for high level.
+
+Site foreman
+Crew today
+None
+Next milestone
+First spool delivery
+9 Nov · in 34 days
+1 day ahead
+Not started
+Hyperscale data centre, Bristol
+CE-2190 · Install · 39%
+On track
+23h ago
+Email
+
+Toolbox talk: working at height and edge protection. All crew signed on.
+
+Barrowford Construction site team
+Crew today
+None
+Next milestone
+Siphonic water test
+29 Oct · in 23 days
+6 days ahead
+Submitted
+Cold store, Cavan
+CE-2135 · Install · 54%
+At risk
+24h ago
+Site Progress Agent
+
+Lost 2 hours to wind, MEWP grounded until 11:00. Caught up in afternoon.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Zone complete
+14 Oct · in 8 days
+12 days behind
+Certified
+Hangar and stands, Leixlip
+CE-2105 · Design · 0%
+On track
+24h ago
+Foreman app
+
+Coordinated with M&E on clash at F7; offset agreed and marked up.
+
+Site foreman
+Crew today
+None
+Next milestone
+Design sign-off
+19 Oct · in 13 days
+5 days ahead
+Not started
+Hyperscale data centre, Sligo
+CE-2116 · Prefabrication · 6%
+On track
+24h ago
+Foreman app
+
+Outlet installation in valley gutter G6 complete, 6 no. outlets, membrane flashings by roofer.
+
+Site foreman
+Crew today
+None
+Next milestone
+First spool delivery
+28 Oct · in 22 days
+1 day behind
+Submitted
+Energy-from-waste plant, Luton
+CE-2184 · Install · 24%
+On track
+yesterday
+Foreman app
+
+Lost 2 hours to wind, MEWP grounded until 11:00. Caught up in afternoon.
+
+Site foreman
+Crew today
+None
+Next milestone
+Stacks to ground
+9 Nov · in 34 days
+1 day behind
+Certified
+Acute block refurbishment, Shannon
+CE-2133 · Prefabrication · 0%
+On track
+yesterday
+Site Progress Agent
+
+Siphonic tailpipes fused and clipped on grid line F11; outlets set to level.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+First spool delivery
+1 Nov · in 26 days
+2 days behind
+Submitted
+Water treatment works, Kilkenny
+CE-2109 · Install · 24%
+On track
+yesterday
+Site Progress Agent
+
+Gravity stacks to first floor complete, brackets torqued, awaiting MEWP for high level.
+
+Site Progress Agent
+Crew today
+IE Crew 6 · 4
+Next milestone
+Zone complete
+26 Oct · in 20 days
+2 days behind
+Submitted
+Data centre campus Phase 2, Blanchardstown
+CE-2151 · Install · 25%
+On track
+yesterday
+Site Progress Agent
+
+Electrofusion welds logged on tablet, weld log uploaded.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Zone complete
+14 Oct · in 8 days
+2 days ahead
+Submitted
+Food processing plant, Mullingar
+CE-2128 · Install · 42%
+On track
+yesterday
+Site Progress Agent
+
+Gravity stacks to first floor complete, brackets torqued, awaiting MEWP for high level.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Zone complete
+2 Nov · in 27 days
+On programme
+Submitted
+Business park Unit 4, Stansted
+CE-2189 · Handover · 100%
+On track
+yesterday
+Site Progress Agent
+
+Coordinated with M&E on clash at B1; offset agreed and marked up.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Handover pack issued
+11 Oct · in 5 days
+1 day ahead
+Certified
+Dexcom Stadium, Connacht Rugby
+CE-2329 · Install · 41%
+On track
+yesterday
+Email
+
+Siphonic tailpipes fused and clipped on grid line B10; outlets set to level.
+
+Darragh Ryan
+Crew today
+IE Crew 9 · 4
+Next milestone
+Siphonic water test
+6 Nov · in 31 days
+4 days ahead
+Submitted
+Hangar and stands, Carlow
+CE-2107 · Testing & commissioning · 93%
+On track
+yesterday
+Site Progress Agent
+
+Collector pipe run along A2 installed and supported, 2 no. anchor points fitted.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Commissioning certificate
+13 Nov · in 38 days
+On programme
+Not started
+Data hall extension, Citywest
+CE-2157 · Testing & commissioning · 99%
+On track
+yesterday
+Email
+
+Outlet installation in valley gutter A12 complete, 6 no. outlets, membrane flashings by roofer.
+
+Slaney Build site team
+Crew today
+None
+Next milestone
+Commissioning certificate
+7 Nov · in 32 days
+6 days ahead
+Not started
+Logistics hub, Milton Keynes
+CE-2340 · Install · 22%
+Blocked
+yesterday
+Foreman app
+
+Electrofusion welds logged on tablet, weld log uploaded.
+
+Site foreman
+Crew today
+None
+Next milestone
+Zone complete
+2 Nov · in 27 days
+18 days behind
+Certified
+Distribution warehouse, Edinburgh
+CE-2167 · Install · 69%
+At risk
+yesterday
+Email
+
+Outlet installation in valley gutter G7 complete, 6 no. outlets, membrane flashings by roofer.
+
+Thornbury Build Group site team
+Crew today
+None
+Next milestone
+Stacks to ground
+27 Oct · in 21 days
+14 days behind
+Submitted
+Business park Unit 4, Didcot
+CE-2186 · Install · 37%
+At risk
+yesterday
+Site Progress Agent
+
+Siphonic tailpipes fused and clipped on grid line H9; outlets set to level.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Siphonic water test
+6 Nov · in 31 days
+11 days behind
+Submitted
+Data hall extension, Slough
+CE-2298 · Install · 71%
+At risk
+2 days ago
+Site Progress Agent
+
+Electrofusion welds logged on tablet, weld log uploaded.
+
+Site Progress Agent
+Crew today
+UK Crew 4 · 4
+Next milestone
+Siphonic water test
+15 Nov · in 40 days
+14 days behind
+Certified
+Biologics facility, Carrigtwohill
+CE-2326 · Install · 31%
+At risk
+2 days ago
+Site Progress Agent
+
+Electrofusion welds logged on tablet, weld log uploaded.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Roof outlets complete
+11 Nov · in 36 days
+5 days behind
+Submitted
+Last-mile depot, Blanchardstown
+CE-2120 · Install · 51%
+At risk
+2 days ago
+Foreman app
+
+Siphonic tailpipes fused and clipped on grid line H12; outlets set to level.
+
+Site foreman
+Crew today
+None
+Next milestone
+Roof outlets complete
+31 Oct · in 25 days
+6 days behind
+Certified
+Office scheme, Drogheda
+CE-2153 · Testing & commissioning · 98%
+At risk
+2 days ago
+Foreman app
+
+Spools from Maynooth delivered 07:40, unloaded and staged at laydown area.
+
+Site foreman
+Crew today
+None
+Next milestone
+Commissioning certificate
+4 Nov · in 29 days
+8 days behind
+Submitted
+Mixed-use block, Glasgow
+CE-2161 · Prefabrication · 0%
+At risk
+2 days ago
+Site Progress Agent
+
+Siphonic tailpipes fused and clipped on grid line A7; outlets set to level.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+First spool delivery
+28 Oct · in 22 days
+10 days behind
+Not started
+Biologics facility, Birmingham
+CE-2169 · Install · 55%
+At risk
+2 days ago
+Foreman app
+
+Lost 2 hours to wind, MEWP grounded until 11:00. Caught up in afternoon.
+
+Site foreman
+Crew today
+None
+Next milestone
+Zone complete
+9 Oct · in 3 days
+5 days behind
+Submitted
+Elective care centre, Bristol
+CE-2173 · Handover · 100%
+At risk
+3 days ago
+Site Progress Agent
+
+Outlet installation in valley gutter D11 complete, 6 no. outlets, membrane flashings by roofer.
+
+Site Progress Agent
+Crew today
+None
+Next milestone
+Handover pack issued
+31 Oct · in 25 days
+13 days behind
+Submitted
+Hyperscale data centre, Clonee
+CE-2333 · Install · 46%
+At risk
+4 days ago
+Email
+
+Programme rev F issued: data hall 3 roof now available from Wed 7 Oct.
+
+Kilcarra site manager
+Crew today
+IE Crew 1 · 4
+Next milestone
+Stacks to ground
+23 Oct · in 17 days
+5 days behind
+Submitted

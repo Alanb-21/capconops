@@ -93,6 +93,8 @@ export interface AppState {
 
   setRole: (r: RoleId) => void;
   signIn: () => void;
+  notesOpen: boolean;
+  setNotesOpen: (o: boolean) => void;
   toggleTheme: () => void;
   setCurrencyMode: (m: CurrencyMode) => void;
   toggleSidebar: () => void;
@@ -127,11 +129,22 @@ const initialCounts = Object.fromEntries(AGENTS.map((a) => [a.id, a.actionsToday
 
 let toastId = 1;
 
+/** Stay signed in across a reload in the same tab (handy while presenting). */
+function readSignedIn(): boolean {
+  try {
+    return sessionStorage.getItem('capcon.signedIn') === '1';
+  } catch {
+    return false;
+  }
+}
+
 const prefersDark = false; // default to light for screen-share clarity
 
 export const useStore = create<AppState>((set, get) => ({
   role: 'donnacha',
-  signedIn: false,
+  signedIn: readSignedIn(),
+  notesOpen: false,
+  setNotesOpen: (notesOpen) => set({ notesOpen }),
   theme: prefersDark ? 'dark' : 'light',
   currencyMode: 'local',
   sidebarCollapsed: false,
@@ -157,7 +170,14 @@ export const useStore = create<AppState>((set, get) => ({
   ramsSigned: false,
 
   setRole: (role) => set({ role }),
-  signIn: () => set({ signedIn: true }),
+  signIn: () => {
+    try {
+      sessionStorage.setItem('capcon.signedIn', '1');
+    } catch {
+      /* storage unavailable: fine */
+    }
+    set({ signedIn: true });
+  },
   toggleTheme: () => set((s) => ({ theme: s.theme === 'light' ? 'dark' : 'light' })),
   setCurrencyMode: (currencyMode) => set({ currencyMode }),
   toggleSidebar: () => set((s) => ({ sidebarCollapsed: !s.sidebarCollapsed })),

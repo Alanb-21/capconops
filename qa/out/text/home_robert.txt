@@ -1,0 +1,142 @@
+TUESDAY 6 OCTOBER · OPERATIONS DIRECTOR
+Good morning, Robert
+
+Prefabrication throughput, maintenance contracts and delivery
+
+Maintenance
+Open prefab board
+Spools in production
+226
+66 due on site in 7 days
+Dispatched
+17
+This week · 34 on site
+Stock reorder alerts
+4
+Below reorder level
+Maintenance book
+€919k
+140 contracts a year
+Visits due, 30 days
+28
+Planned and inspections
+Defects to quote
+4
+14 quotes out · €44k
+Spools by stage
+
+277 spools across the Maynooth and UK shops
+
+Packed
+Spools
+42
+Cut
+Fused / welded
+Pressure tested
+QC passed
+Packed
+Dispatched
+On site
+0
+15
+30
+45
+60
+42
+51
+44
+47
+42
+17
+34
+Stock reorder alerts
+
+Pipe below reorder level
+
+HDPE 56 mm
+170 m / 222 m
+Supplier: Terrain
+HDPE 110 mm
+70 m / 195 m
+Supplier: Geberit
+HDPE 160 mm
+68 m / 170 m
+Supplier: Valsir
+Stainless steel 110 mm
+11 m / 30 m
+Supplier: Blucher
+Draft reorders
+Defects to quotes
+
+From maintenance inspections
+
+Defect found
+€14k
+4
+Quote raised
+€44k
+14
+Approved
+€18k
+4
+Scheduled
+€23k
+7
+Complete
+€20k
+5
+
+Maintenance Agent drafts a quote for each new defect with photos and the BS 8490 reference.
+
+Sites waiting on spools
+
+Install jobs with spools due in the next 14 days
+
+North London Heat & Power Plant
+Edmonton, London
+9 spools
+Fill-finish building, Tallaght
+Tallaght, Dublin 24
+7 spools
+Fill-finish building, Cavan
+Cavan, Co. Cavan
+6 spools
+Hyperscale data centre, Limerick
+Limerick, Co. Limerick
+5 spools
+Hyperscale data centre, Little Island
+Little Island, Co. Cork
+5 spools
+Needs your attention
+
+4 items · 1 high priority · raised by agents overnight
+
+Hyperscale data centre, Clonee is 6 days behind with no crew booked tomorrow
+Kilcarra issued programme rev F: data hall 3 roof available from Wednesday. Scheduler Agent suggests IE Crew 8.
+Scheduler Agent
+CE-2333
+IPAF expires next week for 2 technicians on Ringaskiddy pharma site
+Client permit-to-work requires valid IPAF 3a/3b. Renewal course available in Cork on 15 Oct.
+Compliance Agent
+CE-2321
+NLHPP Zone C waiting on 8 re-tested spools
+Prefab re-test booked for Thursday. 3 RFIs on outlet positions open with the design team.
+Site Progress Agent
+CE-2304
+National Children’s Hospital maintenance renews in 74 days
+€38,500 a year, 6 buildings. Renewal pack and condition summary drafted.
+Maintenance Agent
+Quick links
+
+Jump straight to your work
+
+Prefabrication board
+Spools, QC and dispatch
+Maintenance & service
+Contracts, visits and defects
+Crews & scheduling
+Who is where this week
+NLHPP Zone C re-test
+8 spools held at re-test
+
+Demo data. Group totals in euro at the demo rate shown beside the Group € toggle.

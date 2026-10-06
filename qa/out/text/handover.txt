@@ -1,0 +1,152 @@
+DELIVERY
+Testing, Commissioning & Handover
+
+Every job in testing or handover with its pack readiness. The Handover Pack Agent compiles test certificates, weld logs, as-builts and the O&M manual, and tells you what is missing.
+
+In testing & commissioning
+12
+pressure and flow tests under way
+At handover
+7
+packs being issued
+Average pack readiness
+53%
+across 23 jobs
+Items outstanding
+107
+to chase
+certificates, records and manuals
+23 JOBS
+90
+Business park Unit 4
+Stansted · CE-2189
+Handover
+80
+Elective care centre
+Bristol · CE-2173
+Handover
+70
+Pharma expansion
+Sandyford · CE-2122
+Handover
+70
+Data centre campus Phase 2
+Naas · CE-2152
+Handover
+70
+Primary school campus
+Ennis · CE-2156
+Handover
+60
+Water treatment works
+Arklow · CE-2123
+Handover
+60
+Biologics facility
+Drogheda · CE-2144
+Handover
+80
+Data centre campus Phase 2
+Grange Castle · CE-2140
+T&C
+70
+Anglesea Stand
+Ballsbridge · CE-2242
+T&C
+70
+Diageo
+Littleton · CE-2276
+T&C
+10
+Sittingbourne
+Sittingbourne · CE-2347
+Install
+70
+Primary school campus
+Wexford · CE-2115
+T&C
+60
+Last-mile depot
+Wexford · CE-2106
+T&C
+60
+Office scheme
+Drogheda · CE-2153
+T&C
+50
+Terminal pier extension
+Clonee · CE-2103
+T&C
+50
+Hangar and stands
+Carlow · CE-2107
+T&C
+50
+Sports centre
+Arklow · CE-2111
+T&C
+20
+Student accommodation
+Limerick · CE-2130
+Install
+10
+Hyperscale data centre
+Swords · CE-2148
+Install
+40
+Data hall extension
+Citywest · CE-2157
+T&C
+40
+Logistics hub
+Edinburgh · CE-2166
+T&C
+10
+Mixed-use block
+Park Royal · CE-2170
+Install
+40
+University science building
+Belfast · CE-2172
+T&C
+90%
+ready
+Business park Unit 4, Stansted
+CE-2189 · Handover · Halden Build · Geberit Pluvia
+9 of 10 items in
+Programme end 26 Oct 2026
+1 missing
+Set up maintenance contract
+Install becomes recurring revenue. The as-builts, outlet schedule and maintenance schedule in this pack seed a planned maintenance contract, like the National Children’s Hospital after its 7-year install.
+Handover checklist
+
+Status, owner and chasing
+
+Chase all
+Pressure / water test certificates
+Site foreman · Received
+Commissioning records
+Commissioning engineer · Received
+Electrofusion weld logs
+Maynooth prefab QA · Received
+As-built drawings
+Stephen Morris, Design · Received
+BCAR ancillary certificate
+Assigned certifier · Received
+O&M manual
+Handover Pack Agent · Received
+Single source warranty registration
+Geberit · Received
+Final hydraulic calculations
+Stephen Morris, Design · Received
+Photo record (concealed works)
+Site foreman · Missing
+Chase
+Maintenance schedule (BS EN 12056-3 / BS 8490)
+Robert Finn, Maintenance · Received
+Handover Pack Agent
+
+Compiles the O&M pack from records already in Capcon OS
+
+Compile pack
+The agent reads test certificates, weld logs, as-builts and diary records for Business park Unit 4 and drafts the O&M pack in about four seconds. Nothing is sent without approval.

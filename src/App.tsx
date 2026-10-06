@@ -20,6 +20,7 @@ import Agents from './pages/Agents';
 import Integrations from './pages/Integrations';
 import Efficiency from './pages/Efficiency';
 import Field from './pages/Field';
+import Guide from './pages/Guide';
 import type { RoleId } from './data/types';
 
 function HomeRedirect() {
@@ -67,6 +68,7 @@ export default function App() {
           <Route path="/integrations" element={<Integrations />} />
           <Route path="/efficiency" element={<Efficiency />} />
           <Route path="/field" element={<Field />} />
+          <Route path="/guide" element={<Guide />} />
           <Route path="*" element={<HomeRedirect />} />
         </Routes>
       </Shell>

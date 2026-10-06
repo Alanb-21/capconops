@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from 'framer-motion';
-import { Bell, Check, ChevronDown, Moon, PlayCircle, Search, Sparkles, Sun } from 'lucide-react';
+import { Bell, BookOpen, Check, ChevronDown, Moon, PlayCircle, Search, Sparkles, Sun } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import clsx from 'clsx';
@@ -21,6 +21,8 @@ export function Topbar() {
   const setAssistantOpen = useStore((s) => s.setAssistantOpen);
   const approvals = useStore((s) => s.approvals);
   const setDemo = useStore((s) => s.setDemo);
+  const notesOpen = useStore((s) => s.notesOpen);
+  const setNotesOpen = useStore((s) => s.setNotesOpen);
   const pending = approvals.filter((a) => a.status === 'Pending');
   const [roleOpen, setRoleOpen] = useState(false);
   const [bellOpen, setBellOpen] = useState(false);
@@ -60,6 +62,16 @@ export function Topbar() {
             </button>
           ))}
         </div>
+
+        <button
+          onClick={() => setNotesOpen(!notesOpen)}
+          className={clsx('glass grid h-10 w-10 place-items-center rounded-full transition hover:text-ink', notesOpen ? 'text-brand' : 'text-ink-2')}
+          aria-label="How this page works"
+          title="How this page works (N)"
+          data-testid="notes-button"
+        >
+          <BookOpen size={17} />
+        </button>
 
         <button onClick={toggleTheme} className="glass grid h-10 w-10 place-items-center rounded-full text-ink-2 transition hover:text-ink" aria-label="Toggle theme">
           {theme === 'light' ? <Moon size={17} /> : <Sun size={17} />}

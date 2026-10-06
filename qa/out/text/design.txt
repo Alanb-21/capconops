@@ -1,0 +1,947 @@
+DESIGN
+Design & BIM
+
+Drawings, hydraulic calculations, BIM models, clashes and RFIs for every job, with design hours against budget.
+
+Sync with ACC
+Jobs in design
+15
+15 with calcs not yet approved
+Live drawings
+711
+75 out for comment
+Open RFIs
+69
+Raised by Capcon, awaiting answer
+Design hours used
+82%
+34 over
+Across all jobs, against budget
+CE-2337
+Design only
+with KPF
+Changi Airport Terminal 5
+
+Capcon is lead consultant for the siphonic roof design
+
+SM
+Drawings
+12
+Revisions issued
+58
+BIM
+LOD 400
+Open RFIs
+0
+Clashes, 8 weeks
+−70%
+64
+Design hours
+70%
+2,930 / 4,200 h
+Hydraulic calcs
+Checked
+Sign-off
+Internal
+CE-2304
+Install
+North London Heat & Power Plant
+
+Edmonton, London · 21,000 m² roof · Geberit Pluvia
+
+SM
+Drawings
+7
+Revisions issued
+19
+BIM
+LOD 400
+Open RFIs
+3
+Clashes, 8 weeks
+−61%
+17
+Design hours
+110%
+702 / 640 h
+Hydraulic calcs
+Approved
+Sign-off
+Client approved
+Zone C spools held at re-test; 3 RFIs on outlet positions open with the design team
+Design register
+
+CE-2337 · Changi Airport Terminal 5 · Stephen Morris
+
+Changi T5
+NLHPP
+CE-2168 · Acute block refurbishment, Newry
+CE-2133 · Acute block refurbishment, Shannon
+CE-2102 · API manufacturing block, Dunboyne
+CE-2182 · API manufacturing block, Manchester
+CE-2131 · API manufacturing block, Sandyford
+CE-2169 · Biologics facility, Birmingham
+CE-2326 · Biologics facility, Carrigtwohill
+CE-2110 · Biologics facility, Citywest
+CE-2144 · Biologics facility, Drogheda
+CE-2141 · Biologics facility, Dunboyne
+CE-2164 · Build-to-rent block, Birmingham
+CE-2163 · Build-to-rent block, Cardiff
+CE-2142 · Build-to-rent block, Ennis
+CE-2186 · Business park Unit 4, Didcot
+CE-2150 · Business park Unit 4, Ennis
+CE-2165 · Business park Unit 4, Slough
+CE-2189 · Business park Unit 4, Stansted
+CE-2337 · Changi Airport Terminal 5
+CE-2135 · Cold store, Cavan
+CE-2113 · Cold store, Galway
+CE-2154 · Cold store, Leixlip
+CE-2147 · Cold store, Mullingar
+CE-2124 · Cold store, Sandyford
+CE-2159 · Colocation data centre, Coventry
+CE-2155 · Colocation data centre, Limerick
+CE-2119 · Colocation data centre, Wexford
+CE-2151 · Data centre campus Phase 2, Blanchardstown
+CE-2315 · Data centre campus Phase 2, Grange Castle
+CE-2140 · Data centre campus Phase 2, Grange Castle
+CE-2152 · Data centre campus Phase 2, Naas
+CE-2179 · Data centre campus Phase 2, Nottingham
+CE-2181 · Data hall extension, Belfast
+CE-2157 · Data hall extension, Citywest
+CE-2132 · Data hall extension, Naas
+CE-2298 · Data hall extension, Slough
+CE-2291 · Dexcom campus, Athenry
+CE-2329 · Dexcom Stadium, Connacht Rugby
+CE-2276 · Diageo carbon-neutral brewery
+CE-2183 · Distribution warehouse, Doncaster
+CE-2167 · Distribution warehouse, Edinburgh
+CE-2125 · Distribution warehouse, Letterkenny
+CE-2143 · Distribution warehouse, Tallaght
+CE-2309 · Distribution warehouse, Thurrock
+CE-2173 · Elective care centre, Bristol
+CE-2184 · Energy-from-waste plant, Luton
+CE-2146 · Fill-finish building, Blanchardstown
+CE-2129 · Fill-finish building, Cavan
+CE-2138 · Fill-finish building, Kilkenny
+CE-2112 · Fill-finish building, Naas
+CE-2127 · Fill-finish building, Tallaght
+CE-2175 · Food processing plant, Basingstoke
+CE-2174 · Food processing plant, Dartford
+CE-2176 · Food processing plant, Hayes
+CE-2128 · Food processing plant, Mullingar
+CE-2185 · Food processing plant, Newry
+CE-2121 · Food processing plant, Sligo
+CE-2107 · Hangar and stands, Carlow
+CE-2105 · Hangar and stands, Leixlip
+CE-2136 · Hospital extension, Mullingar
+CE-2192 · Hyperscale data centre design, Johor
+CE-2190 · Hyperscale data centre, Bristol
+CE-2333 · Hyperscale data centre, Clonee
+CE-2160 · Hyperscale data centre, Crawley
+CE-2118 · Hyperscale data centre, Drogheda
+CE-2126 · Hyperscale data centre, Limerick
+CE-2137 · Hyperscale data centre, Little Island
+CE-2191 · Hyperscale data centre, Newport
+CE-2116 · Hyperscale data centre, Sligo
+CE-2148 · Hyperscale data centre, Swords
+CE-2120 · Last-mile depot, Blanchardstown
+CE-2162 · Last-mile depot, Southampton
+CE-2145 · Last-mile depot, Waterford
+CE-2106 · Last-mile depot, Wexford
+CE-2318 · Laya Arena, Ballsbridge
+CE-2194 · Logistics centre design, Jurong
+CE-2166 · Logistics hub, Edinburgh
+CE-2340 · Logistics hub, Milton Keynes
+CE-2362 · Milan data centre design
+CE-2161 · Mixed-use block, Glasgow
+CE-2170 · Mixed-use block, Park Royal
+CE-2178 · Mixed-use block, Peterborough
+CE-2359 · Nordic data centre remedial (-35°C)
+CE-2304 · North London Heat & Power Plant
+CE-2180 · Office scheme, Cambridge
+CE-2134 · Office scheme, Clonee
+CE-2153 · Office scheme, Drogheda
+CE-2171 · Pharma expansion, Leeds
+CE-2321 · Pharma expansion, Ringaskiddy
+CE-2122 · Pharma expansion, Sandyford
+CE-2351 · Pharma facility design, Tuas
+CE-2156 · Primary school campus, Ennis
+CE-2115 · Primary school campus, Wexford
+CE-2312 · Project Oriel, St Pancras
+CE-2242 · RDS Anglesea Stand
+CE-2158 · Regional sports campus, Clonee
+CE-2114 · Regional sports campus, Letterkenny
+CE-2177 · Secondary school, Crawley
+CE-2193 · Semiconductor fab design, Kulim
+CE-2111 · Sports centre, Arklow
+CE-2104 · Student accommodation, Clonee
+CE-2130 · Student accommodation, Limerick
+CE-2103 · Terminal pier extension, Clonee
+CE-2139 · Terminal pier extension, Shannon
+CE-2108 · Terminal pier extension, Swords
+CE-2117 · Terminal pier extension, Tallaght
+CE-2347 · Tile factory, Sittingbourne
+CE-2172 · University science building, Belfast
+CE-2149 · University science building, Blanchardstown
+CE-2123 · Water treatment works, Arklow
+CE-2101 · Water treatment works, Ballycoolin
+CE-2187 · Water treatment works, Basingstoke
+CE-2188 · Water treatment works, Belfast
+CE-2109 · Water treatment works, Kilkenny
+DRAWINGS (12)
+NUMBER	TITLE	REV	STATUS	DATE
+CAP-2337-100	Roof drainage layout	P6	For comment	12 Jul
+CAP-2337-110	Siphonic system schematic	P5	In progress	23 Aug
+CAP-2337-120	Gravity stacks and collectors	P5	In progress	5 Sep
+CAP-2337-130	Outlet details	P2	For comment	6 Jul
+CAP-2337-140	Bracketing and supports	P7	In progress	17 Jun
+CAP-2337-150	Sections	P2	In progress	9 Sep
+CAP-2337-160	Hydraulic calculation summary	P3	For comment	25 Aug
+CAP-2337-170	Overflow strategy	P5	For comment	29 Jul
+CAP-2337-180	Prefab spool drawings	P3	For comment	17 Aug
+CAP-2337-190	Roof drainage layout (Zone 2)	P4	For comment	1 Sep
+CAP-2337-200	Siphonic system schematic (Zone 3)	C2	For construction	25 Sep
+CAP-2337-210	Gravity stacks and collectors (Zone 4)	C2	For construction	12 Aug
+Hydraulic calcs
+Checked
+Design sign-off
+Internal
+BIM model
+LOD 400
+Clash count, last 8 weeks
+212 → 64
+17 Aug
+31 Aug
+14 Sep
+28 Sep
+0
+55
+110
+165
+220
+Design hours
+2,930 / 4,200 h · 70%
+RFIs
+0 open
+2 answered
+Confirm sump depth at gutter G2
+RFI-0393 · to KPF · answered in 1 days
+Confirm sump depth at gutter G2
+RFI-0394 · to KPF · answered in 5 days
+Portfolio overview
+
+All 113 jobs. Click a heading to sort, a row to open its register.
+
+JOB	DESIGNER	CALCS	SIGN-OFF	BIM	RFIS	HOURS
+
+
+North London Heat & Power Plant
+CE-2304 · Install
+	Stephen Morris	Approved	Client approved	LOD 400	3	
+702 / 640 h
+
+
+RDS Anglesea Stand
+CE-2242 · Testing & commissioning
+	Stephen Morris	Approved	Client approved	LOD 350	1	
+72 / 67 h
+
+
+Last-mile depot, Wexford
+CE-2106 · Testing & commissioning
+	Design team (Stansted)	Approved	Client approved	LOD 350	0	
+566 / 527 h
+
+
+Tile factory, Sittingbourne
+CE-2347 · Install
+	Design team (Maynooth)	Approved	Client approved	LOD 400	0	
+60 / 56 h
+
+
+Student accommodation, Clonee
+CE-2104 · Prefabrication
+	Design team (Maynooth)	Approved	Client approved	LOD 400	1	
+92 / 86 h
+
+
+Last-mile depot, Blanchardstown
+CE-2120 · Install
+	Stephen Morris	Approved	Client approved	LOD 400	1	
+559 / 523 h
+
+
+Sports centre, Arklow
+CE-2111 · Testing & commissioning
+	Julia Cavanaugh	Approved	Client approved	LOD 400	0	
+125 / 117 h
+
+
+Office scheme, Drogheda
+CE-2153 · Testing & commissioning
+	Design team (Maynooth)	Approved	Client approved	Not required	0	
+142 / 133 h
+
+
+Distribution warehouse, Tallaght
+CE-2143 · Design
+	Stephen Morris	Not started	Pending	LOD 400	0	
+368 / 345 h
+
+
+Data centre campus Phase 2, Grange Castle
+CE-2315 · Install
+	Design team (Stansted)	Approved	Client approved	LOD 300	2	
+462 / 434 h
+
+
+Cold store, Leixlip
+CE-2154 · Install
+	Stephen Morris	Approved	Client approved	Not required	3	
+159 / 150 h
+
+
+Food processing plant, Mullingar
+CE-2128 · Install
+	Design team (Stansted)	Approved	Client approved	Not required	0	
+124 / 117 h
+
+
+Distribution warehouse, Letterkenny
+CE-2125 · Design
+	Julia Cavanaugh	Checked	Internal	LOD 400	2	
+578 / 552 h
+
+
+Dexcom Stadium, Connacht Rugby
+CE-2329 · Install
+	Julia Cavanaugh	Approved	Client approved	LOD 350	0	
+135 / 129 h
+
+
+Hyperscale data centre, Swords
+CE-2148 · Install
+	Julia Cavanaugh	Approved	Client approved	LOD 350	1	
+419 / 401 h
+
+
+Regional sports campus, Letterkenny
+CE-2114 · Prefabrication
+	Design team (Stansted)	Approved	Client approved	LOD 300	0	
+172 / 165 h
+
+
+University science building, Blanchardstown
+CE-2149 · Install
+	Design team (Maynooth)	Approved	Client approved	LOD 400	0	
+77 / 74 h
+
+
+Business park Unit 4, Slough
+CE-2165 · Install
+	Stephen Morris	Approved	Client approved	LOD 300	2	
+78 / 75 h
+
+
+Colocation data centre, Wexford
+CE-2119 · Install
+	Stephen Morris	Approved	Client approved	Not required	0	
+618 / 595 h
+
+
+Fill-finish building, Blanchardstown
+CE-2146 · Design
+	Stephen Morris	Checked	Internal	LOD 400	0	
+190 / 183 h
+
+
+Hyperscale data centre, Little Island
+CE-2137 · Prefabrication
+	Stephen Morris	Approved	Client approved	LOD 400	0	
+530 / 511 h
+
+
+Primary school campus, Wexford
+CE-2115 · Testing & commissioning
+	Julia Cavanaugh	Approved	Client approved	Not required	0	
+56 / 54 h
+
+
+Biologics facility, Citywest
+CE-2110 · Install
+	Design team (Stansted)	Approved	Client approved	LOD 300	1	
+123 / 119 h
+
+
+Cold store, Cavan
+CE-2135 · Install
+	Design team (Maynooth)	Approved	Client approved	LOD 400	0	
+238 / 231 h
+
+
+Cold store, Sandyford
+CE-2124 · Prefabrication
+	Stephen Morris	Approved	Client approved	LOD 400	1	
+298 / 290 h
+
+
+Hangar and stands, Leixlip
+CE-2105 · Design
+	Design team (Stansted)	Not started	Internal	LOD 350	0	
+85 / 83 h
+
+
+Business park Unit 4, Stansted
+CE-2189 · Handover
+	Julia Cavanaugh	Approved	Client approved	As built	0	
+158 / 155 h
+
+
+Cold store, Galway
+CE-2113 · Install
+	Julia Cavanaugh	Approved	Client approved	LOD 300	0	
+271 / 266 h
+
+
+Pharma expansion, Sandyford
+CE-2122 · Handover
+	Design team (Maynooth)	Approved	Client approved	As built	3	
+61 / 60 h
+
+
+University science building, Belfast
+CE-2172 · Testing & commissioning
+	Design team (Maynooth)	Approved	Client approved	Not required	0	
+77 / 76 h
+
+
+Biologics facility, Drogheda
+CE-2144 · Handover
+	Stephen Morris	Approved	Client approved	As built	0	
+172 / 170 h
+
+
+Diageo carbon-neutral brewery
+CE-2276 · Testing & commissioning
+	Design team (Maynooth)	Approved	Client approved	LOD 300	0	
+173 / 172 h
+
+
+Data hall extension, Citywest
+CE-2157 · Testing & commissioning
+	Design team (Stansted)	Approved	Client approved	LOD 300	1	
+380 / 378 h
+
+
+Hyperscale data centre, Bristol
+CE-2190 · Install
+	Stephen Morris	Approved	Client approved	LOD 400	0	
+296 / 295 h
+
+
+Terminal pier extension, Swords
+CE-2108 · Prefabrication
+	Design team (Stansted)	Approved	Client approved	Not required	0	
+52 / 52 h
+
+
+Data centre campus Phase 2, Grange Castle
+CE-2140 · Testing & commissioning
+	Design team (Maynooth)	Approved	Client approved	LOD 400	0	
+344 / 344 h
+
+
+Primary school campus, Ennis
+CE-2156 · Handover
+	Design team (Stansted)	Approved	Client approved	As built	0	
+63 / 63 h
+
+
+Build-to-rent block, Cardiff
+CE-2163 · Install
+	Stephen Morris	Approved	Client approved	Not required	0	
+84 / 84 h
+
+
+Data hall extension, Naas
+CE-2132 · Install
+	Design team (Stansted)	Approved	Client approved	Not required	0	
+244 / 245 h
+
+
+Hyperscale data centre, Crawley
+CE-2160 · Install
+	Stephen Morris	Approved	Client approved	LOD 350	0	
+496 / 499 h
+
+
+Acute block refurbishment, Shannon
+CE-2133 · Prefabrication
+	Design team (Maynooth)	Approved	Client approved	LOD 300	1	
+121 / 123 h
+
+
+Water treatment works, Arklow
+CE-2123 · Handover
+	Design team (Stansted)	Approved	Client approved	As built	1	
+124 / 127 h
+
+
+Build-to-rent block, Birmingham
+CE-2164 · Install
+	Design team (Maynooth)	Approved	Client approved	LOD 350	2	
+80 / 82 h
+
+
+Water treatment works, Kilkenny
+CE-2109 · Install
+	Stephen Morris	Approved	Client approved	LOD 300	1	
+146 / 150 h
+
+
+Data hall extension, Belfast
+CE-2181 · Install
+	Julia Cavanaugh	Approved	Client approved	LOD 400	0	
+281 / 290 h
+
+
+Biologics facility, Carrigtwohill
+CE-2326 · Install
+	Julia Cavanaugh	Approved	Client approved	LOD 300	1	
+140 / 145 h
+
+
+Food processing plant, Newry
+CE-2185 · Install
+	Stephen Morris	Approved	Client approved	LOD 300	0	
+85 / 89 h
+
+
+Hyperscale data centre, Clonee
+CE-2333 · Install
+	Stephen Morris	Approved	Client approved	LOD 300	0	
+443 / 465 h
+
+
+Elective care centre, Bristol
+CE-2173 · Handover
+	Design team (Stansted)	Approved	Client approved	As built	0	
+77 / 81 h
+
+
+Distribution warehouse, Edinburgh
+CE-2167 · Install
+	Design team (Maynooth)	Approved	Client approved	Not required	0	
+546 / 579 h
+
+
+Mixed-use block, Peterborough
+CE-2178 · Install
+	Design team (Stansted)	Approved	Client approved	LOD 350	1	
+203 / 216 h
+
+
+Hyperscale data centre, Sligo
+CE-2116 · Prefabrication
+	Design team (Stansted)	Approved	Client approved	LOD 300	0	
+414 / 442 h
+
+
+Last-mile depot, Waterford
+CE-2145 · Install
+	Design team (Stansted)	Approved	Client approved	Not required	2	
+352 / 376 h
+
+
+Hyperscale data centre, Limerick
+CE-2126 · Prefabrication
+	Design team (Maynooth)	Approved	Client approved	LOD 400	0	
+451 / 484 h
+
+
+Mixed-use block, Park Royal
+CE-2170 · Install
+	Julia Cavanaugh	Approved	Client approved	LOD 300	1	
+146 / 157 h
+
+
+Data hall extension, Slough
+CE-2298 · Install
+	Design team (Stansted)	Approved	Client approved	LOD 300	0	
+193 / 208 h
+
+
+Office scheme, Clonee
+CE-2134 · Install
+	Julia Cavanaugh	Approved	Client approved	LOD 350	0	
+174 / 188 h
+
+
+Business park Unit 4, Didcot
+CE-2186 · Install
+	Design team (Maynooth)	Approved	Client approved	LOD 400	0	
+102 / 111 h
+
+
+Food processing plant, Hayes
+CE-2176 · Install
+	Design team (Maynooth)	Approved	Client approved	LOD 300	0	
+180 / 196 h
+
+
+Secondary school, Crawley
+CE-2177 · Design
+	Design team (Stansted)	Not started	Internal	LOD 400	0	
+32 / 35 h
+
+
+Hyperscale data centre, Drogheda
+CE-2118 · Prefabrication
+	Julia Cavanaugh	Approved	Client approved	Not required	0	
+362 / 396 h
+
+
+Fill-finish building, Tallaght
+CE-2127 · Prefabrication
+	Design team (Stansted)	Approved	Client approved	LOD 400	1	
+179 / 197 h
+
+
+Fill-finish building, Kilkenny
+CE-2138 · Install
+	Design team (Maynooth)	Approved	Client approved	LOD 350	1	
+168 / 185 h
+
+
+Distribution warehouse, Thurrock
+CE-2309 · Install
+	Design team (Stansted)	Approved	Client approved	LOD 300	0	
+480 / 543 h
+
+
+Hangar and stands, Carlow
+CE-2107 · Testing & commissioning
+	Design team (Stansted)	Approved	Client approved	LOD 400	3	
+217 / 248 h
+
+
+Colocation data centre, Limerick
+CE-2155 · Design
+	Julia Cavanaugh	Not started	Internal	LOD 350	2	
+274 / 315 h
+
+
+Colocation data centre, Coventry
+CE-2159 · Prefabrication
+	Stephen Morris	Approved	Client approved	LOD 350	0	
+247 / 284 h
+
+
+Water treatment works, Basingstoke
+CE-2187 · Design
+	Julia Cavanaugh	Not started	Internal	Not required	1	
+53 / 61 h
+
+
+Student accommodation, Limerick
+CE-2130 · Install
+	Julia Cavanaugh	Approved	Client approved	LOD 300	0	
+86 / 99 h
+
+
+Water treatment works, Belfast
+CE-2188 · Install
+	Julia Cavanaugh	Approved	Client approved	LOD 400	1	
+203 / 236 h
+
+
+Business park Unit 4, Ennis
+CE-2150 · Prefabrication
+	Design team (Maynooth)	Approved	Client approved	Not required	1	
+206 / 241 h
+
+
+Food processing plant, Dartford
+CE-2174 · Prefabrication
+	Design team (Stansted)	Approved	Client approved	LOD 400	2	
+122 / 143 h
+
+
+Office scheme, Cambridge
+CE-2180 · Install
+	Julia Cavanaugh	Approved	Client approved	LOD 300	0	
+137 / 161 h
+
+
+Last-mile depot, Southampton
+CE-2162 · Install
+	Design team (Maynooth)	Approved	Client approved	Not required	0	
+391 / 462 h
+
+
+Laya Arena, Ballsbridge
+CE-2318 · Install
+	Design team (Stansted)	Approved	Client approved	LOD 350	0	
+87 / 103 h
+
+
+Water treatment works, Ballycoolin
+CE-2101 · Prefabrication
+	Julia Cavanaugh	Approved	Client approved	LOD 400	1	
+224 / 266 h
+
+
+Dexcom campus, Athenry
+CE-2291 · Install
+	Design team (Stansted)	Approved	Client approved	LOD 350	1	
+220 / 262 h
+
+
+Biologics facility, Dunboyne
+CE-2141 · Install
+	Design team (Maynooth)	Approved	Client approved	LOD 350	1	
+210 / 252 h
+
+
+Cold store, Mullingar
+CE-2147 · Install
+	Stephen Morris	Approved	Client approved	Not required	0	
+472 / 567 h
+
+
+Fill-finish building, Cavan
+CE-2129 · Prefabrication
+	Design team (Maynooth)	Approved	Client approved	LOD 350	0	
+119 / 143 h
+
+
+Energy-from-waste plant, Luton
+CE-2184 · Install
+	Design team (Stansted)	Approved	Client approved	LOD 400	2	
+132 / 159 h
+
+
+Pharma expansion, Leeds
+CE-2171 · Design
+	Stephen Morris	Checked	Internal	LOD 300	1	
+116 / 140 h
+
+
+Fill-finish building, Naas
+CE-2112 · Install
+	Design team (Stansted)	Approved	Client approved	LOD 400	0	
+110 / 133 h
+
+
+Regional sports campus, Clonee
+CE-2158 · Prefabrication
+	Design team (Stansted)	Approved	Client approved	LOD 350	0	
+193 / 234 h
+
+
+API manufacturing block, Dunboyne
+CE-2102 · Install
+	Stephen Morris	Approved	Client approved	LOD 400	2	
+81 / 99 h
+
+
+Food processing plant, Basingstoke
+CE-2175 · Prefabrication
+	Design team (Stansted)	Approved	Client approved	LOD 350	1	
+161 / 197 h
+
+
+Biologics facility, Birmingham
+CE-2169 · Install
+	Design team (Stansted)	Approved	Client approved	Not required	0	
+52 / 64 h
+
+
+Acute block refurbishment, Newry
+CE-2168 · Install
+	Stephen Morris	Approved	Client approved	LOD 300	0	
+172 / 214 h
+
+
+Logistics hub, Milton Keynes
+CE-2340 · Install
+	Stephen Morris	Approved	Client approved	Not required	0	
+397 / 495 h
+
+
+Distribution warehouse, Doncaster
+CE-2183 · Install
+	Design team (Maynooth)	Approved	Client approved	Not required	1	
+251 / 314 h
+
+
+Hyperscale data centre, Newport
+CE-2191 · Install
+	Julia Cavanaugh	Approved	Client approved	LOD 300	2	
+304 / 383 h
+
+
+Terminal pier extension, Clonee
+CE-2103 · Testing & commissioning
+	Stephen Morris	Approved	Client approved	LOD 300	0	
+148 / 187 h
+
+
+Build-to-rent block, Ennis
+CE-2142 · Prefabrication
+	Design team (Stansted)	Approved	Client approved	LOD 400	0	
+70 / 89 h
+
+
+Data centre campus Phase 2, Naas
+CE-2152 · Handover
+	Design team (Stansted)	Approved	Client approved	As built	1	
+323 / 411 h
+
+
+API manufacturing block, Manchester
+CE-2182 · Install
+	Design team (Stansted)	Approved	Client approved	LOD 300	1	
+109 / 139 h
+
+
+Data centre campus Phase 2, Blanchardstown
+CE-2151 · Install
+	Stephen Morris	Approved	Client approved	LOD 300	0	
+378 / 485 h
+
+
+Mixed-use block, Glasgow
+CE-2161 · Prefabrication
+	Stephen Morris	Approved	Client approved	LOD 400	0	
+60 / 77 h
+
+
+Project Oriel, St Pancras
+CE-2312 · Install
+	Design team (Stansted)	Approved	Client approved	LOD 300	0	
+163 / 211 h
+
+
+Food processing plant, Sligo
+CE-2121 · Install
+	Julia Cavanaugh	Approved	Client approved	LOD 400	1	
+115 / 149 h
+
+
+API manufacturing block, Sandyford
+CE-2131 · Install
+	Design team (Maynooth)	Approved	Client approved	LOD 400	1	
+124 / 161 h
+
+
+Data centre campus Phase 2, Nottingham
+CE-2179 · Install
+	Stephen Morris	Approved	Client approved	LOD 300	1	
+191 / 248 h
+
+
+Terminal pier extension, Tallaght
+CE-2117 · Install
+	Stephen Morris	Approved	Client approved	LOD 350	1	
+126 / 164 h
+
+
+Logistics hub, Edinburgh
+CE-2166 · Testing & commissioning
+	Julia Cavanaugh	Approved	Client approved	Not required	0	
+209 / 273 h
+
+
+Milan data centre design
+CE-2362 · Design only
+	Design team (Stansted)	In progress	Internal	LOD 400	0	
+486 / 635 h
+
+
+Pharma expansion, Ringaskiddy
+CE-2321 · Install
+	Design team (Stansted)	Approved	Client approved	Not required	4	
+156 / 204 h
+
+
+Hospital extension, Mullingar
+CE-2136 · Install
+	Stephen Morris	Approved	Client approved	LOD 300	2	
+79 / 104 h
+
+
+Terminal pier extension, Shannon
+CE-2139 · Install
+	Stephen Morris	Approved	Client approved	Not required	1	
+48 / 64 h
+
+
+Pharma facility design, Tuas
+CE-2351 · Design only
+	Design team (Maynooth)	Not started	Pending	LOD 400	0	
+1,073 / 1,529 h
+
+
+Changi Airport Terminal 5
+CE-2337 · Design only
+	Stephen Morris	Checked	Internal	LOD 400	0	
+2,930 / 4,200 h
+
+
+Logistics centre design, Jurong
+CE-2194 · Design only
+	Design team (Stansted)	Checked	Pending	LOD 350	0	
+1,072 / 1,612 h
+
+
+Nordic data centre remedial (-35°C)
+CE-2359 · Design only
+	Design team (Maynooth)	In progress	Internal	LOD 350	0	
+328 / 506 h
+
+
+Hyperscale data centre design, Johor
+CE-2192 · Design only
+	Design team (Stansted)	Not started	Pending	LOD 400	0	
+1,425 / 2,224 h
+
+
+Semiconductor fab design, Kulim
+CE-2193 · Design only
+	Design team (Maynooth)	Not started	Pending	LOD 350	0	
+850 / 2,400 h
+Designer workload
+
+Design hours still to spend on jobs in design
+
+M
+Design team (Maynooth)
+2,184 h
+3 in design · 25 jobs in total · 72% of budget used
+S
+Design team (Stansted)
+1,491 h
+5 in design · 36 jobs in total · 82% of budget used
+SM
+Stephen Morris
+1,294 h
+4 in design · 31 jobs in total · 86% of budget used
+JC
+Julia Cavanaugh
+49 h
+3 in design · 21 jobs in total · 93% of budget used
+BIM and model sync
+
+Design to BIM Level 2 (ISO 19650). Siphonic and gravity models authored in Revit, published to Autodesk Construction Cloud for clash detection with the main contractor’s federated model.
+
+Drawing register
+Revisions and status
+Clash reports
+Weekly counts
+RFIs
+Two-way with ACC
+Model LOD
+Per job
+
+Example connection, confirmed on discovery.

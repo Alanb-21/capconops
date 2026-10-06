@@ -1,5 +1,6 @@
 import {
   Activity,
+  BookOpen,
   Bot,
   Building2,
   Calculator,
@@ -72,6 +73,10 @@ export const NAV: NavGroup[] = [
   {
     label: 'Field',
     items: [{ to: '/field', label: 'Technician app', icon: Smartphone, keywords: 'mobile phone foreman' }],
+  },
+  {
+    label: 'Presenter',
+    items: [{ to: '/guide', label: 'Presenter guide', icon: BookOpen, keywords: 'walkthrough notes demo script help how' }],
   },
 ];
 

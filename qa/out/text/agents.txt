@@ -1,0 +1,349 @@
+AGENTS
+AI only goes near what you let it near.
+
+Every agent has one job, works on your own data, and anything that changes data waits for a person to approve it.
+
+How it connects
+Hours given back
+Agents running
+8
+One job each
+Actions today
+167
+Reading, filing, drafting
+Waiting for you
+5
+Nothing acts until approved
+Hours saved this week
+65.0
+Across all eight agents
+HOW AN AGENT WORKS
+Same five steps for every agent
+Reads
+Only the inboxes, drawings and records you allow
+Proposes
+Drafts the email, diary, quote or crew move
+You approve
+Approve, edit or reject. Nothing moves before this
+It acts
+Sends, files or updates, exactly as approved
+Logged
+Who approved what, when. A full audit trail
+Waiting for approval
+
+Agents have drafted these. Nothing is sent, changed or booked until someone says yes.
+
+5 pending
+Inbox Agent
+·
+Email reply
+Today 07:12
+Reply to Slaney Build on RFI-0412 (Carrigtwohill)
+
+Chaser: RFI-0412 outlet setting-out has been open 9 days. Draft asks for a response by Thursday so Zone 2 install can start on programme.
+
+Approve
+Edit
+Reject
+Open job
+Scheduler Agent
+·
+Crew move
+Today 06:45
+Move IE Crew 8 to Clonee data centre Wed to Fri
+
+Clonee has work ready from Wednesday (programme rev F) and no crew booked. IE Crew 8 finishes at its current site Tuesday and holds valid tickets and a Kilcarra induction.
+
+Approve
+Edit
+Reject
+Open job
+Maintenance Agent
+·
+Quote
+5 Oct 17:20
+Quote: replace 3 siphonic outlet baffles, National Children’s Hospital
+€1,850
+
+Defect found at Q3 inspection. Draft quote €1,850 incl. MEWP. Within contract rates.
+
+Approve
+Edit
+Reject
+Open job
+Compliance Agent
+·
+Compliance
+Today 06:30
+Book IPAF renewal for 2 technicians (Ringaskiddy)
+
+Both IPAF 3a/3b cards expire next week. Pharma permit-to-work needs valid IPAF. Suggested course: Cork, Thu 15 Oct.
+
+Approve
+Edit
+Reject
+Open job
+Site Progress Agent
+·
+Diary and % complete
+5 Oct 16:42
+Site diary for NLHPP from foreman WhatsApp
+
+Zone B high level complete. Zone C waiting on 8 re-tested spools from prefab. Update % complete 51% → 52%.
+
+Approve
+Edit
+Reject
+Open job
+Live activity
+
+Everything every agent does, as it happens
+
+Live
+All
+Inbox
+Takeoff
+Site Progress
+Valuation
+Compliance
+Scheduler
+Maintenance
+Handover Pack
+08:39
+Takeoff Agent
+
+Drafted BOQ for Hyperscale data centre, Clonee Phase 3: 46 line items, sent to Aaron for review
+
+08:38
+Inbox Agent
+
+Tender invitation from Ashcombe Projects filed to Tenders as new enquiry
+
+08:37
+Handover Pack Agent
+
+Compiled draft O&M for Data centre campus Phase 2: 2 items missing
+
+CE-2179 · Data centre campus Phase 2
+08:36
+Maintenance Agent
+
+Inspection report drafted for Dublin Airport Logistics Park, 2 defects found
+
+08:35
+Scheduler Agent
+
+University science building has work ready Wednesday and no crew booked
+
+CE-2149 · University science building
+08:34
+Compliance Agent
+
+IPAF for 2 technicians on Hospital extension expires next week, flagged
+
+CE-2136 · Hospital extension
+08:33
+Valuation Agent
+
+Drafted application for payment on Food processing plant, ready for Valerie
+
+CE-2121 · Food processing plant
+08:32
+Site Progress Agent
+
+Read 3 photos from foreman on Water treatment works, diary entry written
+
+CE-2109 · Water treatment works
+08:31
+Takeoff Agent
+
+Measured 14 roof areas on tender pack for Hyperscale data centre, Clonee Phase 3
+
+08:24
+Site Progress Agent
+
+Read 2 photos from Barry McEvoy on Dexcom, diary entry written
+
+CE-2291 · Dexcom
+08:19
+Inbox Agent
+
+Classified email from Kilcarra Construction as programme update, filed to Clonee data centre
+
+CE-2333 · Hyperscale data centre
+08:11
+Scheduler Agent
+
+Clonee data centre has work ready Wednesday and no crew booked
+
+CE-2333 · Hyperscale data centre
+08:02
+Compliance Agent
+
+IPAF for 2 technicians on Pharma expansion, Ringaskiddy expires next week
+
+CE-2321 · Pharma expansion
+07:58
+Valuation Agent
+
+Cut-off for Distribution warehouse, Thurrock is Thursday, application still in draft
+
+CE-2309 · Distribution warehouse
+07:44
+Inbox Agent
+
+Payment notice from Tolka Building matched to application 9 on Grange Castle
+
+CE-2315 · Data centre campus Phase 2
+07:40
+Site Progress Agent
+
+Updated Laya Arena installed metres from foreman message (+18 m)
+
+CE-2318 · Laya Arena
+07:31
+Maintenance Agent
+
+Booked annual inspection at National Children’s Hospital Block C for Tue 13 Oct
+
+07:15
+Inbox Agent
+
+Tender invitation from Halden Build filed to Tenders as new enquiry
+
+07:02
+Takeoff Agent
+
+Measured 14 roof areas on tender pack for Biologics expansion, Leixlip
+
+06:55
+Handover Pack Agent
+
+Compiled draft O&M for RDS Anglesea Stand, missing items listed for chasing
+
+CE-2242 · Anglesea Stand
+06:40
+Compliance Agent
+
+Checked 60 technicians’ tickets: 6 expire in the next 30 days
+
+06:31
+Site Progress Agent
+
+No update from Carrigtwohill since Friday, nudged foreman
+
+CE-2326 · Biologics facility
+06:12
+Inbox Agent
+
+Drawing issue received for NLHPP: 4 drawings at rev C3, register updated
+
+CE-2304 · NLHPP
+THE AGENTS AND WHAT THEY CAN TOUCH
+Inbox Agent
+Running
+
+Reads projects@ and site inboxes, classifies each email (tender invite, RFI, variation instruction, drawing issue, payment notice), files it to the right job and drafts a reply.
+
+Today
+65
+Hours saved / wk
+11.5
+CAN TOUCH
+Read projects@ and site inboxes
+File emails to jobs
+Draft replies (never sends)
+Send without approval
+Takeoff Agent
+Running
+
+Reads tender drawings and specifications, measures roof areas and outlets, drafts a bill of quantities and a suggested price range for the estimator.
+
+Today
+5
+Hours saved / wk
+9
+CAN TOUCH
+Read tender packs
+Draft BOQ and price range
+Submit tenders
+Site Progress Agent
+Running
+
+Reads foremen’s photo updates and messages, updates % complete and writes the site diary so nobody has to ring round for status.
+
+Today
+42
+Hours saved / wk
+14
+CAN TOUCH
+Read foreman app and WhatsApp group updates
+Write site diary entries
+Update % complete
+Message main contractors
+Valuation Agent
+Running
+
+Drafts each month’s application for payment from installed metres and agreed variations, checks it against the main contractor’s cut-off date.
+
+Today
+8
+Hours saved / wk
+8
+CAN TOUCH
+Read installed metres and variations
+Draft applications for payment
+Submit to main contractor
+Compliance Agent
+Running
+
+Watches ticket expiries, missing RAMS and permits, and collects ISO 9001, 14001 and 45001 evidence as work happens.
+
+Today
+19
+Hours saved / wk
+5
+CAN TOUCH
+Read ticket wallet
+Check RAMS and permits
+Book renewal courses
+Scheduler Agent
+Running
+
+Proposes next week’s crew plan from programme, materials and tickets, and spots sites with work ready but no crew.
+
+Today
+10
+Hours saved / wk
+6
+CAN TOUCH
+Read programmes and dispatch calendar
+Propose crew moves
+Move crews without approval
+Maintenance Agent
+Running
+
+Books planned inspections, writes inspection reports from technicians’ photos, and raises quotes from defects found.
+
+Today
+13
+Hours saved / wk
+7
+CAN TOUCH
+Book planned visits
+Write inspection reports
+Draft quotes from defects
+Send quotes to clients
+Handover Pack Agent
+Running
+
+Compiles O&M manuals and certification packs from job records in one click, and lists what is still missing.
+
+Today
+5
+Hours saved / wk
+4.5
+CAN TOUCH
+Read job records and certificates
+Compile handover packs
+Issue packs to client

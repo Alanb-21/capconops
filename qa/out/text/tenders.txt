@@ -1,0 +1,537 @@
+ESTIMATING
+Tenders & Estimating
+
+Every enquiry from first drawings to award, who is pricing it, and how we are converting.
+
+Run Takeoff Agent
+Open pipeline
+€22.0m
+Group €, £1 = €1.16
+Tenders open
+45
+12 awaiting award
+Closing this week
+5
+due
+4 with Aaron, by Fri
+Win rate, 12 months
+41%
+26 won, 38 lost
+Average turnaround
+12.4 days
+Enquiry to submission
+VE savings to clients
+€981k
+On won tenders
+Pipeline
+
+Click a tender for details. Drag a card to move it between stages.
+
+Enquiry received
+9
+€4.43m
+Maintenance hangar, Swords
+Slaney Build
+€707k
+14 Oct
+AO
+Airports
+Radiotherapy unit, Letterkenny
+Tolka Building
+€104k
+26 Oct
+DT
+Hospitals
+Retail and leisure scheme, Southampton
+Ashcombe Projects
+£875k
+31 Oct
+AO
+Commercial
+Third-level engineering building, Slough
+Barrowford Construction
+£513k
+4 Nov
+DT
+Education
+Maintenance hangar, Grange Castle
+Glenmore Main Contractors
+€111k
+6 Nov
+AO
+Airports
+Logistics park Units 1-3, Park Royal
+Halden Build
+£88k
+6 Nov
+CW
+Warehouse
+Logistics park Units 1-3, Tralee
+Feale Contracts
+€794k
+7 Nov
+DT
+Warehouse
+Office campus, Letterkenny
+Ballinure Construction
+€478k
+10 Nov
+CW
+Commercial
+Radiotherapy unit, Bristol
+Thornbury Build Group
+£455k
+13 Nov
+AO
+Hospitals
+Drawings reviewed
+9
+€4.37m
+Hyperscale data centre, Cavan
+Derravaragh Projects
+€276k
+Closes in 1d
+AO
+Data Centre
+Apartment scheme Block C, Birmingham
+Kestrel Main Contracting
+£663k
+Closes in 2d
+AO
+Residential
+Office campus, Waterford
+Glenmore Main Contractors
+€242k
+Closes in 3d
+SM
+Commercial
+Radiotherapy unit, Portlaoise
+Corrib Contracting
+€600k
+Closes in 3d
+AO
+Hospitals
+Data centre campus Phase 3, Carlow
+Feale Contracts
+€963k
+Closes in 6d
+CW
+Data Centre
+Oral solid dose facility, Grange Castle
+Corrib Contracting
+€228k
+Closes in 7d
+AO
+Pharmaceutical
+Hyperscale data centre, Mullingar
+Kilcarra Construction
+€629k
+22 Oct
+AO
+Data Centre
+Student residence, Tallaght
+Tolka Building
+€171k
+23 Oct
+SM
+Residential
+Office campus, Didcot
+Northwold Construction
+£420k
+3 Nov
+DT
+Commercial
+Design / VE
+8
+€3.97m
+Stand redevelopment, Sligo
+Moyola Build
+€743k
+Closes in 3d
+AO
+Stadiums
+Office campus, Coventry
+Barrowford Construction
+£220k
+Closes in 6d
+AO
+Commercial
+Distribution centre, Clonee
+Moyola Build
+€258k
+17 Oct
+SM
+Warehouse
+Third-level engineering building, Grange Castle
+Derravaragh Projects
+€269k
+21 Oct
+AO
+Education
+Cold store and dispatch, Naas
+Slaney Build
+€591k
+22 Oct
+AO
+Warehouse
+Post-primary school, Harlow
+Northwold Construction
+£617k
+28 Oct
+AO
+Education
+Ward block, Bristol
+Thornbury Build Group
+£760k
+2 Nov
+SM
+Hospitals
+Oral solid dose facility, Waterford
+Kilcarra Construction
+€254k
+3 Nov
+AO
+Pharmaceutical
+Priced
+7
+€4.61m
+Stand redevelopment, Ringaskiddy
+Ballinure Construction
+€719k
+15 Oct
+AO
+Stadiums
+Student residence, Ballycoolin
+Feale Contracts
+€864k
+15 Oct
+AO
+Residential
+Apartment scheme Block C, Letterkenny
+Ballinure Construction
+€554k
+19 Oct
+AO
+Residential
+Post-primary school, Cavan
+Tolka Building
+€627k
+19 Oct
+AO
+Education
+Oral solid dose facility, Tallaght
+Kilcarra Construction
+€781k
+21 Oct
+AO
+Pharmaceutical
+Radiotherapy unit, Milton Keynes
+Thornbury Build Group
+£718k
+23 Oct
+CW
+Hospitals
+Logistics park Units 1-3, Cavan
+Ballinure Construction
+€231k
+2 Nov
+AO
+Warehouse
+Submitted
+12
+€4.66m
+Distribution centre, Carlow
+Glenmore Main Contractors
+€129k
+30 Aug
+CW
+Warehouse
+Student residence, Dundalk
+Derravaragh Projects
+€131k
+4 Sep
+DT
+Residential
+Maintenance hangar, Letterkenny
+Ballinure Construction
+€132k
+7 Sep
+AO
+Airports
+Oral solid dose facility, Shannon
+Moyola Build
+€468k
+11 Sep
+CW
+Pharmaceutical
+Anaerobic digestion plant, Galway
+Ballinure Construction
+€399k
+12 Sep
+AO
+Specialist
+Oral solid dose facility, Waterford
+Ballinure Construction
+€483k
+17 Sep
+CW
+Pharmaceutical
+Hyperscale data centre, Citywest
+Glenmore Main Contractors
+€118k
+18 Sep
+AO
+Data Centre
+Anaerobic digestion plant, Ennis
+Slaney Build
+€244k
+25 Sep
+AO
+Specialist
+Stand redevelopment, Wexford
+Corrib Contracting
+€816k
+30 Sep
+DT
+Stadiums
+Cold store and dispatch, Reading
+Barrowford Construction
+£568k
+30 Sep
+AO
+Warehouse
+QC laboratory building, Mullingar
+Feale Contracts
+€387k
+3 Oct
+AO
+Pharmaceutical
+Anaerobic digestion plant, Athlone
+Kilcarra Construction
+€696k
+3 Oct
+AO
+Specialist
+Won
+26
+€12.2m
+Stand redevelopment, Wexford
+Corrib Contracting
+€471k
+11 Sep
+AO
+Stadiums
+Student residence, Stansted
+Maresfield Contracting
+£88k
+7 Sep
+DT
+Residential
+Maintenance hangar, Leeds
+Ashcombe Projects
+£650k
+4 Sep
+DT
+Airports
+Cold store and dispatch, Mullingar
+Tolka Building
+€170k
+29 Aug
+DT
+Warehouse
+Logistics park Units 1-3, Ennis
+Kilcarra Construction
+€712k
+20 Aug
+AO
+Warehouse
+Edge data centre, Southampton
+Ashcombe Projects
+£122k
+23 Jul
+AO
+Data Centre
+Post-primary school, Ringaskiddy
+Moyola Build
+€378k
+20 Jul
+AO
+Education
+Edge data centre, Arklow
+Derravaragh Projects
+€461k
+20 Jul
+AO
+Data Centre
++18 more
+Lost
+38
+€18.2m
+Data centre campus Phase 3, Drogheda
+Kilcarra Construction
+€681k
+10 Sep
+AO
+Data Centre
+Logistics park Units 1-3, Slough
+Northwold Construction
+£362k
+28 Aug
+AO
+Warehouse
+Third-level engineering building, Bristol
+Northwold Construction
+£253k
+25 Aug
+AO
+Education
+Edge data centre, Belfast
+Halden Build
+£127k
+20 Aug
+SM
+Data Centre
+Cold store and dispatch, Bristol
+Ashcombe Projects
+£517k
+15 Aug
+AO
+Warehouse
+Hyperscale data centre, Limerick
+Corrib Contracting
+€564k
+10 Aug
+AO
+Data Centre
+Stand redevelopment, Swords
+Moyola Build
+€704k
+11 Jul
+SM
+Stadiums
+Oral solid dose facility, Tallaght
+Slaney Build
+€452k
+5 Jul
+AO
+Pharmaceutical
++30 more
+Estimator workload
+
+Estimating hours needed per week, next two weeks, against a 37.5 h week
+
+AO
+Aaron O'Neill
+21 live tenders, 6 closing within 7 days
+207%
+of capacity
+Needs 77.7 h a week
+Capacity 37.5 h
+
+One person is carrying 64% of live tenders. The Takeoff Agent does the measuring so Aaron only checks and prices.
+
+SM
+Stephen Morris
+19.1 h · 51%
+4 tenders · Design-led tenders, alongside design
+CW
+Colm Whitty
+15.1 h · 40%
+4 tenders · UK regional tenders
+DT
+Donnacha Tobin
+20.8 h · 56%
+4 tenders · Key accounts
+Win rate by sector
+
+Won vs lost, last 12 months
+
+0%
+25%
+50%
+75%
+100%
+Commercial
+Airports
+Stadiums
+Data Centre
+Hospitals
+Education
+Pharmaceutical
+Residential
+Specialist
+Warehouse
+
+Dashed line: group win rate 41%.
+
+Win rate by main contractor
+
+Top 8, decided tenders
+
+Glenmore Main Contractors
+100% (2/2)
+Feale Contracts
+100% (2/2)
+Derravaragh Projects
+67% (2/3)
+Halden Build
+50% (1/2)
+Kestrel Main Contracting
+50% (1/2)
+Corrib Contracting
+50% (3/6)
+Ashcombe Projects
+43% (3/7)
+Moyola Build
+43% (3/7)
+Turnaround per tender
+
+Days from enquiry to submission, 16 most recent decided or submitted tenders
+
+837
+866
+839
+858
+841
+901
+867
+844
+836
+843
+834
+840
+845
+835
+842
+838
+0
+5
+10
+15
+20
+Won
+Lost
+Submitted
+Dashed line: average 12.4 days
+Value engineering
+
+Savings offered to clients through our design
+
+Delivered on won tenders
+€981k
+26 projects
+Offered in open pipeline
+€1.87m
+45 tenders
+Data Centre
+€182k
+Pharmaceutical
+€167k
+Warehouse
+€158k
+Commercial
+€148k
+Hospitals
+€103k
+Education
+€69k
