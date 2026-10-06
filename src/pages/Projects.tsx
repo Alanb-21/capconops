@@ -266,7 +266,7 @@ function JobsTable({
         <thead>
           <tr>
             <H k="name" className="pl-5">Job</H>
-            <H className="max-[1520px]:hidden">Sector · contractor</H>
+            <H className="max-[1520px]:hidden">Sector / MC</H>
             <H k="pct">Progress</H>
             <H>Crew today</H>
             <H k="health">Programme</H>

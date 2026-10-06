@@ -58,7 +58,7 @@ export function ProgrammeTimeline({ job, compact }: { job: Job; compact?: boolea
   const months = Math.round((to - from) / (30 * 86_400_000));
   const every = months > 30 ? 6 : months > 14 ? 3 : 1;
   while (cur.getTime() < to) {
-    if (cur.getMonth() % every === 0 || every === 1) {
+    if ((cur.getMonth() % every === 0 || every === 1) && pos(`${cur.getFullYear()}-${String(cur.getMonth() + 1).padStart(2, "0")}-01`) < 94) {
       const iso = `${cur.getFullYear()}-${String(cur.getMonth() + 1).padStart(2, '0')}-01`;
       ticks.push({ label: `${MONTHS[cur.getMonth()]}${cur.getMonth() === 0 || every > 1 ? ` ${String(cur.getFullYear()).slice(2)}` : ''}`, at: pos(iso) });
     }
