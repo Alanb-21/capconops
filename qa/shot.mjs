@@ -5,10 +5,10 @@ const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
 const errs = [];
 p.on('console', m => { if (m.type() === 'error') errs.push(m.text()); });
 p.on('pageerror', e => errs.push(String(e)));
-await p.goto('http://localhost:5173/');
+await p.goto('http://localhost:4173/');
 await p.click('[data-testid=sign-in]');
-await p.goto('http://localhost:5173/#' + url);
-await p.waitForTimeout(1800);
+await p.goto('http://localhost:4173/#' + url);
+await p.waitForTimeout(4500);
 if (dark) { await p.click('[aria-label="Toggle theme"]'); await p.waitForTimeout(500); }
 await p.screenshot({ path: out });
 console.log('errors:', errs);
