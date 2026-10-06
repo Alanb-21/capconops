@@ -191,7 +191,7 @@ export function Walkthrough() {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: 20, opacity: 0 }}
             onClick={() => setMin(false)}
-            className={clsx('glass-strong fixed bottom-5 z-[60] flex items-center gap-3 rounded-full py-2 pl-2 pr-4 text-left', dockCls)}
+            className={clsx('glass-strong fixed bottom-5 z-[76] flex items-center gap-3 rounded-full py-2 pl-2 pr-4 text-left', dockCls)}
             data-testid="tour-pill"
             data-tour-ui
           >
@@ -207,7 +207,7 @@ export function Walkthrough() {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: 30, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 380, damping: 34 }}
-            className={clsx('glass-strong fixed bottom-5 z-[60] w-[min(470px,calc(100vw-300px))] overflow-hidden rounded-[22px]', dockCls)}
+            className={clsx('glass-strong fixed bottom-5 z-[76] w-[min(470px,calc(100vw-300px))] overflow-hidden rounded-[22px]', dockCls)}
             data-testid="demo-guide"
             data-tour-ui
           >
